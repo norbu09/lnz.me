@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>norbu09</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/page.css">
+</head>
+<body>
+    <div class="continer-fuid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+          <div class="clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Lenz Gschwendtner</h3>
+              <ul class="nav masthead-nav">
+                <li><a href="/">home</a></li>
+                <li class="active"><a href="/feed">feed</a></li>
+                <li><a href="#">meet</a></li>
+                <li><a href="/about">about</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner box">
+
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.body }}</p>
+
+          </div>
+
+    </div>  
+
+</div>
+</div>
+    
+    
+</body>
+</html>

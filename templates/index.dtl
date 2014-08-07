@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lenz Gschwendtner</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/cover.css">
+</head>
+<body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Lenz Gschwendtner</h3>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="/feed">feed</a></li>
+                <li><a href="#">meet</a></li>
+                <li><a href="/about">about</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Lenz Gschwendtner</h1>
+            <h3>aka norbu09</h3>
+            <p class="lead">
+            I am a <b>co-founder</b> of <a href="https://iwantmyname.com" target="new">iwantmyname</a> and
+            <b>founder</b> of <a href="http://springtimesoft.co.nz" target="new">springtimesoft</a>,
+            a <b>mentor</b> for early stage startups and a regular at Startup Weekends, 
+            a <b>startup punk</b> that will challange all your established assumptions about companies, 
+            a <b>coder</b>, 
+            a <b>hacker</b> 
+            and a good <b>friend</b> to those who know me.
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+                <p>&copy; {{ year }} - norbu09</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

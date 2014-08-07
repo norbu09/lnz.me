@@ -21,7 +21,6 @@
               <ul class="nav masthead-nav">
                 <li><a href="/">home</a></li>
                 <li class="active"><a href="/feed">feed</a></li>
-                <li><a href="#">meet</a></li>
                 <li><a href="/about">about</a></li>
               </ul>
             </div>
@@ -33,6 +32,7 @@
             <p>{{ post.body }}</p>
 
           </div>
+          {% include "footer.dtl" %}
 
     </div>  
 

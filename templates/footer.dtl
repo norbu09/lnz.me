@@ -1,0 +1,5 @@
+          <div class="footer">
+            <div class="inner">
+                <p>&copy; {{ year }} - norbu09</p>
+            </div>
+          </div>

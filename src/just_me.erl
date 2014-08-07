@@ -1,5 +1,5 @@
 -module(just_me).
--export([start/0, handle/3]).
+-export([start/0, handle/3, after_filter/1]).
 
 -define(DB, "just_me").
 -define(TEASER_LEN, 100).
@@ -14,17 +14,28 @@ handle(<<"GET">>, [], _Request) ->
     axiom:dtl(index, [{year, Year}]);
 
 handle(<<"GET">>, [<<"about">>], _Request) ->
-    axiom:dtl(about, []);
+    {_Date={Year,_Month,_Day},_Time={_Hour,_Minutes,_Seconds}} = erlang:localtime(),
+    axiom:dtl(about, [{year, Year}]);
 
 handle(<<"GET">>, [<<"feed">>], _Request) ->
+    {_Date={Year,_Month,_Day},_Time={_Hour,_Minutes,_Seconds}} = erlang:localtime(),
     Posts = get_view("by_time", [include_docs]),
     %io:format("Got Posts: ~p~n", [Posts]),
-    axiom:dtl(feed, [{posts, Posts}]);
+    axiom:dtl(feed, [{year, Year},{posts, Posts}]);
 
 handle(<<"GET">>, [<<"feed">>, Title], _Request) ->
+    {_Date={Year,_Month,_Day},_Time={_Hour,_Minutes,_Seconds}} = erlang:localtime(),
     [P|_Posts] = get_view("links", [{key, Title}, include_docs]),
     %io:format("Got Posts: ~p~n", [P]),
-    axiom:dtl(post, [{post, P}]).
+    axiom:dtl(post, [{year, Year},{post, P}]).
+
+% not working .. needs debugging :(
+after_filter(Req) ->
+    % do more stuff
+    {_Date={Year,_Month,_Day},_Time={_Hour,_Minutes,_Seconds}} = erlang:localtime(),
+    axiom:dtl(index, [{year, Year}]),
+    io:format("REQ: ~p~n", [Req]),
+    Req.
 
 %%%% internal stuff %%%%
 

@@ -20,7 +20,6 @@
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#">home</a></li>
                 <li><a href="/feed">feed</a></li>
-                <li><a href="#">meet</a></li>
                 <li><a href="/about">about</a></li>
               </ul>
             </div>
@@ -45,6 +44,7 @@
                 <p>&copy; {{ year }} - norbu09</p>
             </div>
           </div>
+
         </div>
       </div>
     </div>

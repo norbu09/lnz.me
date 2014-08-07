@@ -11,18 +11,16 @@
     <link rel="stylesheet" href="/css/page.css">
 </head>
 <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+    <div class="continer-fuid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
 
-
-          <div class="masthead clearfix">
+          <div class="clearfix">
             <div class="inner">
               <h3 class="masthead-brand">Lenz Gschwendtner</h3>
               <ul class="nav masthead-nav">
                 <li><a href="/">home</a></li>
                 <li><a href="/feed">feed</a></li>
-                <li><a href="#">meet</a></li>
                 <li class="active"><a href="#">about</a></li>
               </ul>
             </div>
@@ -32,47 +30,36 @@
               <h1>essentials</h1>
               <img src="http://0.gravatar.com/avatar/df6505163ee8b9e0f4cf9976a10f97d5" alt="Lenz" class="img-rounded pull-right">
               <br>PGP Fingerprint: 3133 DDED 2DB2 E61C 7EC8  15C7 32C6 6B3B FDD0 D423
-              <br>Twitter: <a href="https://twitter.com/norbu09">norbu09</a>
-              <br>LinkedIn: <a href="http://nz.linkedin.com/in/lenzgschwendtner/">nz.linkedin.com/in/lenzgschwendtner/</a>
+              <br>GitHub: <a href="https://github.com/norbu09" target="new">github.com/norbu09</a>
+              <br>Twitter: <a href="https://twitter.com/norbu09" target="new">norbu09</a>
+              <br>LinkedIn: <a href="http://nz.linkedin.com/in/lenzgschwendtner/" target="new">nz.linkedin.com/in/lenzgschwendtner/</a>
 
 
 
-            <h1>startup punk</h1>
+            <h1>bio</h1>
             <p>
-            I am a startup punk that sais "no" to any established norms.
-            I love challenging people to overcome their traditional
-            assumptions of how things are done. Whenever I speak to
-            startups that hit a wall they normally leave the coffee
-            table with a grin on their face and a new direction of how
-            they could go forward by breaking out of their mental
-            constraints. 
-            </p>
-            <p>
-            I am a punk, I will chellange your assumptions!
-            </p>
-            <p>
-            As a regular mentor at Startup Weekends I see many very
-            early stage ideas clashing with teams that basrly know
-            each other. This mainly social experiment gives me much
-            insight into how teams form, which teams perform well
-            and how decision making processes impact on
-            </p>
+            Lenz is building internet architecture and maintains
+            internet based systems since before the first .com bubble in
+            the late 90s. He started his first own business age 19 and
+            was a team lead in a mid-size consulting company in Germany
+            age 21. He was CTO of one of the fastest growing domain
+            registrars in Europe and, after the acquisition of said
+            company by Lycos acted as the Technical Director for Domain
+            Business with a direct team of 15 and a total volume of 1
+            million domains under management. He currently runs a number
+            of startups in New Zealand, the most prominent is
+            iWantMyName with a predominantly US customer base and a very
+            good reputation amongst early adopters and tech savvy users.
+            Lenz has extensive experience in building small systems that
+            can scale massively once they have to. His many years of
+            experience in scaling large internet based systems and his
+            experience of building small startups give him the far sight
+            to use the right tools and build the right technology on
+            constrained budgets.
 
-
-            <h1>co-founder</h1>
-            As a regular mentor at Startup Weekends I see many very
-            early stage ideas clashing with teams that basrly know
-            each other. This mainly social experiment gives me much
-            insight into how teams form, which teams perform well
-            and how decision making processes impact on
-      
-            <h1>coder</h1>
-            As a regular mentor at Startup Weekends I see many very
-            early stage ideas clashing with teams that basrly know
-            each other. This mainly social experiment gives me much
-            insight into how teams form, which teams perform well
-            and how decision making processes impact on
+            </p>
         </div>
+          {% include "footer.dtl" %}
 
     </div>  
 

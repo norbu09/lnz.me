@@ -7,13 +7,13 @@
 
 <title type="text">Lenz Gschwendtner</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2015-02-02T16:00:11+13:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
+<link rel="alternate" type="text/html" href="http://lnz.me/" />
+<updated>2015-02-02T16:10:51+13:00</updated>
+<id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://lnz.me/</uri>
   <email>mail@norbu09.org</email>
 </author>
 
@@ -21,16 +21,16 @@
 <entry>
   <title type="html"><![CDATA[Subdomain rot and the security implications]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/10/sub-domain-rot.html"/>
-  <id>http://localhost:4000/articles/sub-domain-rot</id>
+  <id>http://lnz.me/articles/sub-domain-rot</id>
   <updated>2014-10-23T00:00:00-00:00</updated>
   <published>2014-10-23T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;A post I wrote for the iwantmyname blog about sub domains and how not
@@ -38,23 +38,23 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sub-domain-rot/&quot;&gt;Subdomain rot and the security implications&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 23, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/sub-domain-rot/&quot;&gt;Subdomain rot and the security implications&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 23, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The difference between 4hww and me]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/the-difference-between-4hww-and-me/"/>
-  <id>http://localhost:4000/articles/the-difference-between-4hww-and-me</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/the-difference-between-4hww-and-me/"/>
+  <id>http://lnz.me/articles/the-difference-between-4hww-and-me</id>
   <updated>2014-08-21T00:00:00-00:00</updated>
   <published>2014-08-21T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;I attended a 4 hour work week meetup in Berlin yesterday and noticed one big
@@ -78,46 +78,46 @@ to my personal development.&lt;/p&gt;
 really prefer doing stuff I like without any time restriction.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/the-difference-between-4hww-and-me/&quot;&gt;The difference between 4hww and me&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 21, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/the-difference-between-4hww-and-me/&quot;&gt;The difference between 4hww and me&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 21, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[On hiring and hierarchy]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-three.html"/>
-  <id>http://localhost:4000/articles/culture-at-iwmn-part-three</id>
+  <id>http://lnz.me/articles/culture-at-iwmn-part-three</id>
   <updated>2014-05-07T00:00:00-00:00</updated>
   <published>2014-08-19T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we hire people&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/culture-at-iwmn-part-three/&quot;&gt;On hiring and hierarchy&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 19, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/culture-at-iwmn-part-three/&quot;&gt;On hiring and hierarchy&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 19, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Berlin]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/berlin/"/>
-  <id>http://localhost:4000/articles/berlin</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/berlin/"/>
+  <id>http://lnz.me/articles/berlin</id>
   <updated>2014-08-07T00:00:00-00:00</updated>
   <published>2014-08-07T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;Since a while we live in Berlin for a change. It is really interesting
@@ -144,114 +144,114 @@ represents itself to me.&lt;/p&gt;
 just most of them speak English … like me.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/berlin/&quot;&gt;Berlin&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 07, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/berlin/&quot;&gt;Berlin&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 07, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The "work-from-anywhere experiment"]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-two.html"/>
-  <id>http://localhost:4000/articles/culture-at-iwmn-part-two</id>
+  <id>http://lnz.me/articles/culture-at-iwmn-part-two</id>
   <updated>2014-05-07T00:00:00-00:00</updated>
   <published>2014-05-22T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;A post I wrote for the iwantmyname blog about culture and our work place policy.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/culture-at-iwmn-part-two/&quot;&gt;The "work-from-anywhere experiment"&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/culture-at-iwmn-part-two/&quot;&gt;The "work-from-anywhere experiment"&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The "one salary experiment"]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-one.html"/>
-  <id>http://localhost:4000/articles/culture-at-iwmn-part-one</id>
+  <id>http://lnz.me/articles/culture-at-iwmn-part-one</id>
   <updated>2014-05-07T00:00:00-00:00</updated>
   <published>2014-05-07T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we decide on who gets how much.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/culture-at-iwmn-part-one/&quot;&gt;The "one salary experiment"&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 07, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/culture-at-iwmn-part-one/&quot;&gt;The "one salary experiment"&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 07, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Why ALIAS-type DNS Records Break The Internet]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html"/>
-  <id>http://localhost:4000/articles/why-alias-type-records-break-the-internet</id>
+  <id>http://lnz.me/articles/why-alias-type-records-break-the-internet</id>
   <updated>2014-01-07T00:00:00-00:00</updated>
   <published>2014-01-07T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;A post I wrote for the iwantmyname blog about ALIAS DNS records and why they break the internet.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/why-alias-type-records-break-the-internet/&quot;&gt;Why ALIAS-type DNS Records Break The Internet&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/why-alias-type-records-break-the-internet/&quot;&gt;Why ALIAS-type DNS Records Break The Internet&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Care For Dynamic DNS (DDNS) Updates?]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2012/03/ddns-dynamic-dns-service-on-your-own-domain.html"/>
-  <id>http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain</id>
+  <id>http://lnz.me/articles/ddns-dynamic-dns-service-on-your-own-domain</id>
   <updated>2014-03-01T00:00:00-00:00</updated>
   <published>2012-03-01T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;A post I wrote for the iwantmyname blog about dynamic DNS updates at iwantmyname.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain/&quot;&gt;Care For Dynamic DNS (DDNS) Updates?&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/ddns-dynamic-dns-service-on-your-own-domain/&quot;&gt;Care For Dynamic DNS (DDNS) Updates?&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[SSH tunnel script(2)]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/SSH-tunnel-script2/"/>
-  <id>http://localhost:4000/articles/SSH-tunnel-script2</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/SSH-tunnel-script2/"/>
+  <id>http://lnz.me/articles/SSH-tunnel-script2</id>
   <updated>2010-11-05T00:00:00-00:00</updated>
   <published>2010-11-05T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;ssh-tunnel-script2&quot;&gt;SSH tunnel script(2)&lt;/h1&gt;
@@ -306,23 +306,23 @@ tunnel frontend.couchdb
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/SSH-tunnel-script2/&quot;&gt;SSH tunnel script(2)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on November 05, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/SSH-tunnel-script2/&quot;&gt;SSH tunnel script(2)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on November 05, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[InternetNZ's missed opportunity]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/InternetNZ's-missed-opportunity/"/>
-  <id>http://localhost:4000/articles/InternetNZ's-missed-opportunity</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/InternetNZ's-missed-opportunity/"/>
+  <id>http://lnz.me/articles/InternetNZ's-missed-opportunity</id>
   <updated>2010-07-27T00:00:00-00:00</updated>
   <published>2010-07-27T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;internetnzs-missed-opportunity&quot;&gt;InternetNZ’s missed opportunity&lt;/h1&gt;
@@ -360,23 +360,23 @@ playing politics instead of standing for our own values. I feel ashamed
 being part of this society.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/InternetNZ's-missed-opportunity/&quot;&gt;InternetNZ's missed opportunity&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 27, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/InternetNZ's-missed-opportunity/&quot;&gt;InternetNZ's missed opportunity&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 27, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[slides from Web Meetup]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/slides-from-Web-Meetup/"/>
-  <id>http://localhost:4000/articles/slides-from-Web-Meetup</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/slides-from-Web-Meetup/"/>
+  <id>http://lnz.me/articles/slides-from-Web-Meetup</id>
   <updated>2010-07-15T00:00:00-00:00</updated>
   <published>2010-07-15T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;p&gt;slides from Web Meetup&lt;/p&gt;
@@ -394,23 +394,23 @@ worst user experience in Wellington in 2 min min 5 min max.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/slides-from-Web-Meetup/&quot;&gt;slides from Web Meetup&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 15, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/slides-from-Web-Meetup/&quot;&gt;slides from Web Meetup&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 15, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[lean prototyping stack]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/lean-prototyping-stack/"/>
-  <id>http://localhost:4000/articles/lean-prototyping-stack</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/lean-prototyping-stack/"/>
+  <id>http://lnz.me/articles/lean-prototyping-stack</id>
   <updated>2010-05-25T00:00:00-00:00</updated>
   <published>2010-05-25T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;lean-prototyping-stack&quot;&gt;lean prototyping stack&lt;/h1&gt;
@@ -463,23 +463,23 @@ happy to share more if there is interest.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/lean-prototyping-stack/&quot;&gt;lean prototyping stack&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 25, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/lean-prototyping-stack/&quot;&gt;lean prototyping stack&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 25, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[slides from mojolicious talk]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/slides-from-mojolicious-talk/"/>
-  <id>http://localhost:4000/articles/slides-from-mojolicious-talk</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/slides-from-mojolicious-talk/"/>
+  <id>http://lnz.me/articles/slides-from-mojolicious-talk</id>
   <updated>2010-05-12T00:00:00-00:00</updated>
   <published>2010-05-12T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;slides-from-mojolicious-talk&quot;&gt;slides from mojolicious talk&lt;/h1&gt;
@@ -496,23 +496,23 @@ Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/slides-from-mojolicious-talk/&quot;&gt;slides from mojolicious talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 12, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/slides-from-mojolicious-talk/&quot;&gt;slides from mojolicious talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 12, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[customer uses proposal as spec]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/customer-uses-proposal-as-spec/"/>
-  <id>http://localhost:4000/articles/customer-uses-proposal-as-spec</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/customer-uses-proposal-as-spec/"/>
+  <id>http://lnz.me/articles/customer-uses-proposal-as-spec</id>
   <updated>2010-05-07T00:00:00-00:00</updated>
   <published>2010-05-07T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;customer-uses-proposal-as-spec&quot;&gt;customer uses proposal as spec&lt;/h1&gt;
@@ -547,23 +547,23 @@ anymore, guess it is healthier and less stressful in the end.&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/customer-uses-proposal-as-spec/&quot;&gt;customer uses proposal as spec&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 07, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/customer-uses-proposal-as-spec/&quot;&gt;customer uses proposal as spec&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 07, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[real geeks die early]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/every-once-in-a-while/"/>
-  <id>http://localhost:4000/articles/every-once-in-a-while</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/every-once-in-a-while/"/>
+  <id>http://lnz.me/articles/every-once-in-a-while</id>
   <updated>2010-05-05T00:00:00-00:00</updated>
   <published>2010-05-05T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;real-geeks-die-early&quot;&gt;real geeks die early&lt;/h1&gt;
@@ -623,23 +623,23 @@ developer!&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/every-once-in-a-while/&quot;&gt;real geeks die early&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 05, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/every-once-in-a-while/&quot;&gt;real geeks die early&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 05, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[ignite wellington talk]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/ignite-wellington-talk/"/>
-  <id>http://localhost:4000/articles/ignite-wellington-talk</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/ignite-wellington-talk/"/>
+  <id>http://lnz.me/articles/ignite-wellington-talk</id>
   <updated>2010-04-06T00:00:00-00:00</updated>
   <published>2010-04-06T00:00:00+12:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;ignite-wellington-talk&quot;&gt;ignite wellington talk&lt;/h1&gt;
@@ -661,23 +661,23 @@ Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/ignite-wellington-talk/&quot;&gt;ignite wellington talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on April 06, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/ignite-wellington-talk/&quot;&gt;ignite wellington talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on April 06, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[testing buzz ...]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/testing-buzz-.../"/>
-  <id>http://localhost:4000/articles/testing-buzz-...</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/testing-buzz-.../"/>
+  <id>http://lnz.me/articles/testing-buzz-...</id>
   <updated>2010-02-10T00:00:00-00:00</updated>
   <published>2010-02-10T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;testing-buzz-&quot;&gt;testing buzz …&lt;/h1&gt;
@@ -692,23 +692,23 @@ whatever. we will see in … hours/days/weeks … who cares anyway :-)&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/testing-buzz-.../&quot;&gt;testing buzz ...&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 10, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/testing-buzz-.../&quot;&gt;testing buzz ...&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 10, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[test driven monitoring]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/test-driven-monitoring/"/>
-  <id>http://localhost:4000/articles/test-driven-monitoring</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/test-driven-monitoring/"/>
+  <id>http://lnz.me/articles/test-driven-monitoring</id>
   <updated>2010-02-09T00:00:00-00:00</updated>
   <published>2010-02-09T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;test-driven-monitoring&quot;&gt;test driven monitoring&lt;/h1&gt;
@@ -730,23 +730,23 @@ Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/test-driven-monitoring/&quot;&gt;test driven monitoring&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 09, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/test-driven-monitoring/&quot;&gt;test driven monitoring&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 09, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[slides from LCA talk]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/slides-from-LCA-talk/"/>
-  <id>http://localhost:4000/articles/slides-from-LCA-talk</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/slides-from-LCA-talk/"/>
+  <id>http://lnz.me/articles/slides-from-LCA-talk</id>
   <updated>2010-01-19T00:00:00-00:00</updated>
   <published>2010-01-19T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;mpi-erlang-and-the-web&quot;&gt;MPI, Erlang and the web&lt;/h1&gt;
@@ -761,23 +761,23 @@ on slideshare&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/slides-from-LCA-talk/&quot;&gt;slides from LCA talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 19, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/slides-from-LCA-talk/&quot;&gt;slides from LCA talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 19, 2010.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[3 new destination markets in some months]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/"/>
-  <id>http://localhost:4000/articles/3-new-destination-markets-in-some-weeks</id>
+  <link rel="alternate" type="text/html" href="http://lnz.me/articles/3-new-destination-markets-in-some-weeks/"/>
+  <id>http://lnz.me/articles/3-new-destination-markets-in-some-weeks</id>
   <updated>2010-01-15T00:00:00-00:00</updated>
   <published>2010-01-15T00:00:00+13:00</published>
   
   <author>
     <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lnz.me</uri>
     <email>mail@norbu09.org</email>
   </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <category scheme="http://lnz.me/tags/#post" term="post" />
   <content type="html">
   
     &lt;h1 id=&quot;three-new-destination-markets-in-some-months&quot;&gt;Three new destination markets in some months&lt;/h1&gt;
@@ -846,7 +846,7 @@ managed to create a scalable system that is extremely flexible and fast.&lt;/p&g
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/&quot;&gt;3 new destination markets in some months&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 15, 2010.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/3-new-destination-markets-in-some-weeks/&quot;&gt;3 new destination markets in some months&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 15, 2010.&lt;/p&gt;</content>
 </entry>
 
 </feed>

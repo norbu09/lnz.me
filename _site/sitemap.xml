@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:4000</loc>
+        <loc>http://lnz.me</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:4000/404.html</loc>
+        <loc>http://lnz.me/404.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/about/</loc>
+        <loc>http://lnz.me/about/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/</loc>
+        <loc>http://lnz.me/articles/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/feed.xml</loc>
+        <loc>http://lnz.me/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/index.html</loc>
+        <loc>http://lnz.me/index.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/search.json</loc>
+        <loc>http://lnz.me/search.json</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/sitemap.xml</loc>
+        <loc>http://lnz.me/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/tags/</loc>
+        <loc>http://lnz.me/tags/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://localhost:4000/articles/sub-domain-rot/</loc>
+        <loc>http://lnz.me/articles/sub-domain-rot/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/the-difference-between-4hww-and-me/</loc>
+        <loc>http://lnz.me/articles/the-difference-between-4hww-and-me/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/culture-at-iwmn-part-three/</loc>
+        <loc>http://lnz.me/articles/culture-at-iwmn-part-three/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/berlin/</loc>
+        <loc>http://lnz.me/articles/berlin/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/culture-at-iwmn-part-two/</loc>
+        <loc>http://lnz.me/articles/culture-at-iwmn-part-two/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/culture-at-iwmn-part-one/</loc>
+        <loc>http://lnz.me/articles/culture-at-iwmn-part-one/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/why-alias-type-records-break-the-internet/</loc>
+        <loc>http://lnz.me/articles/why-alias-type-records-break-the-internet/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain/</loc>
+        <loc>http://lnz.me/articles/ddns-dynamic-dns-service-on-your-own-domain/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/SSH-tunnel-script2/</loc>
+        <loc>http://lnz.me/articles/SSH-tunnel-script2/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/InternetNZ's-missed-opportunity/</loc>
+        <loc>http://lnz.me/articles/InternetNZ's-missed-opportunity/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/slides-from-Web-Meetup/</loc>
+        <loc>http://lnz.me/articles/slides-from-Web-Meetup/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/lean-prototyping-stack/</loc>
+        <loc>http://lnz.me/articles/lean-prototyping-stack/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/slides-from-mojolicious-talk/</loc>
+        <loc>http://lnz.me/articles/slides-from-mojolicious-talk/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/customer-uses-proposal-as-spec/</loc>
+        <loc>http://lnz.me/articles/customer-uses-proposal-as-spec/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/every-once-in-a-while/</loc>
+        <loc>http://lnz.me/articles/every-once-in-a-while/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/ignite-wellington-talk/</loc>
+        <loc>http://lnz.me/articles/ignite-wellington-talk/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/testing-buzz-.../</loc>
+        <loc>http://lnz.me/articles/testing-buzz-.../</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/test-driven-monitoring/</loc>
+        <loc>http://lnz.me/articles/test-driven-monitoring/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/slides-from-LCA-talk/</loc>
+        <loc>http://lnz.me/articles/slides-from-LCA-talk/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/</loc>
+        <loc>http://lnz.me/articles/3-new-destination-markets-in-some-weeks/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/one-system-to-rule-them-all/</loc>
+        <loc>http://lnz.me/articles/one-system-to-rule-them-all/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/</loc>
+        <loc>http://lnz.me/articles/RabbitMQ-talk-at-perlmongers/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/</loc>
+        <loc>http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/simple-ssh-tunnel-script/</loc>
+        <loc>http://lnz.me/articles/simple-ssh-tunnel-script/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/</loc>
+        <loc>http://lnz.me/articles/git-via-HTTP-(startup-automation-3)/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/</loc>
+        <loc>http://lnz.me/articles/RabbitMQ-talk-at-erlounge/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/puppet-basics-startautomation/</loc>
+        <loc>http://lnz.me/articles/puppet-basics-startautomation/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/gitosis-and-puppet-setup-startupautomation/</loc>
+        <loc>http://lnz.me/articles/gitosis-and-puppet-setup-startupautomation/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/many-of-us-know-it/</loc>
+        <loc>http://lnz.me/articles/many-of-us-know-it/</loc>
     </url>
     
 </urlset>

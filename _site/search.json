@@ -65,6 +65,70 @@
 		} ,
 	
 		{
+		  "title"      : "upcoming Startup Weekends",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/upcoming-startup-weekends/",
+		  "date"       : "2013-06-05 00:00:00 +1200",
+		  "shortdate"  : "June 05, 2013"
+		} ,
+	
+		{
+		  "title"      : "Communication",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/communication/",
+		  "date"       : "2013-05-21 00:00:00 +1200",
+		  "shortdate"  : "May 21, 2013"
+		} ,
+	
+		{
+		  "title"      : "How to get advice",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/how-to-get-advice/",
+		  "date"       : "2013-05-20 00:00:00 +1200",
+		  "shortdate"  : "May 20, 2013"
+		} ,
+	
+		{
+		  "title"      : "leading by example",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/leading-by-example/",
+		  "date"       : "2013-05-14 00:00:00 +1200",
+		  "shortdate"  : "May 14, 2013"
+		} ,
+	
+		{
+		  "title"      : "Intrinsic vs extrinsic motivation",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/intrinsic-vs-extrinsic-motivation/",
+		  "date"       : "2013-05-13 00:00:00 +1200",
+		  "shortdate"  : "May 13, 2013"
+		} ,
+	
+		{
+		  "title"      : "How to end a conversation with me",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/how-to-end-a-conversation-with-me/",
+		  "date"       : "2013-05-08 00:00:00 +1200",
+		  "shortdate"  : "May 08, 2013"
+		} ,
+	
+		{
+		  "title"      : "Getting into habits",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/getting-into-habits/",
+		  "date"       : "2013-05-07 00:00:00 +1200",
+		  "shortdate"  : "May 07, 2013"
+		} ,
+	
+		{
+		  "title"      : "Where to start?",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/where-to-start/",
+		  "date"       : "2013-04-25 00:00:00 +1200",
+		  "shortdate"  : "April 25, 2013"
+		} ,
+	
+		{
 		  "title"      : "Care For Dynamic DNS (DDNS) Updates?",
 		  "category"   : "articles",
 		  "url"        : "http://lnz.me/articles/ddns-dynamic-dns-service-on-your-own-domain/",

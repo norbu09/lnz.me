@@ -9,13 +9,37 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2015-02-02T15:03:06+13:00</updated>
+<updated>2015-02-02T15:58:32+13:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lenz Gschwendtner</name>
   <uri>http://localhost:4000/</uri>
   <email>mail@norbu09.org</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Subdomain rot and the security implications]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/10/sub-domain-rot.html"/>
+  <id>http://localhost:4000/articles/sub-domain-rot</id>
+  <updated>2014-10-23T00:00:00-00:00</updated>
+  <published>2014-10-23T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;A post I wrote for the iwantmyname blog about sub domains and how not
+cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sub-domain-rot/&quot;&gt;Subdomain rot and the security implications&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 23, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -59,6 +83,29 @@ really prefer doing stuff I like without any time restriction.&lt;/p&gt;
 
 
 <entry>
+  <title type="html"><![CDATA[On hiring and hierarchy]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-three.html"/>
+  <id>http://localhost:4000/articles/culture-at-iwmn-part-three</id>
+  <updated>2014-05-07T00:00:00-00:00</updated>
+  <published>2014-08-19T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we hire people&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/culture-at-iwmn-part-three/&quot;&gt;On hiring and hierarchy&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 19, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Berlin]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/articles/berlin/"/>
   <id>http://localhost:4000/articles/berlin</id>
@@ -98,6 +145,97 @@ just most of them speak English … like me.&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/berlin/&quot;&gt;Berlin&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The "work-from-anywhere experiment"]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-two.html"/>
+  <id>http://localhost:4000/articles/culture-at-iwmn-part-two</id>
+  <updated>2014-05-07T00:00:00-00:00</updated>
+  <published>2014-05-22T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;A post I wrote for the iwantmyname blog about culture and our work place policy.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/culture-at-iwmn-part-two/&quot;&gt;The "work-from-anywhere experiment"&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 22, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The "one salary experiment"]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-one.html"/>
+  <id>http://localhost:4000/articles/culture-at-iwmn-part-one</id>
+  <updated>2014-05-07T00:00:00-00:00</updated>
+  <published>2014-05-07T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we decide on who gets how much.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/culture-at-iwmn-part-one/&quot;&gt;The "one salary experiment"&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Why ALIAS-type DNS Records Break The Internet]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html"/>
+  <id>http://localhost:4000/articles/why-alias-type-records-break-the-internet</id>
+  <updated>2014-01-07T00:00:00-00:00</updated>
+  <published>2014-01-07T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;A post I wrote for the iwantmyname blog about ALIAS DNS records and why they break the internet.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/why-alias-type-records-break-the-internet/&quot;&gt;Why ALIAS-type DNS Records Break The Internet&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Care For Dynamic DNS (DDNS) Updates?]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2012/03/ddns-dynamic-dns-service-on-your-own-domain.html"/>
+  <id>http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain</id>
+  <updated>2014-03-01T00:00:00-00:00</updated>
+  <published>2012-03-01T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;A post I wrote for the iwantmyname blog about dynamic DNS updates at iwantmyname.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain/&quot;&gt;Care For Dynamic DNS (DDNS) Updates?&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
 </entry>
 
 
@@ -709,409 +847,6 @@ managed to create a scalable system that is extremely flexible and fast.&lt;/p&g
 
   
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/&quot;&gt;3 new destination markets in some months&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 15, 2010.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[one system to rule them all]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/one-system-to-rule-them-all/"/>
-  <id>http://localhost:4000/articles/one-system-to-rule-them-all</id>
-  <updated>2009-10-15T00:00:00-00:00</updated>
-  <published>2009-10-15T00:00:00+13:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;one-system-to-rule-them-all&quot;&gt;One system to rule them all&lt;/h1&gt;
-
-&lt;p&gt;Here are the slides from my talk at erounge Wellington yesterday. It is
-about a workflow system I wrote in perl and erlang based on RabbitMQ and
-CouchDB. It is language independent and communicates with JSON messages.&lt;/p&gt;
-
-&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_2223826&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
-3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/rabbitmq-couchdb-awesome&quot; title=&quot;RabbitMQ + CouchDB = Awesome&quot;&gt;RabbitMQ + CouchDB =
-Awesome&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=one-system-to-rule-them-all-091014153738-phpapp02&amp;amp;stripped_title=rabbitmq-couchdb-awesome&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=one-system-to-rule-them-all-091014153738-phpapp02&amp;amp;stripped_title=rabbitmq-couchdb-awesome&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
-more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
-Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And a direct &lt;a href=&quot;/images/one-system-to-rule-them-all.pdf&quot;&gt;link to the PDF&lt;/a&gt;&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/one-system-to-rule-them-all/&quot;&gt;one system to rule them all&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 15, 2009.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[RabbitMQ for perl mongers]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/"/>
-  <id>http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers</id>
-  <updated>2009-09-09T00:00:00-00:00</updated>
-  <published>2009-09-09T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;p&gt;RabbitMQ for perl mongers&lt;/p&gt;
-
-&lt;p&gt;This is a short summary of the talk I gave yesterday at perl mongers
-Wellington about RabbitMQ and messaging in general and how to use it
-from perl.&lt;/p&gt;
-
-&lt;p&gt;The slides are on slideshare&lt;/p&gt;
-
-&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_1969944&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
-3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/rabbitmq-for-perlmongers&quot; title=&quot;RabbitMQ for Perl mongers&quot;&gt;RabbitMQ for Perl mongers&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-for-perlmongers-090908173752-phpapp02&amp;amp;stripped_title=rabbitmq-for-perlmongers&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-for-perlmongers-090908173752-phpapp02&amp;amp;stripped_title=rabbitmq-for-perlmongers&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
-more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
-Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The git repositories are on github: &lt;a href=&quot;http://github.com/norbu09&quot;&gt;http://github.com/norbu09&lt;/a&gt;
-relevant repositories are:
-- net-amqp
-- Net_RabbitMQ_HTTP
-- RabbitIntro&lt;/p&gt;
-
-&lt;p&gt;There was a fair amount of interest in the topic so if some one wants to
-know more feel free to contact me.&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/&quot;&gt;RabbitMQ for perl mongers&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on September 09, 2009.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Django like URL mapping in Catalyst - kind of]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/"/>
-  <id>http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of</id>
-  <updated>2009-08-26T00:00:00-00:00</updated>
-  <published>2009-08-26T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;p&gt;Django like URL mapping in Catalyst - kind of&lt;/p&gt;
-
-&lt;p&gt;The problem I tried to solve is trivial, at least that was what I
-thought. I tried to remap URLs in one of our platforms to make it easy
-for others to adapt the way we call things. I18N related mostly. I have
-most of the things that might change in central config file already but
-figuring out how I actually get the URL map in there took a while. I
-finally found &lt;a href=&quot;http://www.catalystframework.org/calendar/2008/11&quot;&gt;
-this post from Matt Trout&lt;/a&gt; where he outlines several possibilities to
-tackle it. Facing lack of time and knowing that the mapping is done by
-others ;-) I went with the verbose version. It fits quite nicely in our
-way of deploying Catalyst apps with local config files that change
-behaviour of the platform.&lt;/p&gt;
-
-&lt;p&gt;In your central config file (MyApp.conf) put a snippet like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;Controller&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;Editor&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    Path        /vim
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/action&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    Path        /vim/content
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/action&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;tld&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    Path        /vim/tld
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/action&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/Controller&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This maps the controller &lt;code&gt;Editor&lt;/code&gt; to the path &lt;code&gt;/vim&lt;/code&gt; and the two actions
-( content and tlds ) to the according endpoints under it. This stupid
-snippet cost me a couple of hours to figure out but now live is good and
-I can move on :-)&lt;/p&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/&quot;&gt;Django like URL mapping in Catalyst - kind of&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 26, 2009.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[simple ssh tunnel script]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/simple-ssh-tunnel-script/"/>
-  <id>http://localhost:4000/articles/simple-ssh-tunnel-script</id>
-  <updated>2009-08-04T00:00:00-00:00</updated>
-  <published>2009-08-04T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;simple-ssh-tunnel-script&quot;&gt;Simple ssh tunnel script&lt;/h1&gt;
-
-&lt;p&gt;When replicating CouchDB you need either VPN oder authentication or
-simply a SSH tunnel. No big deal normally a simple &lt;code&gt;ssh -L...&lt;/code&gt; does the
-trick but I ended up with those SSH sessions that blocked ports and hung
-around and it was not the way to go in terms of automating rollouts
-where you need that port once and then never again.&lt;/p&gt;
-
-&lt;p&gt;A bit of googling brought up a script of the &lt;a href=&quot;http://wiki.bacula.org/doku.php?id=sshtunnel&quot;&gt;
-bacula guys&lt;/a&gt; that had the same problem and I adopted their script a
-bit to fit my needs. Here is what I came up with:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Establishes a self-killing SSH tunnel to the&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# given SSH server, and forwards the correct&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# ports for couchdb usage.&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;USER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=[&lt;/span&gt;YOUR USER HERE&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;grep &lt;span class=&quot;s2&quot;&gt;&amp;quot;^$USER:&amp;quot;&lt;/span&gt; /etc/passwd &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; cut -d : -f 6&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;CLIENT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;SSH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/bin/ssh
-&lt;span class=&quot;nv&quot;&gt;DESTPORT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;5985
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Starting SSH-tunnel to $CLIENT...&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# -f means: go into background&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# -C means: use compression&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# -2 means: only use SSH2&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# -L 5985:localhost:5984 means: when forward 5985 to destination:5984&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# sleep 60 is a simple command that will execute on the server and does&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# nothing for 60 seconds,&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# then it exits. This keeps ssh running for 60 seconds. Once we connect&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# to the FD, that&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# connection will keep ssh running even beyond the 60 seconds.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Using this approach, we do not need to tear down the tunnel later, it&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# disconnects itself&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# automagically.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SSH&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; -fC2 -L &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DESTPORT&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;:localhost:5984 &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CLIENT&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; sleep &lt;span class=&quot;m&quot;&gt;60&lt;/span&gt; &amp;gt;/dev/null
-2&amp;gt;/dev/null
-&lt;span class=&quot;c&quot;&gt;# give ssh a little time to establish the connection.&lt;/span&gt;
-sleep 10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Put it in a file called &lt;code&gt;sshtunnel&lt;/code&gt; and make it executable. Usage is as
-simple as &lt;code&gt;./sshtunnel user@host&lt;/code&gt; or without the user if it is the same
-you are using in the &lt;code&gt;$USER&lt;/code&gt; variable.&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/simple-ssh-tunnel-script/&quot;&gt;simple ssh tunnel script&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 04, 2009.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[git via HTTP (startup automation 3)]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/"/>
-  <id>http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)</id>
-  <updated>2009-08-02T00:00:00-00:00</updated>
-  <published>2009-08-02T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;startup-automation---part-3&quot;&gt;Startup automation - Part 3&lt;/h1&gt;
-
-&lt;h2 id=&quot;git-via-http-with-nginx&quot;&gt;git via HTTP with nginx&lt;/h2&gt;
-
-&lt;p&gt;Just in case you don’t know (very unlikely) or never played with nginx
-before. This is &lt;em&gt;the&lt;/em&gt; web server and frontend HTTP loadbalancer all your
-HTTP based setups should have anyway. There is documentation in English
-on the nginx wiki (&lt;a href=&quot;http://wiki.nginx.org&quot;&gt;http://wiki.nginx.org&lt;/a&gt;) 
-and if you get stuck there is a lot of stuff just on google. The rails
-community love nginx and they tend to document well - a thanks at this
-point to those guys.&lt;/p&gt;
-
-&lt;p&gt;The setup is really straight forward but has some minor cave eats that
-can cause you grief and debugging hours I want to save you.&lt;/p&gt;
-
-&lt;p&gt;First of all you need nginx installed on your system - obviously. I
-assume that your webroot is under &lt;code&gt;/var/www&lt;/code&gt;. We need a directory called
-&lt;code&gt;git&lt;/code&gt; under it and need to link the repositories in that you want to
-share.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mkdir /var/www/git
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /var/www/git
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ln -s /srv/gitosis/repositories/&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;.git &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This includes some assumptions. I take that you have more repositories
-in your gitosis setup than public repositories you want to share or make
-available via http. If this is not the case you can simply point nginx
-at your gitosis repository path and add a simple rewrite rule that cuts
-off the trailing &lt;code&gt;.git&lt;/code&gt; of the repository path.&lt;/p&gt;
-
-&lt;p&gt;In nginx we need some configuration that acually serves those
-repositories now. That is initially really straight forward:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    listen   80&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    server_name  git.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;your.domain.tld&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    access_log  /var/log/nginx/git.access.log&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    location / &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This is the first very basic configuration for nginx. All we have to do
-now is enabling a simple hook in our git repository we want to serve
-and we are done.&lt;/p&gt;
-
-&lt;p&gt;To do that we need to go to our gitosis repository (you can simply &lt;code&gt;cd&lt;/code&gt; to
-the linked directory now) and edit the &lt;code&gt;hooks/post-update&lt;/code&gt; hook. Add the
-following line (or uncomment it) and make sure the file has the
-executable bit set (&lt;code&gt;chmod +x hooks/post-update&lt;/code&gt;).&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;git-update-server-info&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This post update hook needs to be run once now. You can either push
-something to the repository to trigger the hook or &lt;code&gt;su&lt;/code&gt; to the git user
-and simply run the hook. The &lt;code&gt;su&lt;/code&gt; is important to not screw up the
-permissions.&lt;/p&gt;
-
-&lt;p&gt;Speaking of permissions - we need to make the repository readable by the
-nginx user. The easy way is to add &lt;code&gt;www-data&lt;/code&gt; to the git group that owns
-the git repository. The git group should only have read access to the
-git repositories anyway so it does not open up a too big hole in your
-security.&lt;/p&gt;
-
-&lt;p&gt;Once all that is done you can test your setup with the following
-command:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git ls-remote
-http://git.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;your.domain.tld&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;/&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This should come back with something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;171bb2f12ceb908fd4802857a2f577a1739f8d1f        refs/heads/master&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;securing-the-setup-with-basic-auth-and-https&quot;&gt;Securing the setup with “basic auth” and HTTPS&lt;/h2&gt;
-
-&lt;p&gt;Now comes the fun part. After we have this setup up and running we can
-start to use it for rollout systems like capistrano and have read only
-repositories that we serve via HTTPS and basic auth without the need of
-deploying SSH keys all over for access to gitosis.&lt;/p&gt;
-
-&lt;p&gt;All we have to do now is change our nginx configuration slightly. We
-need to enable HTTPS and we can even have different auth files for
-different projects. This might be interesting if you run several
-projects on your gitosis host with different committers.  &lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    listen   443&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    server_name  git.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;your.domain.tld&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    access_log  /var/log/nginx/git.access.log&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    ssl  on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    ssl_certificate  certs/git.pem&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    ssl_certificate_key  certs/git.key&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    ssl_session_timeout  5m&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    ssl_protocols  SSLv2 SSLv3 TLSv1&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    ssl_ciphers  ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    ssl_prefer_server_ciphers   on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    location / &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        auth_basic            &lt;span class=&quot;s2&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        auth_basic_user_file  conf.d/htpasswd.general&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-    location /&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository 1&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        autoindex  on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        auth_basic            &lt;span class=&quot;s2&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        auth_basic_user_file  conf.d/htpasswd.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;group 1&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-    location /&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository 2&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        autoindex  on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        auth_basic            &lt;span class=&quot;s2&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        auth_basic_user_file  conf.d/htpasswd.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;group 2&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Reload your nginx and you have your repositories served up under HTTPS
-and only need to create the htaccess files now. This is simply done with
-the &lt;code&gt;htaccess&lt;/code&gt; program that is part of apache (or the apache utils with
-come as a separate package).
-Also note that your &lt;code&gt;root&lt;/code&gt; directory is always the base git webroot.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-oddities&quot;&gt;some oddities&lt;/h2&gt;
-
-&lt;p&gt;While testing I used self signed certificates and as the host is only
-used in non public ways I will stay with them. This caused some googling
-however as git came up with the following error:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;fatal: https://[user:pass@git.host]/[repository]/info/refs download error - SSL certificate problem, verify that the CA cert is OK. &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This is due to the self signed cert and has to be overridden with a
-environment variable. A simple&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GIT_SSL_NO_VERIFY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;did the trick. If you have a rollout user you want this parameter to be
-in his &lt;code&gt;.profile&lt;/code&gt; or your shell specific equivalent (eg &lt;code&gt;.bashrc&lt;/code&gt;).&lt;/p&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/&quot;&gt;git via HTTP (startup automation 3)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 02, 2009.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[RabbitMQ talk at erlounge]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/"/>
-  <id>http://localhost:4000/articles/RabbitMQ-talk-at-erlounge</id>
-  <updated>2014-07-17T00:00:00-00:00</updated>
-  <published>2009-07-17T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://localhost:4000</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://localhost:4000/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;p&gt;RabbitMQ talk at erlounge&lt;/p&gt;
-
-&lt;p&gt;This is a short summary of the talk I gave yesterday at erlounge
-Wellington about RabbitMQ and messaging in general.&lt;/p&gt;
-
-&lt;p&gt;The slides are now on slideshare&lt;/p&gt;
-
-&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_1731778&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
-3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/rabbitmq-1731778&quot; title=&quot;RabbitMQ&quot;&gt;RabbitMQ&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-090716164944-phpapp01&amp;amp;stripped_title=rabbitmq-1731778&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-090716164944-phpapp01&amp;amp;stripped_title=rabbitmq-1731778&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
-more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;norbu09&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The git repositories are on github: &lt;a href=&quot;http://github.com/norbu09&quot;&gt;http://github.com/norbu09&lt;/a&gt;
-relevant repositories are:
-- RabbitIntro
-- Net_RabbitMQ_HTTP
-- net-amqp&lt;/p&gt;
-
-&lt;p&gt;The question about a frontend to RabbitMQ was answered today with this
-project that looks really promising:
-&lt;a href=&quot;http://willcodeforfoo.com/2009/07/13/announcing-alice/&quot;&gt;http://willcodeforfoo.com/2009/07/13/announcing-alice/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I hope you all enjoyed the talk and hope I could spark a bit of interest
-in the topic.&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/&quot;&gt;RabbitMQ talk at erlounge&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 17, 2009.&lt;/p&gt;</content>
 </entry>
 
 </feed>

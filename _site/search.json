@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Subdomain rot and the security implications",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/sub-domain-rot/",
+		  "date"       : "2014-10-23 00:00:00 +1300",
+		  "shortdate"  : "October 23, 2014"
+		} ,
+	
+		{
 		  "title"      : "The difference between 4hww and me",
 		  "category"   : "articles",
 		  "url"        : "http://localhost:4000/articles/the-difference-between-4hww-and-me/",
@@ -9,11 +17,51 @@
 		} ,
 	
 		{
+		  "title"      : "On hiring and hierarchy",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/culture-at-iwmn-part-three/",
+		  "date"       : "2014-08-19 00:00:00 +1200",
+		  "shortdate"  : "August 19, 2014"
+		} ,
+	
+		{
 		  "title"      : "Berlin",
 		  "category"   : "articles",
 		  "url"        : "http://localhost:4000/articles/berlin/",
 		  "date"       : "2014-08-07 00:00:00 +1200",
 		  "shortdate"  : "August 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "The &quot;work-from-anywhere experiment&quot;",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/culture-at-iwmn-part-two/",
+		  "date"       : "2014-05-22 00:00:00 +1200",
+		  "shortdate"  : "May 22, 2014"
+		} ,
+	
+		{
+		  "title"      : "The &quot;one salary experiment&quot;",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/culture-at-iwmn-part-one/",
+		  "date"       : "2014-05-07 00:00:00 +1200",
+		  "shortdate"  : "May 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "Why ALIAS-type DNS Records Break The Internet",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/why-alias-type-records-break-the-internet/",
+		  "date"       : "2014-01-07 00:00:00 +1300",
+		  "shortdate"  : "January 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "Care For Dynamic DNS (DDNS) Updates?",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain/",
+		  "date"       : "2012-03-01 00:00:00 +1300",
+		  "shortdate"  : "March 01, 2012"
 		} ,
 	
 		{

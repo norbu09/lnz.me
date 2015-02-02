@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>SSH tunnel script(2) &#8211; Lenz Gschwendtner</title>
-<meta name="description" content="I work quite a bit with daemons on remote hosts that are normally not directly listening to the public internet. I use SSH tunnels a lot and had [previously used a simplistic script][1] to deal with it.">
+<title>On hiring and hierarchy &#8211; Lenz Gschwendtner</title>
+<meta name="description" content="On hiring and hierarchy">
 <meta name="keywords" content="post">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/site-logo.png">
-<meta name="twitter:title" content="SSH tunnel script(2)">
-<meta name="twitter:description" content="I work quite a bit with daemons on remote hosts that are normally not directly listening to the public internet. I use SSH tunnels a lot and had [previously used a simplistic script][1] to deal with it.">
+<meta name="twitter:title" content="On hiring and hierarchy">
+<meta name="twitter:description" content="On hiring and hierarchy">
 <meta name="twitter:creator" content="@norbu09">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SSH tunnel script(2)">
-<meta property="og:description" content="I work quite a bit with daemons on remote hosts that are normally not directly listening to the public internet. I use SSH tunnels a lot and had [previously used a simplistic script][1] to deal with it.">
-<meta property="og:url" content="http://localhost:4000/articles/SSH-tunnel-script2/">
+<meta property="og:title" content="On hiring and hierarchy">
+<meta property="og:description" content="On hiring and hierarchy">
+<meta property="og:url" content="http://localhost:4000/articles/culture-at-iwmn-part-three/">
 <meta property="og:site_name" content="Lenz Gschwendtner">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/articles/SSH-tunnel-script2/">
+<link rel="canonical" href="http://localhost:4000/articles/culture-at-iwmn-part-three/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Lenz Gschwendtner Feed">
 
 
@@ -115,75 +115,27 @@
       <header class="entry-header">
         <span class="entry-tags"><a href="http://localhost:4000/tags/#post" title="Pages tagged post">post</a></span>
         
-          <h1 class="entry-title">SSH tunnel script(2)</h1>
+          <h1 class="entry-title"><a href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-three.html">On hiring and hierarchy <span class="link-arrow">&rarr;</span></a></h1>
         
       </header>
       <footer class="entry-meta">
         <img src="http://localhost:4000/images/site-logo.png" alt="Lenz Gschwendtner photo" class="author-photo">
         <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Lenz Gschwendtner">Lenz Gschwendtner</a></span></span>
-        <span class="entry-date date published"><time datetime="2010-11-05T00:00:00+13:00"><i class="icon-calendar-empty"></i> November 05, 2010</time></span>
-        <span class="entry-date date modified"><time datetime="2010-11-05"><i class="icon-pencil"></i> November 05, 2010</time></span>
+        <span class="entry-date date published"><time datetime="2014-08-19T00:00:00+12:00"><i class="icon-calendar-empty"></i> August 19, 2014</time></span>
+        <span class="entry-date date modified"><time datetime="2014-05-07"><i class="icon-pencil"></i> May 07, 2014</time></span>
         
-        <span><a href="http://localhost:4000/articles/SSH-tunnel-script2/" rel="bookmark" title="SSH tunnel script(2)"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="http://localhost:4000/articles/culture-at-iwmn-part-three/" rel="bookmark" title="On hiring and hierarchy"><i class="icon-link"></i> Permalink</a></span>
         
         <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/SSH-tunnel-script2/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/culture-at-iwmn-part-three/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
         <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=SSH tunnel script(2)&url=http://localhost:4000/articles/SSH-tunnel-script2/&via=norbu09" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=On hiring and hierarchy&url=http://localhost:4000/articles/culture-at-iwmn-part-three/&via=norbu09" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/SSH-tunnel-script2/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/culture-at-iwmn-part-three/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
       </footer>
       <div class="entry-content">
-        <h1 id="ssh-tunnel-script2">SSH tunnel script(2)</h1>
-
-<p>I work quite a bit with daemons on remote hosts that are normally not
-directly listening to the public internet. I use SSH tunnels a lot and
-had <a href="http://norbu09.org/2009/08/04/simple-ssh-tunnel-script.html">previously used a simplistic script</a> to deal with it.</p>
-
-<p>I got tired of having to reconnect SSH tunnels when I changed
-environments and wanted <a href="http://www.harding.motd.ca/autossh/">autossh</a> to handle the connections. I hacked
-around a bit with a shell script and then came up with his perl version.
-The config file is a standard git like config that is quite handy as it
-handles groups of servers syntax wise.</p>
-
-<p>The calls to <code>tunnel</code> take a tunnel definition from the config file and
-start the tunnel with the defined user. It is really written for a safe
-environment and not nailed down for security in the moment but feel free
-to play with it.</p>
-
-<p>The config file can deal with inheritance and checks the standard directories
-(/etc, ~/ and .) and looks like this:</p>
-
-<pre><code>[backend "rabbitmq"]
-    local  = 5672
-    remote = 5672
-    host   = RABBIT_HOST
-    user   = USER_WITH_SSH_KEYS
-
-[backend "couchdb"]
-    local  = 5986
-    remote = 5984
-    host   = COUCHDB_HOST
-    user   = USER_WITH_SSH_KEYS
-
-[frontend "couchdb"]
-    local  = 5984
-    remote = 5984
-    host   = OTHER_COUCHDB_HOST
-    user   = USER_WITH_SSH_KEYS
-</code></pre>
-
-<p>The tunnel script is then called with:</p>
-
-<pre><code>tunnel backend.rabbitmq
-tunnel frontend.couchdb
-...
-</code></pre>
-
-<p>It does some basic checking if a port is used already.</p>
-
-<p>The script can be found in my <a href="https://github.com/norbu09/bin/blob/master/tunnel"><code>/bin</code> dump on github</a></p>
+        <p>A post I wrote for the iwantmyname blog about culture and how we hire people</p>
 
 
         
@@ -191,10 +143,10 @@ tunnel frontend.couchdb
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/articles/InternetNZ's-missed-opportunity/" class="btn" title="InternetNZ's missed opportunity">Previous article</a>
+        <a href="http://localhost:4000/articles/berlin/" class="btn" title="Berlin">Previous article</a>
       
       
-        <a href="http://localhost:4000/articles/ddns-dynamic-dns-service-on-your-own-domain/" class="btn" title="Care For Dynamic DNS (DDNS) Updates?">Next article</a>
+        <a href="http://localhost:4000/articles/the-difference-between-4hww-and-me/" class="btn" title="The difference between 4hww and me">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>

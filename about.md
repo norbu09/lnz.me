@@ -27,4 +27,7 @@ that help grow a better startup community in New Zealand and world wide.
 Pay him coffee/beer and he will happily give you feedback on your
 current project or open up his network to find the person you need.
 
+## old blogs and sites
 
+- [norbu09.wordpress.com](https://norbu09.wordpress.com/) - a blog in German about us moving to NZ
+- [about.me/norbu09](http://about.me/norbu09) - about.me page for those who are into that

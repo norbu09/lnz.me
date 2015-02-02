@@ -1,0 +1,187 @@
+[
+	
+		{
+		  "title"      : "The difference between 4hww and me",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/the-difference-between-4hww-and-me/",
+		  "date"       : "2014-08-21 00:00:00 +1200",
+		  "shortdate"  : "August 21, 2014"
+		} ,
+	
+		{
+		  "title"      : "Berlin",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/berlin/",
+		  "date"       : "2014-08-07 00:00:00 +1200",
+		  "shortdate"  : "August 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "SSH tunnel script(2)",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/SSH-tunnel-script2/",
+		  "date"       : "2010-11-05 00:00:00 +1300",
+		  "shortdate"  : "November 05, 2010"
+		} ,
+	
+		{
+		  "title"      : "InternetNZ&#39;s missed opportunity",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/InternetNZ's-missed-opportunity/",
+		  "date"       : "2010-07-27 00:00:00 +1200",
+		  "shortdate"  : "July 27, 2010"
+		} ,
+	
+		{
+		  "title"      : "slides from Web Meetup",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/slides-from-Web-Meetup/",
+		  "date"       : "2010-07-15 00:00:00 +1200",
+		  "shortdate"  : "July 15, 2010"
+		} ,
+	
+		{
+		  "title"      : "lean prototyping stack",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/lean-prototyping-stack/",
+		  "date"       : "2010-05-25 00:00:00 +1200",
+		  "shortdate"  : "May 25, 2010"
+		} ,
+	
+		{
+		  "title"      : "slides from mojolicious talk",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/slides-from-mojolicious-talk/",
+		  "date"       : "2010-05-12 00:00:00 +1200",
+		  "shortdate"  : "May 12, 2010"
+		} ,
+	
+		{
+		  "title"      : "customer uses proposal as spec",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/customer-uses-proposal-as-spec/",
+		  "date"       : "2010-05-07 00:00:00 +1200",
+		  "shortdate"  : "May 07, 2010"
+		} ,
+	
+		{
+		  "title"      : "real geeks die early",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/every-once-in-a-while/",
+		  "date"       : "2010-05-05 00:00:00 +1200",
+		  "shortdate"  : "May 05, 2010"
+		} ,
+	
+		{
+		  "title"      : "ignite wellington talk",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/ignite-wellington-talk/",
+		  "date"       : "2010-04-06 00:00:00 +1200",
+		  "shortdate"  : "April 06, 2010"
+		} ,
+	
+		{
+		  "title"      : "testing buzz ...",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/testing-buzz-.../",
+		  "date"       : "2010-02-10 00:00:00 +1300",
+		  "shortdate"  : "February 10, 2010"
+		} ,
+	
+		{
+		  "title"      : "test driven monitoring",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/test-driven-monitoring/",
+		  "date"       : "2010-02-09 00:00:00 +1300",
+		  "shortdate"  : "February 09, 2010"
+		} ,
+	
+		{
+		  "title"      : "slides from LCA talk",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/slides-from-LCA-talk/",
+		  "date"       : "2010-01-19 00:00:00 +1300",
+		  "shortdate"  : "January 19, 2010"
+		} ,
+	
+		{
+		  "title"      : "3 new destination markets in some months",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/",
+		  "date"       : "2010-01-15 00:00:00 +1300",
+		  "shortdate"  : "January 15, 2010"
+		} ,
+	
+		{
+		  "title"      : "one system to rule them all",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/one-system-to-rule-them-all/",
+		  "date"       : "2009-10-15 00:00:00 +1300",
+		  "shortdate"  : "October 15, 2009"
+		} ,
+	
+		{
+		  "title"      : "RabbitMQ for perl mongers",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/",
+		  "date"       : "2009-09-09 00:00:00 +1200",
+		  "shortdate"  : "September 09, 2009"
+		} ,
+	
+		{
+		  "title"      : "Django like URL mapping in Catalyst - kind of",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/",
+		  "date"       : "2009-08-26 00:00:00 +1200",
+		  "shortdate"  : "August 26, 2009"
+		} ,
+	
+		{
+		  "title"      : "simple ssh tunnel script",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/simple-ssh-tunnel-script/",
+		  "date"       : "2009-08-04 00:00:00 +1200",
+		  "shortdate"  : "August 04, 2009"
+		} ,
+	
+		{
+		  "title"      : "git via HTTP (startup automation 3)",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/",
+		  "date"       : "2009-08-02 00:00:00 +1200",
+		  "shortdate"  : "August 02, 2009"
+		} ,
+	
+		{
+		  "title"      : "RabbitMQ talk at erlounge",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/",
+		  "date"       : "2009-07-17 00:00:00 +1200",
+		  "shortdate"  : "July 17, 2009"
+		} ,
+	
+		{
+		  "title"      : "puppet basics (startup automation 2)",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/puppet-basics-startautomation/",
+		  "date"       : "2009-06-14 00:00:00 +1200",
+		  "shortdate"  : "June 14, 2009"
+		} ,
+	
+		{
+		  "title"      : "puppet and gitosis (startup automation 1)",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/gitosis-and-puppet-setup-startupautomation/",
+		  "date"       : "2009-06-10 00:00:00 +1200",
+		  "shortdate"  : "June 10, 2009"
+		} ,
+	
+		{
+		  "title"      : "many of us know it ...",
+		  "category"   : "articles",
+		  "url"        : "http://localhost:4000/articles/many-of-us-know-it/",
+		  "date"       : "2009-02-09 00:00:00 +1300",
+		  "shortdate"  : "February 09, 2009"
+		} 
+	
+]

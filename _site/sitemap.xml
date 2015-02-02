@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:4000</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://localhost:4000/404.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/about/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/search.json</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/tags/</loc>
+    </url>
+    
+
+    
+    <url>
+        <loc>http://localhost:4000/articles/the-difference-between-4hww-and-me/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/berlin/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/SSH-tunnel-script2/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/InternetNZ's-missed-opportunity/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/slides-from-Web-Meetup/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/lean-prototyping-stack/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/slides-from-mojolicious-talk/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/customer-uses-proposal-as-spec/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/every-once-in-a-while/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/ignite-wellington-talk/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/testing-buzz-.../</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/test-driven-monitoring/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/slides-from-LCA-talk/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/one-system-to-rule-them-all/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/simple-ssh-tunnel-script/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/puppet-basics-startautomation/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/gitosis-and-puppet-setup-startupautomation/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/many-of-us-know-it/</loc>
+    </url>
+    
+</urlset>

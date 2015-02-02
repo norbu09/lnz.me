@@ -1,0 +1,308 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>puppet basics (startup automation 2) &#8211; Lenz Gschwendtner</title>
+<meta name="description" content="In the last part of startup automation I talked you through the basics of configuring gitosis and the puppet config directory to make deployment of the config files really easy. Obviously we need some test clients and a working server now to play. I use parallels for local development and normally fire up one VM per project. I created an empty debian VM and just did a `apt-get install puppet`. This installs all dependencies and leaves you with a working client.">
+<meta name="keywords" content="post">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/site-logo.png">
+<meta name="twitter:title" content="puppet basics (startup automation 2)">
+<meta name="twitter:description" content="In the last part of startup automation I talked you through the basics of configuring gitosis and the puppet config directory to make deployment of the config files really easy. Obviously we need some test clients and a working server now to play. I use parallels for local development and normally fire up one VM per project. I created an empty debian VM and just did a `apt-get install puppet`. This installs all dependencies and leaves you with a working client.">
+<meta name="twitter:creator" content="@norbu09">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="puppet basics (startup automation 2)">
+<meta property="og:description" content="In the last part of startup automation I talked you through the basics of configuring gitosis and the puppet config directory to make deployment of the config files really easy. Obviously we need some test clients and a working server now to play. I use parallels for local development and normally fire up one VM per project. I created an empty debian VM and just did a `apt-get install puppet`. This installs all dependencies and leaves you with a working client.">
+<meta property="og:url" content="http://localhost:4000/articles/puppet-basics-startautomation/">
+<meta property="og:site_name" content="Lenz Gschwendtner">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/articles/puppet-basics-startautomation/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Lenz Gschwendtner Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.min.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+	        
+			<li>
+				
+					<a href="http://localhost:4000/about/">About</a>
+				 
+			</li>
+	        
+			<li>
+				
+					<a href="http://localhost:4000/articles/">Articles</a>
+				 
+			</li>
+	        
+	        <li><a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+	        <li class="dosearch"><i class="icon-search"></i> Search</li>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<div class="search-wrapper">
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Search...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+        
+    		<a href="http://localhost:4000/" class="site-logo" rel="home" title="Lenz Gschwendtner"><img src="http://localhost:4000/images/site-logo.png" width="200" height="200" alt="Lenz Gschwendtner logo" class="animated fadeInUp"></a>
+        
+        <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">Lenz Gschwendtner</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">geek, mentor, punk</h2>
+	</div>
+</header><!-- /.masthead -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#post" title="Pages tagged post">post</a></span>
+        
+          <h1 class="entry-title">puppet basics (startup automation 2)</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <img src="http://localhost:4000/images/site-logo.png" alt="Lenz Gschwendtner photo" class="author-photo">
+        <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Lenz Gschwendtner">Lenz Gschwendtner</a></span></span>
+        <span class="entry-date date published"><time datetime="2009-06-14T00:00:00+12:00"><i class="icon-calendar-empty"></i> June 14, 2009</time></span>
+        <span class="entry-date date modified"><time datetime="2009-06-14"><i class="icon-pencil"></i> June 14, 2009</time></span>
+        
+        <span><a href="http://localhost:4000/articles/puppet-basics-startautomation/" rel="bookmark" title="puppet basics (startup automation 2)"><i class="icon-link"></i> Permalink</a></span>
+        
+        <span class="social-share-facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/puppet-basics-startautomation/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+        <span class="social-share-twitter">
+            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=puppet basics (startup automation 2)&url=http://localhost:4000/articles/puppet-basics-startautomation/&via=norbu09" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+        <span class="social-share-googleplus">
+            <a href="https://plus.google.com/share?url=http://localhost:4000/articles/puppet-basics-startautomation/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <!-- /.social-share -->
+      </footer>
+      <div class="entry-content">
+        <h1 id="startup-automation---part-2">Startup automation - Part 2</h1>
+
+<h2 id="puppet-basics">puppet basics</h2>
+
+<p>In the last part of startup automation I talked you through the basics
+of configuring gitosis and the puppet config directory to make
+deployment of the config files really easy. Obviously we need some test
+clients and a working server now to play. I use parallels for local
+development and normally fire up one VM per project. I created an empty
+debian VM and just did a <code>apt-get install puppet</code>. This installs all
+dependencies and leaves you with a working client.</p>
+
+<h2 id="create-a-basic-configuration">create a basic configuration</h2>
+
+<p>we need some basic configuration files before we can start. Use these as
+templates, they are more or less standard debian config files so you
+might have to tweak paths a bit for your environment:</p>
+
+<p><code>puppet.conf</code></p>
+
+<div class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="k">[main]</span>
+<span class="na">logdir</span><span class="o">=</span><span class="s">/var/log/puppet</span>
+<span class="na">vardir</span><span class="o">=</span><span class="s">/var/lib/puppet</span>
+<span class="na">ssldir</span><span class="o">=</span><span class="s">/var/lib/puppet/ssl</span>
+<span class="na">rundir</span><span class="o">=</span><span class="s">/var/run/puppet</span>
+<span class="na">factpath</span><span class="o">=</span><span class="s">$vardir/lib/facter</span>
+<span class="na">pluginsync</span><span class="o">=</span><span class="s">true</span>
+
+<span class="k">[puppetmasterd]</span>
+<span class="na">templatedir</span><span class="o">=</span><span class="s">/var/lib/puppet/templates</span></code></pre></div>
+
+<p><code>fileserver.conf</code></p>
+
+<div class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="c1"># This file consists of arbitrarily named sections/modules</span>
+<span class="c1"># defining where files are served from and to whom</span>
+
+<span class="c1"># Define a section &#39;files&#39;</span>
+<span class="c1"># Adapt the allow/deny settings to your needs. Order</span>
+<span class="c1"># for allow/deny does not matter, allow always takes precedence</span>
+<span class="c1"># over deny</span>
+<span class="k">[files]</span>
+<span class="err">path</span> <span class="err">/etc/puppet/files</span>
+<span class="c1">#  allow *.example.com</span>
+<span class="c1">#  deny *.evil.example.com</span>
+<span class="c1">#  allow 192.168.0.0/24</span>
+
+<span class="k">[plugins]</span>
+<span class="c1">#  allow *.example.com</span>
+<span class="c1">#  deny *.evil.example.com</span>
+<span class="c1">#  allow 192.168.0.0/24</span></code></pre></div>
+
+<p>and a basic <code>manifests/site.pp</code></p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># site.pp</span>
+
+<span class="n">filebucket</span> <span class="p">{</span> <span class="ss">main</span><span class="p">:</span> <span class="n">server</span> <span class="o">=&gt;</span> <span class="s1">&#39;YOUR_PUPPET_SERVER_HERE&#39;</span> <span class="p">}</span>
+
+<span class="c1"># global defaults</span>
+<span class="no">File</span> <span class="p">{</span> <span class="n">backup</span> <span class="o">=&gt;</span> <span class="n">main</span> <span class="p">}</span>
+<span class="no">Exec</span> <span class="p">{</span> <span class="n">path</span> <span class="o">=&gt;</span> <span class="s2">&quot;/usr/bin:/usr/sbin/:/bin:/sbin&quot;</span> <span class="p">}</span>
+
+<span class="no">Package</span> <span class="p">{</span>
+    <span class="n">provider</span> <span class="o">=&gt;</span> <span class="vg">$operatingsystem</span> <span class="p">?</span> <span class="p">{</span>
+        <span class="n">debian</span> <span class="o">=&gt;</span> <span class="n">aptitude</span><span class="p">,</span>
+        <span class="n">redhat</span> <span class="o">=&gt;</span> <span class="n">up2date</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+
+<p>Make sure you edit the <code>sites.pp</code> to actually point to your puppet
+server. Add those files, commit and push. Then restart your
+puppetmasterd on the server.</p>
+
+<p>We need two shells now, one on the server and one on your client. Fire
+up your shell on the server and ask the puppetmaster for pending
+certificate requests with the <code>puppetca</code> command: </p>
+
+<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>puppetca --list</code></pre></div>
+
+<p>This should return with ` no pending requests` message or so.</p>
+
+<p>Fire up the second shell on your client and request a certificate from
+your server. We try it interactive first till things go smooth: </p>
+
+<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>puppetd --server YOUR_PUPPET_SERVER --waitforcert <span class="m">60</span> --test</code></pre></div>
+
+<p>This should come back with an error that the cert could not be issued
+yet. This is expected as we have not authorized the client yet. To do so
+we hop over to our server console again and issue the puppetca command
+again. We should have a pending request now from our test client. Go on
+and sign it with </p>
+
+<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>puppetca --sign CLIENT_NAME</code></pre></div>
+
+<p>If you rerun the client now with the same command it should be happy and
+report success.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/articles/gitosis-and-puppet-setup-startupautomation/" class="btn" title="puppet and gitosis (startup automation 1)">Previous article</a>
+      
+      
+        <a href="http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/" class="btn" title="RabbitMQ talk at erlounge">Next article</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2015 Lenz Gschwendtner. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/norbu09" title="Lenz Gschwendtner on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	<a href="http://linkedin.com/in/lenzgschwendtner" title="Lenz Gschwendtner on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
+	
+	
+	
+	<a href="http://github.com/norbu09" title="Lenz Gschwendtner on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : 'http://localhost:4000/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+	        
+
+</body>
+</html>

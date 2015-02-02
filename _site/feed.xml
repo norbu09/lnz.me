@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+
+
+  
+
+<title type="text">Lenz Gschwendtner</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000/" />
+<updated>2015-02-02T15:03:06+13:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Lenz Gschwendtner</name>
+  <uri>http://localhost:4000/</uri>
+  <email>mail@norbu09.org</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[The difference between 4hww and me]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/the-difference-between-4hww-and-me/"/>
+  <id>http://localhost:4000/articles/the-difference-between-4hww-and-me</id>
+  <updated>2014-08-21T00:00:00-00:00</updated>
+  <published>2014-08-21T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;I attended a 4 hour work week meetup in Berlin yesterday and noticed one big
+difference between me and many that were there. Tim Ferris, the author or 4
+hour work week, starts from the point of view that work is something that is
+not fun and in order to “live” you need to work as little as possible so you
+can enjoy your life.&lt;/p&gt;
+
+&lt;p&gt;Now, this is where I would argue that I haven’t worked in a long time as
+everything I do are things I actually enjoy doing. Even the things I
+don’t like as a task I tend to see as things that get me closer to the
+things I like and so they don’t seem to bother me at all.&lt;/p&gt;
+
+&lt;p&gt;Living a happy life to me is not sitting at a beach all day, I get bored
+after a few hours and really want to get something done after that. I really
+enjoy times where I just hang out with people and talk but even that is
+time where I learn, where I do something I like that ultimately adds
+to my personal development.&lt;/p&gt;
+
+&lt;p&gt;Four hours of work a week seems way too much or too little to me, I
+really prefer doing stuff I like without any time restriction.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/the-difference-between-4hww-and-me/&quot;&gt;The difference between 4hww and me&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 21, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Berlin]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/berlin/"/>
+  <id>http://localhost:4000/articles/berlin</id>
+  <updated>2014-08-07T00:00:00-00:00</updated>
+  <published>2014-08-07T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;Since a while we live in Berlin for a change. It is really interesting
+to see how much New Zealand changed me and to see how different things
+look to me now, that I have distance to them.&lt;/p&gt;
+
+&lt;p&gt;The most obvious thing to me is that there is this interesting split
+between expats that are here to enjoy living in the startup capital of
+Europe and the Germans that always find something that is bothering
+them, something they can complain about, something that someone needs to
+change. The observation for me is that Germans in Germany are happy to
+make some else responsible for their current situation whereas those who
+come here just try to get stuff done.&lt;/p&gt;
+
+&lt;p&gt;This may be a bigger thought and because of the comparably young age of
+New Zealand most Kiwis needed to get stuff done, complaining did not get
+you anywhere. Obviously there are awesome people here in Germany that
+get stuff done, don’t blame any higher instance for their current
+situation and there are Kiwis that complain bitterly about things, it is
+more the general mood, the general way of how the majority thinks and
+represents itself to me.&lt;/p&gt;
+
+&lt;p&gt;So, summer is awesome and there are plenty of positive people around me,
+just most of them speak English … like me.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/berlin/&quot;&gt;Berlin&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[SSH tunnel script(2)]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/SSH-tunnel-script2/"/>
+  <id>http://localhost:4000/articles/SSH-tunnel-script2</id>
+  <updated>2010-11-05T00:00:00-00:00</updated>
+  <published>2010-11-05T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;ssh-tunnel-script2&quot;&gt;SSH tunnel script(2)&lt;/h1&gt;
+
+&lt;p&gt;I work quite a bit with daemons on remote hosts that are normally not
+directly listening to the public internet. I use SSH tunnels a lot and
+had &lt;a href=&quot;http://norbu09.org/2009/08/04/simple-ssh-tunnel-script.html&quot;&gt;previously used a simplistic script&lt;/a&gt; to deal with it.&lt;/p&gt;
+
+&lt;p&gt;I got tired of having to reconnect SSH tunnels when I changed
+environments and wanted &lt;a href=&quot;http://www.harding.motd.ca/autossh/&quot;&gt;autossh&lt;/a&gt; to handle the connections. I hacked
+around a bit with a shell script and then came up with his perl version.
+The config file is a standard git like config that is quite handy as it
+handles groups of servers syntax wise.&lt;/p&gt;
+
+&lt;p&gt;The calls to &lt;code&gt;tunnel&lt;/code&gt; take a tunnel definition from the config file and
+start the tunnel with the defined user. It is really written for a safe
+environment and not nailed down for security in the moment but feel free
+to play with it.&lt;/p&gt;
+
+&lt;p&gt;The config file can deal with inheritance and checks the standard directories
+(/etc, ~/ and .) and looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[backend &quot;rabbitmq&quot;]
+    local  = 5672
+    remote = 5672
+    host   = RABBIT_HOST
+    user   = USER_WITH_SSH_KEYS
+
+[backend &quot;couchdb&quot;]
+    local  = 5986
+    remote = 5984
+    host   = COUCHDB_HOST
+    user   = USER_WITH_SSH_KEYS
+
+[frontend &quot;couchdb&quot;]
+    local  = 5984
+    remote = 5984
+    host   = OTHER_COUCHDB_HOST
+    user   = USER_WITH_SSH_KEYS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The tunnel script is then called with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tunnel backend.rabbitmq
+tunnel frontend.couchdb
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It does some basic checking if a port is used already.&lt;/p&gt;
+
+&lt;p&gt;The script can be found in my &lt;a href=&quot;https://github.com/norbu09/bin/blob/master/tunnel&quot;&gt;&lt;code&gt;/bin&lt;/code&gt; dump on github&lt;/a&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/SSH-tunnel-script2/&quot;&gt;SSH tunnel script(2)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on November 05, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[InternetNZ's missed opportunity]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/InternetNZ's-missed-opportunity/"/>
+  <id>http://localhost:4000/articles/InternetNZ's-missed-opportunity</id>
+  <updated>2010-07-27T00:00:00-00:00</updated>
+  <published>2010-07-27T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;internetnzs-missed-opportunity&quot;&gt;InternetNZ’s missed opportunity&lt;/h1&gt;
+
+&lt;p&gt;Open and uncapturable is the mission of InternetNZ and the promise to
+push for access to the internet for everyone. This is what we as a
+incorporated society stand for and what we try to push. We, all the
+members of InternetNZ.&lt;/p&gt;
+
+&lt;p&gt;Yesterday at 10:00 AM the internet saw the first ever dedicated
+indigenous script going online in the form of the Maori macron
+implementation in the .nz namespace. The implementation of IDNs is an
+imminent step to acceptance of non English (non ASCII based) scripts on
+the internet and the broader access to information in native languages.
+The IDN implementation in .nz is the first IDN implementation in a
+English speaking ccTLD and the first ever that was done specifically to
+support indigenous people. The timing was perfect as yesterday also the
+Te Reo language week started as a sign to support and in fact revive the
+Maori language in NZ.&lt;/p&gt;
+
+&lt;p&gt;Making IDNs accepted in a society needs a lot of education and this
+would have been the perfect moment to run a media campaign to 
+explain what IDNs are, why they are important and what we, as a society,
+do to enable the native Maori script on the internet.&lt;/p&gt;
+
+&lt;p&gt;I feel ashamed that InternetNZ’s number one topic yesterday was Telecom
+and not the Maori language week. No mention of IDNs and no mention on
+the website other than a small note on the side bar that links to the
+press release from Friday.&lt;/p&gt;
+
+&lt;p&gt;This is in my view &lt;em&gt;not&lt;/em&gt; pushing for an open and uncapturable internet,
+this is a missed opportunity and a lack of understanding to say the
+least. I see a big opportunity to push for true openness missed by
+playing politics instead of standing for our own values. I feel ashamed
+being part of this society.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/InternetNZ's-missed-opportunity/&quot;&gt;InternetNZ's missed opportunity&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 27, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[slides from Web Meetup]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/slides-from-Web-Meetup/"/>
+  <id>http://localhost:4000/articles/slides-from-Web-Meetup</id>
+  <updated>2010-07-15T00:00:00-00:00</updated>
+  <published>2010-07-15T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;slides from Web Meetup&lt;/p&gt;
+
+&lt;p&gt;The slides from my short talk at the &lt;a href=&quot;http://www.meetup.com/wellingtonweb/&quot;&gt;Wellington Web Meetup&lt;/a&gt; about
+Wellingtons worst User experience. The challenge was to describe the
+worst user experience in Wellington in 2 min min 5 min max.&lt;/p&gt;
+
+&lt;p&gt;Here are my slides:&lt;/p&gt;
+
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_4756950&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/norbu09/url-ux-4756950&quot; title=&quot;Url ux&quot;&gt;Url ux&lt;/a&gt;&lt;/strong&gt;&lt;object id=&quot;__sse4756950&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=urlux-100714184037-phpapp01&amp;amp;stripped_title=url-ux-4756950&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed name=&quot;__sse4756950&quot; src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=urlux-100714184037-phpapp01&amp;amp;stripped_title=url-ux-4756950&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and here is a direct link to the PDF:
+&lt;a href=&quot;/images/url_ux.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/slides-from-Web-Meetup/&quot;&gt;slides from Web Meetup&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 15, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[lean prototyping stack]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/lean-prototyping-stack/"/>
+  <id>http://localhost:4000/articles/lean-prototyping-stack</id>
+  <updated>2010-05-25T00:00:00-00:00</updated>
+  <published>2010-05-25T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;lean-prototyping-stack&quot;&gt;lean prototyping stack&lt;/h1&gt;
+
+&lt;p&gt;For my new startup I play with a lean prototyping stack that will enable
+me to prototype and evaluate ideas really fast and test on the market.
+The idea is to bump out a new idea, prove it and if it works scale it
+further. In order to not having to rewrite the entire app once it is
+clear that the idea is worth pushing I tried to come up with a nice
+stack that enables me to prototype fast and scale if I have to.&lt;/p&gt;
+
+&lt;p&gt;Running against all trends I use perl (neither hip nor trendy) and the
+quite new &lt;a href=&quot;http://mojolicious.org&quot;&gt;Mojolicious framework&lt;/a&gt; to do the frontend part. In
+Mojolicious::Lite I can prototype a small application in no time and can
+host it really simple, worst case as a CGI. Mojolicious has a very
+powerful HTTP client integrated that makes programming against JSON
+based HTTP APIs really straight forward.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$client-&amp;gt;get($url)-&amp;gt;success-&amp;gt;json-&amp;gt;{rows}-&amp;gt;[0]-&amp;gt;{doc}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is a request to the second part of my stack: &lt;a href=&quot;http://couchdb.org&quot;&gt;CouchDB&lt;/a&gt;. CouchDB is a
+much loved citizen in my tool chain and there are no big surprises that
+I picked it as my storage layer. The simplicity and elegance of CouchDB
+in this environment makes it even more compelling.&lt;/p&gt;
+
+&lt;p&gt;When writing a small web app I normally hit the moment where I either
+want to do something asynchronous or where tasks are taking too long
+to wait for. Sending mails is one of those tasks. You are normally not
+interested in the outcome, if things go wrong you either tell the user
+via AJAX or not at all but you don’t want to wait for it. I am used to
+have some sort of backend that takes care of all that. Problem with a
+small prototyping framework is that you don’t want to write a full blown
+backend. &lt;a href=&quot;http://rabbitmq.com&quot;&gt;RabbitMQ&lt;/a&gt; to the rescue. RabbitMQ has a JSON RPC interface
+that mimics AMQP via a HTTP/JSON interface. This fits perfectly into the
+rest of my little framework as it is the same set of protocols again and
+if I need to scale I can write native AMQP daemons.&lt;/p&gt;
+
+&lt;p&gt;Scaling out to may small prototypes is as easy as creating the new
+CouchDB databases. Most probably there is a backend daemon for what we
+need already written from an earlier project or we write a quick and
+dirty script in &lt;em&gt;any&lt;/em&gt; language we like and process the asynchronous
+messages. Frontwise the interface is simple enough and pure HTTP/JSON
+requests all over. Starting the Mojolicious app is in the smallest form
+one file that I can use as a CGI right away.&lt;/p&gt;
+
+&lt;p&gt;I’ll push some libraries that I need on the way to &lt;a href=&quot;http://github.com/norbu09&quot;&gt;github&lt;/a&gt; as usual. If
+it turns out to work as nice and reusable as it looks in the moment I am
+happy to share more if there is interest.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/lean-prototyping-stack/&quot;&gt;lean prototyping stack&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 25, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[slides from mojolicious talk]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/slides-from-mojolicious-talk/"/>
+  <id>http://localhost:4000/articles/slides-from-mojolicious-talk</id>
+  <updated>2010-05-12T00:00:00-00:00</updated>
+  <published>2010-05-12T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;slides-from-mojolicious-talk&quot;&gt;slides from mojolicious talk&lt;/h1&gt;
+
+&lt;p&gt;The slides from my talk about mojolicious at perlmongers Wellington
+yesterday are on slideshare and can be downloaded below in PDF.&lt;/p&gt;
+
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_4055266&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/norbu09/mojolicious-4055266&quot; title=&quot;Mojolicious&quot;&gt;Mojolicious&lt;/a&gt;&lt;/strong&gt;&lt;object id=&quot;__sse4055266&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=mojo-100511161746-phpapp01&amp;amp;stripped_title=mojolicious-4055266&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed name=&quot;__sse4055266&quot; src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=mojo-100511161746-phpapp01&amp;amp;stripped_title=mojolicious-4055266&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
+Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and the PDF version:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/mojo.pdf&quot;&gt;mojo.pdf&lt;/a&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/slides-from-mojolicious-talk/&quot;&gt;slides from mojolicious talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 12, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[customer uses proposal as spec]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/customer-uses-proposal-as-spec/"/>
+  <id>http://localhost:4000/articles/customer-uses-proposal-as-spec</id>
+  <updated>2010-05-07T00:00:00-00:00</updated>
+  <published>2010-05-07T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;customer-uses-proposal-as-spec&quot;&gt;customer uses proposal as spec&lt;/h1&gt;
+
+&lt;p&gt;One of the joys of working as a contractor is quoting for projects that
+possibly become a real project some when. The joys of a contractor
+quoting to a larger company (at least by New Zealand standards) is that
+the decision trees are so arbitrary and long that it might take ages to
+get one of those projects. In the meantime you hang in limbo - not too sure if you
+should take on another project or not as that bigger one could still
+come. I got used to that as those bigger projects always take way longer
+as initially planned and by the time they are ripe the project you take
+on in the meantime is done easily.&lt;/p&gt;
+
+&lt;p&gt;This time round it was different. I made a nice document lining out all
+sorts of technical things I would suggest to implement and after knowing
+that company for a while already I had a pretty clear idea of what they
+really needed and were not able to achieve on their own for the past years.&lt;/p&gt;
+
+&lt;p&gt;The doc passed the initial meetings and all looked like this time I
+would actually get a project without the need for an interim project
+only to learn today that my proposal was refused and instead used as a
+spec for the internal teams to implement. Never mind that I think they
+are utterly incapable of doing so I am quite irritated that they  not
+even considered paying anything for the work I put into the proposal
+that is more like a programming howto for a key part of their new
+infrastructure now.&lt;/p&gt;
+
+&lt;p&gt;Would I still live in Germany I would now call my lawyer - instead I
+polished &lt;a href=&quot;http://springtimesoft.com&quot;&gt;my website&lt;/a&gt; and decided to not work for that client
+anymore, guess it is healthier and less stressful in the end.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/customer-uses-proposal-as-spec/&quot;&gt;customer uses proposal as spec&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 07, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[real geeks die early]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/every-once-in-a-while/"/>
+  <id>http://localhost:4000/articles/every-once-in-a-while</id>
+  <updated>2010-05-05T00:00:00-00:00</updated>
+  <published>2010-05-05T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;real-geeks-die-early&quot;&gt;real geeks die early&lt;/h1&gt;
+
+&lt;p&gt;every once in a while i &lt;a href=&quot;http://www.skorks.com/2010/02/did-your-boss-thank-you-for-coding-yourself-to-death/&quot;&gt;stumble upon an article&lt;/a&gt; from someone pointing
+out the dangers we geeks live in in terms of unhealthy work hours
+and our very own unhealthy mind set.&lt;/p&gt;
+
+&lt;p&gt;I am a developer for profit since the late 90s and a team lead since the
+early 2000s. i’ve seen a fair amount of problems and have done my
+fair share of work during nights, weekends and my holidays. it was
+expected as part of my work and i was immature enough to not turn it
+down.&lt;/p&gt;
+
+&lt;p&gt;when i look down the road i came from i’ve lost a very good friend due
+to depressions which were mainly coming from a very unhealthy work
+environment and some more not so close friends either to heart attacks
+or they suffered serious burn out syndromes that changed their ability
+to work entirely. only weeks ago a friend of mine died after a heart
+attack and he was only my age. our industry is seriously in trouble, we
+set the wrong incentives and we abuse our developers as if we were in
+the industrial revolution in the late 1900s.&lt;/p&gt;
+
+&lt;p&gt;the problem is that managers will never understand that programming is
+not like building a car, you take some parts and can roughly estimate
+when it is assembled. geeks invent cars (to stick with the
+analogy) and inventing things is not as predictable as simply assembling
+stuff. as much as we think we can judge things we are either way above
+or way beyond the real time spent. as we normally love what we are doing
+we take this risk and try to finish in time even if we are way off with
+what we estimated. the problem with inventing is that it can always go
+either way, we find that very simple solution simply like that or we
+can’t see it till months after the deadline. a manager has to deliver in
+time - which is bollocks, it is never so time critical anyway - but a
+developer has to invent that thing and deliver in time. once you are
+behind schedule there is the pressure and the coding and normally this
+is when quality suffers the most and the most unhealthy time is spent.
+the manager keeps pushing you but he will not stay up till 2am sitting
+next to you and help you code that beast. he is the one that sits
+between you and the customer and has to fight off trouble - but he is
+doing that between 9am and 5pm. i am not saying that either one of the
+two is doing a more valuable job (i was on either side), i only want to
+stress that healthy working times are essential and neglecting social
+interaction which comes from long working hours will kill you.&lt;/p&gt;
+
+&lt;p&gt;it either kills you very directly with heart attacks or slightly less
+deadly but still killing your career with burn outs and nervous
+breakdowns or it kills you more indirect with depressions that can lead
+to suicide.&lt;/p&gt;
+
+&lt;p&gt;i changed my personal rat race some years ago with killing my career and
+deciding that life is more about living than piling up status symbols.
+funny enough since then so many new opportunities arose that i am way
+better off today than i was then. working only healthy hours is
+essential for your life and social interaction is key to survive as a
+developer!&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/every-once-in-a-while/&quot;&gt;real geeks die early&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 05, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[ignite wellington talk]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/ignite-wellington-talk/"/>
+  <id>http://localhost:4000/articles/ignite-wellington-talk</id>
+  <updated>2010-04-06T00:00:00-00:00</updated>
+  <published>2010-04-06T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;ignite-wellington-talk&quot;&gt;ignite wellington talk&lt;/h1&gt;
+
+&lt;p&gt;the slides and the video from my ignite wellington talk are finally
+online.  i took part in the first &lt;a href=&quot;http://www.ignitewellington.co.nz/&quot;&gt;ignite event in wellington&lt;/a&gt; which
+was part of the &lt;a href=&quot;http://radar.oreilly.com/2010/02/global-ignite-week-starts-mond.html&quot;&gt;global ignite week&lt;/a&gt;. my talk about “realising ideas”
+was quite a success and i got a lot of positive feedback. in case you
+missed it - here is it:&lt;/p&gt;
+
+&lt;object width=&quot;640&quot; height=&quot;385&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/MkUZ0yW6rFA&amp;amp;hl=en_GB&amp;amp;fs=1&amp;amp;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/MkUZ0yW6rFA&amp;amp;hl=en_GB&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;640&quot; height=&quot;385&quot; /&gt;&lt;/object&gt;
+
+&lt;p&gt;and the slides on slideshare:&lt;/p&gt;
+
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_3319656&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/norbu09/realising-ideas&quot; title=&quot;realising ideas&quot;&gt;realising ideas&lt;/a&gt;&lt;/strong&gt;&lt;object width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=ignite1-3-lenzgschwendtner-100302145154-phpapp02&amp;amp;stripped_title=realising-ideas&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=ignite1-3-lenzgschwendtner-100302145154-phpapp02&amp;amp;stripped_title=realising-ideas&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
+Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;have fun hacking your brain and realising your ideas.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/ignite-wellington-talk/&quot;&gt;ignite wellington talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on April 06, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[testing buzz ...]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/testing-buzz-.../"/>
+  <id>http://localhost:4000/articles/testing-buzz-...</id>
+  <updated>2010-02-10T00:00:00-00:00</updated>
+  <published>2010-02-10T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;testing-buzz-&quot;&gt;testing buzz …&lt;/h1&gt;
+
+&lt;p&gt;as buzz is only available via my iPhone so far i tried to figure out
+from the API docs and the mailinglist how to make it all work. i hope i
+have all the right headers in place and google actually knows that this
+blog belongs to my shiny &lt;a href=&quot;http://www.google.com/profiles/norbu09&quot;&gt;google profile&lt;/a&gt; and all.&lt;/p&gt;
+
+&lt;p&gt;if all goes well this post will trigger a new entry in my buzz ….
+whatever. we will see in … hours/days/weeks … who cares anyway :-)&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/testing-buzz-.../&quot;&gt;testing buzz ...&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 10, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[test driven monitoring]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/test-driven-monitoring/"/>
+  <id>http://localhost:4000/articles/test-driven-monitoring</id>
+  <updated>2010-02-09T00:00:00-00:00</updated>
+  <published>2010-02-09T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;test-driven-monitoring&quot;&gt;test driven monitoring&lt;/h1&gt;
+
+&lt;p&gt;the slides from my talk at perlmongers Wellington are up on slideshare.
+the talk was about how much monitoring systems suck and how to make it
+better. test driven monitoring is just around the corner, i only have to
+bump out some more base libraries but basic monitoring and notification
+works already. the code for the project is on &lt;a href=&quot;http://github.com/norbu09/TheEye&quot;&gt;github&lt;/a&gt; - check it out
+and contribute.&lt;/p&gt;
+
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_3099520&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
+3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/the-eye&quot; title=&quot;The Eye&quot;&gt;The
+Eye&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=theeye-100207155345-phpapp01&amp;amp;stripped_title=the-eye&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=theeye-100207155345-phpapp01&amp;amp;stripped_title=the-eye&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
+more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
+Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And a direct &lt;a href=&quot;/images/TheEye.pdf&quot;&gt;link to the PDF&lt;/a&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/test-driven-monitoring/&quot;&gt;test driven monitoring&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 09, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[slides from LCA talk]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/slides-from-LCA-talk/"/>
+  <id>http://localhost:4000/articles/slides-from-LCA-talk</id>
+  <updated>2010-01-19T00:00:00-00:00</updated>
+  <published>2010-01-19T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;mpi-erlang-and-the-web&quot;&gt;MPI, Erlang and the web&lt;/h1&gt;
+
+&lt;p&gt;The slides from my talk at LCA2010 in Wellington about parallel
+programming and why it matters for internet infrastructures are now up
+on slideshare&lt;/p&gt;
+
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_2944765&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/mpi-erlang-and-the-web&quot; title=&quot;MPI, Erlang and the web&quot;&gt;MPI, Erlang and the web&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=mpi-erlang-and-the-web-100118182245-phpapp02&amp;amp;stripped_title=mpi-erlang-and-the-web&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=mpi-erlang-and-the-web-100118182245-phpapp02&amp;amp;stripped_title=mpi-erlang-and-the-web&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And a direct &lt;a href=&quot;/images/mpi-erlang-and-the-web.pdf&quot;&gt;link to the PDF&lt;/a&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/slides-from-LCA-talk/&quot;&gt;slides from LCA talk&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 19, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[3 new destination markets in some months]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/"/>
+  <id>http://localhost:4000/articles/3-new-destination-markets-in-some-weeks</id>
+  <updated>2010-01-15T00:00:00-00:00</updated>
+  <published>2010-01-15T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;three-new-destination-markets-in-some-months&quot;&gt;Three new destination markets in some months&lt;/h1&gt;
+
+&lt;p&gt;It’s been a bit of a busy time lately as we launched three new platforms
+in the last time and that brought with it a lot of challenges.
+Fortunately it also pushed me to complete our migration to our new
+backend which is now entirely message driven and based only on the
+finest stuff one finds in the moment.&lt;/p&gt;
+
+&lt;p&gt;The backend engine is &lt;a href=&quot;http://rabbitmq.com&quot;&gt;RabbitMQ&lt;/a&gt; based and persists messages to
+&lt;a href=&quot;http://couchdb.apache.org&quot;&gt;CouchDB&lt;/a&gt; if necessary. We have a simple home grown workflow engine
+that enables us to easily customise and change flows like what happens
+if a domain gets registered or exactly when we charge a user. I spoke
+about an early version of this workflow engine last year at the erlounge
+Wellington
+(http://norbu09.org/2009/10/15/one-system-to-rule-them-all.html). This
+backend engine is a scalable hub for tasks and the main challenge was to
+make our frontend stupid simple and more or less only a wrapper for
+tasks happening in the backend. We have now nearly all the logic moved
+and the frontend is quite slim, holding only the e-commerce and user
+profile functionality whereas all the domain specific functionality
+moved out.&lt;/p&gt;
+
+&lt;p&gt;The next step was to make our frontend not only simple but also
+brandable and multi currency/language. This is the moment where you
+notice that strings are everywhere and solid internal APIs pay off big
+time. This challenge was a big one but we managed to master it and have
+now an &lt;a href=&quot;http://iWantMyName.com&quot;&gt;English&lt;/a&gt;, &lt;a href=&quot;http://meinName.com&quot;&gt;German&lt;/a&gt; and &lt;a href=&quot;http://benikvrij.nl&quot;&gt;Dutch&lt;/a&gt; version online selling
+in USD, EUR and &lt;a href=&quot;http://iWantMyName.co.nz&quot;&gt;NZD&lt;/a&gt;. The frontend is a generic one that has many
+configuration knobs that can tweak the functionality but it is still
+only one code base for all projects. The template sets are separate so
+each language has its own template set. The two English speaking
+platforms share a template set but have different currencies - the
+content however is not 100% the same on the two. All this needs lots of
+config variables to check against and Template::Toolkit was a big help
+here.&lt;/p&gt;
+
+&lt;p&gt;As you can see there went a lot of effort into designing a flexible
+system that can act in different environments and still be only
+one system. Most of the content is now served out of CouchDB and we
+further reduced the amount of data stored in PostgreSQL as well as hard
+coded texts in templates. We rewrote our shopping card from scratch and
+the checkout process is really simple now as most of the heavy lifting
+is now in the backend. Stuff we are working on in the moment is Session
+handling and user management in CouchDB with a goal to strip out
+PostgreSQL entirely (the according Catalyst::Plugins are on the way).
+Don’t get me wrong, we love PostgreSQL but there is no need for it
+anymore once we have the remaining things ported over to CouchDB. It
+simplifies our stack and reduces our admin overhead.&lt;/p&gt;
+
+&lt;p&gt;Speaking of admin overhead - we also run all setups (including local
+development VMs) off a puppet setup and code/template/CouchDB rollout is
+done via capistrano which turns out to work quite well with catalyst and
+perl. We roll out a new frontend webserver in about half an hour 
+from bare debian to running frontend with the most time being spent
+waiting for puppet and no manual step other then installing puppet.&lt;/p&gt;
+
+&lt;p&gt;You see we have been busy, if you find bugs, report them. We know that
+the performance in the DNS editor is still crap but we try to sort that
+and there are some rough edges here and there but most of the platforms
+should run smoothly. It was a steep learning curve once again but we
+managed to create a scalable system that is extremely flexible and fast.&lt;/p&gt;
+
+&lt;p&gt;… hope you like it …&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/3-new-destination-markets-in-some-weeks/&quot;&gt;3 new destination markets in some months&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 15, 2010.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[one system to rule them all]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/one-system-to-rule-them-all/"/>
+  <id>http://localhost:4000/articles/one-system-to-rule-them-all</id>
+  <updated>2009-10-15T00:00:00-00:00</updated>
+  <published>2009-10-15T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;one-system-to-rule-them-all&quot;&gt;One system to rule them all&lt;/h1&gt;
+
+&lt;p&gt;Here are the slides from my talk at erounge Wellington yesterday. It is
+about a workflow system I wrote in perl and erlang based on RabbitMQ and
+CouchDB. It is language independent and communicates with JSON messages.&lt;/p&gt;
+
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_2223826&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
+3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/rabbitmq-couchdb-awesome&quot; title=&quot;RabbitMQ + CouchDB = Awesome&quot;&gt;RabbitMQ + CouchDB =
+Awesome&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=one-system-to-rule-them-all-091014153738-phpapp02&amp;amp;stripped_title=rabbitmq-couchdb-awesome&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=one-system-to-rule-them-all-091014153738-phpapp02&amp;amp;stripped_title=rabbitmq-couchdb-awesome&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
+more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
+Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And a direct &lt;a href=&quot;/images/one-system-to-rule-them-all.pdf&quot;&gt;link to the PDF&lt;/a&gt;&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/one-system-to-rule-them-all/&quot;&gt;one system to rule them all&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 15, 2009.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[RabbitMQ for perl mongers]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/"/>
+  <id>http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers</id>
+  <updated>2009-09-09T00:00:00-00:00</updated>
+  <published>2009-09-09T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;RabbitMQ for perl mongers&lt;/p&gt;
+
+&lt;p&gt;This is a short summary of the talk I gave yesterday at perl mongers
+Wellington about RabbitMQ and messaging in general and how to use it
+from perl.&lt;/p&gt;
+
+&lt;p&gt;The slides are on slideshare&lt;/p&gt;
+
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_1969944&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
+3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/rabbitmq-for-perlmongers&quot; title=&quot;RabbitMQ for Perl mongers&quot;&gt;RabbitMQ for Perl mongers&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-for-perlmongers-090908173752-phpapp02&amp;amp;stripped_title=rabbitmq-for-perlmongers&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-for-perlmongers-090908173752-phpapp02&amp;amp;stripped_title=rabbitmq-for-perlmongers&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
+more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz
+Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The git repositories are on github: &lt;a href=&quot;http://github.com/norbu09&quot;&gt;http://github.com/norbu09&lt;/a&gt;
+relevant repositories are:
+- net-amqp
+- Net_RabbitMQ_HTTP
+- RabbitIntro&lt;/p&gt;
+
+&lt;p&gt;There was a fair amount of interest in the topic so if some one wants to
+know more feel free to contact me.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/RabbitMQ-talk-at-perlmongers/&quot;&gt;RabbitMQ for perl mongers&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on September 09, 2009.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Django like URL mapping in Catalyst - kind of]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/"/>
+  <id>http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of</id>
+  <updated>2009-08-26T00:00:00-00:00</updated>
+  <published>2009-08-26T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;Django like URL mapping in Catalyst - kind of&lt;/p&gt;
+
+&lt;p&gt;The problem I tried to solve is trivial, at least that was what I
+thought. I tried to remap URLs in one of our platforms to make it easy
+for others to adapt the way we call things. I18N related mostly. I have
+most of the things that might change in central config file already but
+figuring out how I actually get the URL map in there took a while. I
+finally found &lt;a href=&quot;http://www.catalystframework.org/calendar/2008/11&quot;&gt;
+this post from Matt Trout&lt;/a&gt; where he outlines several possibilities to
+tackle it. Facing lack of time and knowing that the mapping is done by
+others ;-) I went with the verbose version. It fits quite nicely in our
+way of deploying Catalyst apps with local config files that change
+behaviour of the platform.&lt;/p&gt;
+
+&lt;p&gt;In your central config file (MyApp.conf) put a snippet like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;Controller&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;Editor&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Path        /vim
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/action&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Path        /vim/content
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/action&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;action&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;tld&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Path        /vim/tld
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/action&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/Controller&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This maps the controller &lt;code&gt;Editor&lt;/code&gt; to the path &lt;code&gt;/vim&lt;/code&gt; and the two actions
+( content and tlds ) to the according endpoints under it. This stupid
+snippet cost me a couple of hours to figure out but now live is good and
+I can move on :-)&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/Django-like-URL-mapping-in-Catalyst---kind-of/&quot;&gt;Django like URL mapping in Catalyst - kind of&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 26, 2009.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[simple ssh tunnel script]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/simple-ssh-tunnel-script/"/>
+  <id>http://localhost:4000/articles/simple-ssh-tunnel-script</id>
+  <updated>2009-08-04T00:00:00-00:00</updated>
+  <published>2009-08-04T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;simple-ssh-tunnel-script&quot;&gt;Simple ssh tunnel script&lt;/h1&gt;
+
+&lt;p&gt;When replicating CouchDB you need either VPN oder authentication or
+simply a SSH tunnel. No big deal normally a simple &lt;code&gt;ssh -L...&lt;/code&gt; does the
+trick but I ended up with those SSH sessions that blocked ports and hung
+around and it was not the way to go in terms of automating rollouts
+where you need that port once and then never again.&lt;/p&gt;
+
+&lt;p&gt;A bit of googling brought up a script of the &lt;a href=&quot;http://wiki.bacula.org/doku.php?id=sshtunnel&quot;&gt;
+bacula guys&lt;/a&gt; that had the same problem and I adopted their script a
+bit to fit my needs. Here is what I came up with:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Establishes a self-killing SSH tunnel to the&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# given SSH server, and forwards the correct&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# ports for couchdb usage.&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;USER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=[&lt;/span&gt;YOUR USER HERE&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;grep &lt;span class=&quot;s2&quot;&gt;&amp;quot;^$USER:&amp;quot;&lt;/span&gt; /etc/passwd &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; cut -d : -f 6&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;CLIENT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;SSH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/bin/ssh
+&lt;span class=&quot;nv&quot;&gt;DESTPORT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;5985
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Starting SSH-tunnel to $CLIENT...&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# -f means: go into background&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# -C means: use compression&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# -2 means: only use SSH2&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# -L 5985:localhost:5984 means: when forward 5985 to destination:5984&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# sleep 60 is a simple command that will execute on the server and does&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# nothing for 60 seconds,&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# then it exits. This keeps ssh running for 60 seconds. Once we connect&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# to the FD, that&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# connection will keep ssh running even beyond the 60 seconds.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Using this approach, we do not need to tear down the tunnel later, it&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# disconnects itself&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# automagically.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SSH&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; -fC2 -L &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DESTPORT&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;:localhost:5984 &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CLIENT&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; sleep &lt;span class=&quot;m&quot;&gt;60&lt;/span&gt; &amp;gt;/dev/null
+2&amp;gt;/dev/null
+&lt;span class=&quot;c&quot;&gt;# give ssh a little time to establish the connection.&lt;/span&gt;
+sleep 10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Put it in a file called &lt;code&gt;sshtunnel&lt;/code&gt; and make it executable. Usage is as
+simple as &lt;code&gt;./sshtunnel user@host&lt;/code&gt; or without the user if it is the same
+you are using in the &lt;code&gt;$USER&lt;/code&gt; variable.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/simple-ssh-tunnel-script/&quot;&gt;simple ssh tunnel script&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 04, 2009.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[git via HTTP (startup automation 3)]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/"/>
+  <id>http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)</id>
+  <updated>2009-08-02T00:00:00-00:00</updated>
+  <published>2009-08-02T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;h1 id=&quot;startup-automation---part-3&quot;&gt;Startup automation - Part 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;git-via-http-with-nginx&quot;&gt;git via HTTP with nginx&lt;/h2&gt;
+
+&lt;p&gt;Just in case you don’t know (very unlikely) or never played with nginx
+before. This is &lt;em&gt;the&lt;/em&gt; web server and frontend HTTP loadbalancer all your
+HTTP based setups should have anyway. There is documentation in English
+on the nginx wiki (&lt;a href=&quot;http://wiki.nginx.org&quot;&gt;http://wiki.nginx.org&lt;/a&gt;) 
+and if you get stuck there is a lot of stuff just on google. The rails
+community love nginx and they tend to document well - a thanks at this
+point to those guys.&lt;/p&gt;
+
+&lt;p&gt;The setup is really straight forward but has some minor cave eats that
+can cause you grief and debugging hours I want to save you.&lt;/p&gt;
+
+&lt;p&gt;First of all you need nginx installed on your system - obviously. I
+assume that your webroot is under &lt;code&gt;/var/www&lt;/code&gt;. We need a directory called
+&lt;code&gt;git&lt;/code&gt; under it and need to link the repositories in that you want to
+share.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mkdir /var/www/git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /var/www/git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ln -s /srv/gitosis/repositories/&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;.git &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This includes some assumptions. I take that you have more repositories
+in your gitosis setup than public repositories you want to share or make
+available via http. If this is not the case you can simply point nginx
+at your gitosis repository path and add a simple rewrite rule that cuts
+off the trailing &lt;code&gt;.git&lt;/code&gt; of the repository path.&lt;/p&gt;
+
+&lt;p&gt;In nginx we need some configuration that acually serves those
+repositories now. That is initially really straight forward:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    listen   80&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    server_name  git.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;your.domain.tld&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    access_log  /var/log/nginx/git.access.log&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    location / &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is the first very basic configuration for nginx. All we have to do
+now is enabling a simple hook in our git repository we want to serve
+and we are done.&lt;/p&gt;
+
+&lt;p&gt;To do that we need to go to our gitosis repository (you can simply &lt;code&gt;cd&lt;/code&gt; to
+the linked directory now) and edit the &lt;code&gt;hooks/post-update&lt;/code&gt; hook. Add the
+following line (or uncomment it) and make sure the file has the
+executable bit set (&lt;code&gt;chmod +x hooks/post-update&lt;/code&gt;).&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;git-update-server-info&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This post update hook needs to be run once now. You can either push
+something to the repository to trigger the hook or &lt;code&gt;su&lt;/code&gt; to the git user
+and simply run the hook. The &lt;code&gt;su&lt;/code&gt; is important to not screw up the
+permissions.&lt;/p&gt;
+
+&lt;p&gt;Speaking of permissions - we need to make the repository readable by the
+nginx user. The easy way is to add &lt;code&gt;www-data&lt;/code&gt; to the git group that owns
+the git repository. The git group should only have read access to the
+git repositories anyway so it does not open up a too big hole in your
+security.&lt;/p&gt;
+
+&lt;p&gt;Once all that is done you can test your setup with the following
+command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git ls-remote
+http://git.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;your.domain.tld&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;/&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This should come back with something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;171bb2f12ceb908fd4802857a2f577a1739f8d1f        refs/heads/master&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;securing-the-setup-with-basic-auth-and-https&quot;&gt;Securing the setup with “basic auth” and HTTPS&lt;/h2&gt;
+
+&lt;p&gt;Now comes the fun part. After we have this setup up and running we can
+start to use it for rollout systems like capistrano and have read only
+repositories that we serve via HTTPS and basic auth without the need of
+deploying SSH keys all over for access to gitosis.&lt;/p&gt;
+
+&lt;p&gt;All we have to do now is change our nginx configuration slightly. We
+need to enable HTTPS and we can even have different auth files for
+different projects. This might be interesting if you run several
+projects on your gitosis host with different committers.  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    listen   443&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    server_name  git.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;your.domain.tld&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    access_log  /var/log/nginx/git.access.log&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    ssl  on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    ssl_certificate  certs/git.pem&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    ssl_certificate_key  certs/git.key&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    ssl_session_timeout  5m&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    ssl_protocols  SSLv2 SSLv3 TLSv1&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    ssl_ciphers  ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    ssl_prefer_server_ciphers   on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    location / &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        auth_basic            &lt;span class=&quot;s2&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        auth_basic_user_file  conf.d/htpasswd.general&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    location /&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository 1&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        autoindex  on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        auth_basic            &lt;span class=&quot;s2&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        auth_basic_user_file  conf.d/htpasswd.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;group 1&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    location /&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;repository 2&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        root   /var/www/git/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        autoindex  on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        auth_basic            &lt;span class=&quot;s2&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        auth_basic_user_file  conf.d/htpasswd.&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;group 2&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Reload your nginx and you have your repositories served up under HTTPS
+and only need to create the htaccess files now. This is simply done with
+the &lt;code&gt;htaccess&lt;/code&gt; program that is part of apache (or the apache utils with
+come as a separate package).
+Also note that your &lt;code&gt;root&lt;/code&gt; directory is always the base git webroot.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-oddities&quot;&gt;some oddities&lt;/h2&gt;
+
+&lt;p&gt;While testing I used self signed certificates and as the host is only
+used in non public ways I will stay with them. This caused some googling
+however as git came up with the following error:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;fatal: https://[user:pass@git.host]/[repository]/info/refs download error - SSL certificate problem, verify that the CA cert is OK. &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is due to the self signed cert and has to be overridden with a
+environment variable. A simple&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GIT_SSL_NO_VERIFY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;did the trick. If you have a rollout user you want this parameter to be
+in his &lt;code&gt;.profile&lt;/code&gt; or your shell specific equivalent (eg &lt;code&gt;.bashrc&lt;/code&gt;).&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/git-via-HTTP-(startup-automation-3)/&quot;&gt;git via HTTP (startup automation 3)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on August 02, 2009.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[RabbitMQ talk at erlounge]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/"/>
+  <id>http://localhost:4000/articles/RabbitMQ-talk-at-erlounge</id>
+  <updated>2014-07-17T00:00:00-00:00</updated>
+  <published>2009-07-17T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://localhost:4000</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;RabbitMQ talk at erlounge&lt;/p&gt;
+
+&lt;p&gt;This is a short summary of the talk I gave yesterday at erlounge
+Wellington about RabbitMQ and messaging in general.&lt;/p&gt;
+
+&lt;p&gt;The slides are now on slideshare&lt;/p&gt;
+
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_1731778&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0
+3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09/rabbitmq-1731778&quot; title=&quot;RabbitMQ&quot;&gt;RabbitMQ&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-090716164944-phpapp01&amp;amp;stripped_title=rabbitmq-1731778&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rabbitmq-090716164944-phpapp01&amp;amp;stripped_title=rabbitmq-1731778&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View
+more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;documents&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/norbu09&quot;&gt;norbu09&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The git repositories are on github: &lt;a href=&quot;http://github.com/norbu09&quot;&gt;http://github.com/norbu09&lt;/a&gt;
+relevant repositories are:
+- RabbitIntro
+- Net_RabbitMQ_HTTP
+- net-amqp&lt;/p&gt;
+
+&lt;p&gt;The question about a frontend to RabbitMQ was answered today with this
+project that looks really promising:
+&lt;a href=&quot;http://willcodeforfoo.com/2009/07/13/announcing-alice/&quot;&gt;http://willcodeforfoo.com/2009/07/13/announcing-alice/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you all enjoyed the talk and hope I could spark a bit of interest
+in the topic.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/RabbitMQ-talk-at-erlounge/&quot;&gt;RabbitMQ talk at erlounge&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 17, 2009.&lt;/p&gt;</content>
+</entry>
+
+</feed>

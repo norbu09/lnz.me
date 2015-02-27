@@ -9,13 +9,49 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2015-02-02T21:00:33+13:00</updated>
+<updated>2015-02-28T12:10:52+13:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
   <uri>http://lnz.me/</uri>
   <email>mail@norbu09.org</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[The chilling effect of tech law]]></title>
+  <link rel="alternate" type="text/html" href="http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11409067"/>
+  <id>http://lnz.me/articles/miserable-state-of-tech-law-in-nz</id>
+  <updated>2015-02-28T00:00:00-00:00</updated>
+  <published>2015-02-28T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://lnz.me</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://lnz.me/tags/#post" term="post" />
+  <content type="html">
+  
+    &lt;p&gt;Two years ago I was part of a bunch of people who put in a submission on
+the Telecommunications (Interception Capability and Security) Bill. &lt;a href=&quot;http://dave.moskovitz.co.nz/2013/08/13/tics-bill-submission/&quot;&gt;Dave
+wrote about it here: http://dave.moskovitz.co.nz/2013/08/13/tics-bill-submission/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Juha Saarinen posted this article on the Herold and it is really not
+helping to turn around and say “we told you so”, what we actually need
+is politicians to get off their arrogant attitude and actually listen to
+the tech community. We are a nice bunch and totally approachable but if
+we get pissed off too much we’ll just move our companies into countries
+that have more predictable laws and politicians that are less
+ill informed than ours. And know what? there may even be a significant
+tax advantage in doing so.&lt;/p&gt;
+
+&lt;p&gt;We can, however, keep turning a blind eye on the increasingly warm
+summers that dry out our country and hope that dairy is the future.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/miserable-state-of-tech-law-in-nz/&quot;&gt;The chilling effect of tech law&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on February 28, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -867,40 +903,6 @@ being part of this society.&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/InternetNZ's-missed-opportunity/&quot;&gt;InternetNZ's missed opportunity&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 27, 2010.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[slides from Web Meetup]]></title>
-  <link rel="alternate" type="text/html" href="http://lnz.me/articles/slides-from-Web-Meetup/"/>
-  <id>http://lnz.me/articles/slides-from-Web-Meetup</id>
-  <updated>2010-07-15T00:00:00-00:00</updated>
-  <published>2010-07-15T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://lnz.me</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://lnz.me/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;p&gt;slides from Web Meetup&lt;/p&gt;
-
-&lt;p&gt;The slides from my short talk at the &lt;a href=&quot;http://www.meetup.com/wellingtonweb/&quot;&gt;Wellington Web Meetup&lt;/a&gt; about
-Wellingtons worst User experience. The challenge was to describe the
-worst user experience in Wellington in 2 min min 5 min max.&lt;/p&gt;
-
-&lt;p&gt;Here are my slides:&lt;/p&gt;
-
-&lt;div style=&quot;width:425px&quot; id=&quot;__ss_4756950&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/norbu09/url-ux-4756950&quot; title=&quot;Url ux&quot;&gt;Url ux&lt;/a&gt;&lt;/strong&gt;&lt;object id=&quot;__sse4756950&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=urlux-100714184037-phpapp01&amp;amp;stripped_title=url-ux-4756950&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;embed name=&quot;__sse4756950&quot; src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=urlux-100714184037-phpapp01&amp;amp;stripped_title=url-ux-4756950&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot; /&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/norbu09&quot;&gt;Lenz Gschwendtner&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and here is a direct link to the PDF:
-&lt;a href=&quot;/images/url_ux.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/slides-from-Web-Meetup/&quot;&gt;slides from Web Meetup&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 15, 2010.&lt;/p&gt;</content>
 </entry>
 
 </feed>

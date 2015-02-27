@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "The chilling effect of tech law",
+		  "category"   : "articles",
+		  "url"        : "http://lnz.me/articles/miserable-state-of-tech-law-in-nz/",
+		  "date"       : "2015-02-28 00:00:00 +1300",
+		  "shortdate"  : "February 28, 2015"
+		} ,
+	
+		{
 		  "title"      : "Burnout and how to see it",
 		  "category"   : "articles",
 		  "url"        : "http://lnz.me/articles/burnout-and-how-to-see-it/",

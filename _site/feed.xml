@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2015-03-09T20:35:36+13:00</updated>
+<updated>2015-03-09T23:10:40+13:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
@@ -22,7 +22,7 @@
   <title type="html"><![CDATA[a new view]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/a-new-view/"/>
   <id>http://lnz.me/a-new-view</id>
-  <updated>2015-03-09 20:03:01 +1300T00:00:00-00:00</updated>
+  <updated>2015-03-09T20:03:01+13:00</updated>
   <published>2015-03-09T00:00:00+13:00</published>
   
   <author>
@@ -66,7 +66,7 @@ but still have the sandy beaches of the Able Tasman region on our door step.&lt;
   <title type="html"><![CDATA[The chilling effect of tech law]]></title>
   <link rel="alternate" type="text/html" href="http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11409067"/>
   <id>http://lnz.me/articles/miserable-state-of-tech-law-in-nz</id>
-  <updated>2015-02-28T00:00:00-00:00</updated>
+  <updated>2015-02-28</updated>
   <published>2015-02-28T00:00:00+13:00</published>
   
   <author>
@@ -102,7 +102,7 @@ summers that dry out our country and hope that dairy is the future.&lt;/p&gt;
   <title type="html"><![CDATA[Burnout and how to see it]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/burnout-and-how-to-see-it/"/>
   <id>http://lnz.me/articles/burnout-and-how-to-see-it</id>
-  <updated>2015-02-02T00:00:00-00:00</updated>
+  <updated>2015-02-02</updated>
   <published>2015-02-02T00:00:00+13:00</published>
   
   <author>
@@ -199,7 +199,7 @@ the corner to pick you up.&lt;/p&gt;
   <title type="html"><![CDATA[Subdomain rot and the security implications]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/10/sub-domain-rot.html"/>
   <id>http://lnz.me/articles/sub-domain-rot</id>
-  <updated>2014-10-23T00:00:00-00:00</updated>
+  <updated>2014-10-23</updated>
   <published>2014-10-23T00:00:00+13:00</published>
   
   <author>
@@ -223,7 +223,7 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
   <title type="html"><![CDATA[The difference between 4hww and me]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/the-difference-between-4hww-and-me/"/>
   <id>http://lnz.me/articles/the-difference-between-4hww-and-me</id>
-  <updated>2014-08-21T00:00:00-00:00</updated>
+  <updated>2014-08-21</updated>
   <published>2014-08-21T00:00:00+12:00</published>
   
   <author>
@@ -263,7 +263,7 @@ really prefer doing stuff I like without any time restriction.&lt;/p&gt;
   <title type="html"><![CDATA[On hiring and hierarchy]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-three.html"/>
   <id>http://lnz.me/articles/culture-at-iwmn-part-three</id>
-  <updated>2014-05-07T00:00:00-00:00</updated>
+  <updated>2014-05-07</updated>
   <published>2014-08-19T00:00:00+12:00</published>
   
   <author>
@@ -286,7 +286,7 @@ really prefer doing stuff I like without any time restriction.&lt;/p&gt;
   <title type="html"><![CDATA[Berlin]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/berlin/"/>
   <id>http://lnz.me/articles/berlin</id>
-  <updated>2014-08-07T00:00:00-00:00</updated>
+  <updated>2014-08-07</updated>
   <published>2014-08-07T00:00:00+12:00</published>
   
   <author>
@@ -329,7 +329,7 @@ just most of them speak English … like me.&lt;/p&gt;
   <title type="html"><![CDATA[The "work-from-anywhere experiment"]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-two.html"/>
   <id>http://lnz.me/articles/culture-at-iwmn-part-two</id>
-  <updated>2014-05-07T00:00:00-00:00</updated>
+  <updated>2014-05-07</updated>
   <published>2014-05-22T00:00:00+12:00</published>
   
   <author>
@@ -352,7 +352,7 @@ just most of them speak English … like me.&lt;/p&gt;
   <title type="html"><![CDATA[The "one salary experiment"]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-one.html"/>
   <id>http://lnz.me/articles/culture-at-iwmn-part-one</id>
-  <updated>2014-05-07T00:00:00-00:00</updated>
+  <updated>2014-05-07</updated>
   <published>2014-05-07T00:00:00+12:00</published>
   
   <author>
@@ -374,7 +374,7 @@ just most of them speak English … like me.&lt;/p&gt;
   <title type="html"><![CDATA[Why ALIAS-type DNS Records Break The Internet]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html"/>
   <id>http://lnz.me/articles/why-alias-type-records-break-the-internet</id>
-  <updated>2014-01-07T00:00:00-00:00</updated>
+  <updated>2014-01-07</updated>
   <published>2014-01-07T00:00:00+13:00</published>
   
   <author>
@@ -397,7 +397,7 @@ just most of them speak English … like me.&lt;/p&gt;
   <title type="html"><![CDATA[upcoming Startup Weekends]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/upcoming-startup-weekends/"/>
   <id>http://lnz.me/articles/upcoming-startup-weekends</id>
-  <updated>2013-06-05T00:00:00-00:00</updated>
+  <updated>2013-06-05</updated>
   <published>2013-06-05T00:00:00+12:00</published>
   
   <author>
@@ -432,7 +432,7 @@ learn a lot over these two weekends.&lt;/p&gt;
   <title type="html"><![CDATA[Communication]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/communication/"/>
   <id>http://lnz.me/articles/communication</id>
-  <updated>2013-05-21T00:00:00-00:00</updated>
+  <updated>2013-05-21</updated>
   <published>2013-05-21T00:00:00+12:00</published>
   
   <author>
@@ -482,7 +482,7 @@ encouraging feedback that helps them do it better the next time.&lt;/p&gt;
   <title type="html"><![CDATA[How to get advice]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/how-to-get-advice/"/>
   <id>http://lnz.me/articles/how-to-get-advice</id>
-  <updated>2013-05-20T00:00:00-00:00</updated>
+  <updated>2013-05-20</updated>
   <published>2013-05-20T00:00:00+12:00</published>
   
   <author>
@@ -543,7 +543,7 @@ know how to evaluate its usefulness to your startup.&lt;/p&gt;
   <title type="html"><![CDATA[leading by example]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/leading-by-example/"/>
   <id>http://lnz.me/articles/leading-by-example</id>
-  <updated>2013-05-14T00:00:00-00:00</updated>
+  <updated>2013-05-14</updated>
   <published>2013-05-14T00:00:00+12:00</published>
   
   <author>
@@ -590,7 +590,7 @@ from the top.&lt;/p&gt;
   <title type="html"><![CDATA[Intrinsic vs extrinsic motivation]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/intrinsic-vs-extrinsic-motivation/"/>
   <id>http://lnz.me/articles/intrinsic-vs-extrinsic-motivation</id>
-  <updated>2013-05-13T00:00:00-00:00</updated>
+  <updated>2013-05-13</updated>
   <published>2013-05-13T00:00:00+12:00</published>
   
   <author>
@@ -637,7 +637,7 @@ motivators and your productivity and creativity will rise.&lt;/p&gt;
   <title type="html"><![CDATA[How to end a conversation with me]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/how-to-end-a-conversation-with-me/"/>
   <id>http://lnz.me/articles/how-to-end-a-conversation-with-me</id>
-  <updated>2013-05-08T00:00:00-00:00</updated>
+  <updated>2013-05-08</updated>
   <published>2013-05-08T00:00:00+12:00</published>
   
   <author>
@@ -705,7 +705,7 @@ fake and I hope you learned why I did it.&lt;/p&gt;
   <title type="html"><![CDATA[Getting into habits]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/getting-into-habits/"/>
   <id>http://lnz.me/articles/getting-into-habits</id>
-  <updated>2013-05-07T00:00:00-00:00</updated>
+  <updated>2013-05-07</updated>
   <published>2013-05-07T00:00:00+12:00</published>
   
   <author>
@@ -743,7 +743,7 @@ and tying it into a daily workflow.&lt;/p&gt;
   <title type="html"><![CDATA[Where to start?]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/where-to-start/"/>
   <id>http://lnz.me/articles/where-to-start</id>
-  <updated>2013-04-25T00:00:00-00:00</updated>
+  <updated>2013-04-25</updated>
   <published>2013-04-25T00:00:00+12:00</published>
   
   <author>
@@ -806,7 +806,7 @@ monkey.&lt;/p&gt;
   <title type="html"><![CDATA[Care For Dynamic DNS (DDNS) Updates?]]></title>
   <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2012/03/ddns-dynamic-dns-service-on-your-own-domain.html"/>
   <id>http://lnz.me/articles/ddns-dynamic-dns-service-on-your-own-domain</id>
-  <updated>2014-03-01T00:00:00-00:00</updated>
+  <updated>2014-03-01</updated>
   <published>2012-03-01T00:00:00+13:00</published>
   
   <author>
@@ -829,7 +829,7 @@ monkey.&lt;/p&gt;
   <title type="html"><![CDATA[SSH tunnel script(2)]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/articles/SSH-tunnel-script2/"/>
   <id>http://lnz.me/articles/SSH-tunnel-script2</id>
-  <updated>2010-11-05T00:00:00-00:00</updated>
+  <updated>2010-11-05</updated>
   <published>2010-11-05T00:00:00+13:00</published>
   
   <author>

@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "a new view",
+		  "category"   : "",
+		  "url"        : "http://lnz.me/a-new-view/",
+		  "date"       : "2015-03-09 00:00:00 +1300",
+		  "shortdate"  : "March 09, 2015"
+		} ,
+	
+		{
 		  "title"      : "The chilling effect of tech law",
 		  "category"   : "articles",
 		  "url"        : "http://lnz.me/articles/miserable-state-of-tech-law-in-nz/",

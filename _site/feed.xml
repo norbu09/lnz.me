@@ -9,13 +9,57 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2015-02-28T12:18:50+13:00</updated>
+<updated>2015-03-09T20:35:36+13:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
   <uri>http://lnz.me/</uri>
   <email>mail@norbu09.org</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[a new view]]></title>
+  <link rel="alternate" type="text/html" href="http://lnz.me/a-new-view/"/>
+  <id>http://lnz.me/a-new-view</id>
+  <updated>2015-03-09 20:03:01 +1300T00:00:00-00:00</updated>
+  <published>2015-03-09T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://lnz.me</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#life" term="life" />
+  <content type="html">
+  
+    &lt;p&gt;We are starting a new experiment in our life, it is called “project
+mountain retreat”. The back story to this experiment is that Manu, 
+ever since we first were in St Arnaud and looked at Lake Rotoiti, loved
+this place and it felt very much at home for me right away. It took us
+years to come back to this place but now we plan to stay a bit longer.&lt;/p&gt;
+
+&lt;p&gt;As the Europe experiment showed we really don’t enjoy the city life for
+much more than a couple of days, after that we really like the calm and
+quiet of more remote places. When we took out the lease at our current
+place we knew it would only be for a few months and planned to build a
+tiny house and put it on the south island and go between there and
+Wellington to have the best of both worlds. Looking for places we found
+a cute little mountain retreat that offered all we wanted but was
+already built. Not a tiny house, and that plan is really only postponed
+a bit, but a little hut in the mountains, just outside of St Arnaud. It
+is calm and far away and still close enough to Wellington that we can
+enjoy the city life for a couple of days a week.&lt;/p&gt;
+
+&lt;p&gt;I will report here on progress and learnings from this experiment. It feels
+like going on an adventure and a bit like getting back some of the things
+I started missing, like actual winters and ski fields around the corner,
+but still have the sandy beaches of the Able Tasman region on our door step.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/a-new-view/&quot;&gt;a new view&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on March 09, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -849,60 +893,6 @@ tunnel frontend.couchdb
 
   
   &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/SSH-tunnel-script2/&quot;&gt;SSH tunnel script(2)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on November 05, 2010.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[InternetNZ's missed opportunity]]></title>
-  <link rel="alternate" type="text/html" href="http://lnz.me/articles/InternetNZ's-missed-opportunity/"/>
-  <id>http://lnz.me/articles/InternetNZ's-missed-opportunity</id>
-  <updated>2010-07-27T00:00:00-00:00</updated>
-  <published>2010-07-27T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://lnz.me</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://lnz.me/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;internetnzs-missed-opportunity&quot;&gt;InternetNZ’s missed opportunity&lt;/h1&gt;
-
-&lt;p&gt;Open and uncapturable is the mission of InternetNZ and the promise to
-push for access to the internet for everyone. This is what we as a
-incorporated society stand for and what we try to push. We, all the
-members of InternetNZ.&lt;/p&gt;
-
-&lt;p&gt;Yesterday at 10:00 AM the internet saw the first ever dedicated
-indigenous script going online in the form of the Maori macron
-implementation in the .nz namespace. The implementation of IDNs is an
-imminent step to acceptance of non English (non ASCII based) scripts on
-the internet and the broader access to information in native languages.
-The IDN implementation in .nz is the first IDN implementation in a
-English speaking ccTLD and the first ever that was done specifically to
-support indigenous people. The timing was perfect as yesterday also the
-Te Reo language week started as a sign to support and in fact revive the
-Maori language in NZ.&lt;/p&gt;
-
-&lt;p&gt;Making IDNs accepted in a society needs a lot of education and this
-would have been the perfect moment to run a media campaign to 
-explain what IDNs are, why they are important and what we, as a society,
-do to enable the native Maori script on the internet.&lt;/p&gt;
-
-&lt;p&gt;I feel ashamed that InternetNZ’s number one topic yesterday was Telecom
-and not the Maori language week. No mention of IDNs and no mention on
-the website other than a small note on the side bar that links to the
-press release from Friday.&lt;/p&gt;
-
-&lt;p&gt;This is in my view &lt;em&gt;not&lt;/em&gt; pushing for an open and uncapturable internet,
-this is a missed opportunity and a lack of understanding to say the
-least. I see a big opportunity to push for true openness missed by
-playing politics instead of standing for our own values. I feel ashamed
-being part of this society.&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/InternetNZ's-missed-opportunity/&quot;&gt;InternetNZ's missed opportunity&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 27, 2010.&lt;/p&gt;</content>
 </entry>
 
 </feed>

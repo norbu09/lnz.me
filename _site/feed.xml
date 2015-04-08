@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2015-03-09T23:10:40+13:00</updated>
+<updated>2015-04-09T10:28:15+12:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
@@ -19,10 +19,34 @@
 
 
 <entry>
+  <title type="html"><![CDATA[Does open source contribute to a more open society?]]></title>
+  <link rel="alternate" type="text/html" href="https://iwantmyname.com/blog/2015/03/does-open-source-contribute-to-a-more-open-society.html"/>
+  <id>http://lnz.me/does-open-source-contribute-to-a-more-open-society</id>
+  <updated>2015-04-09 10:24:34 +1200</updated>
+  <published>2015-04-09T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://lnz.me</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#iwantmyname" term="iwantmyname" />
+  <content type="html">
+  
+    &lt;p&gt;Linking to a post I wrote for the iwantmyname blog a few days ago in the
+leadup for &lt;a href=&quot;http://www.opensourceopensociety.com/&quot;&gt;OS//OS&lt;/a&gt; - a
+conference about open source and open society.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/does-open-source-contribute-to-a-more-open-society/&quot;&gt;Does open source contribute to a more open society?&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on April 09, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[a new view]]></title>
   <link rel="alternate" type="text/html" href="http://lnz.me/a-new-view/"/>
   <id>http://lnz.me/a-new-view</id>
-  <updated>2015-03-09T20:03:01+13:00</updated>
+  <updated>2015-03-09 20:03:01 +1300</updated>
   <published>2015-03-09T00:00:00+13:00</published>
   
   <author>
@@ -822,77 +846,6 @@ monkey.&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/ddns-dynamic-dns-service-on-your-own-domain/&quot;&gt;Care For Dynamic DNS (DDNS) Updates?&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on March 01, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[SSH tunnel script(2)]]></title>
-  <link rel="alternate" type="text/html" href="http://lnz.me/articles/SSH-tunnel-script2/"/>
-  <id>http://lnz.me/articles/SSH-tunnel-script2</id>
-  <updated>2010-11-05</updated>
-  <published>2010-11-05T00:00:00+13:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://lnz.me</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://lnz.me/tags/#post" term="post" />
-  <content type="html">
-  
-    &lt;h1 id=&quot;ssh-tunnel-script2&quot;&gt;SSH tunnel script(2)&lt;/h1&gt;
-
-&lt;p&gt;I work quite a bit with daemons on remote hosts that are normally not
-directly listening to the public internet. I use SSH tunnels a lot and
-had &lt;a href=&quot;http://norbu09.org/2009/08/04/simple-ssh-tunnel-script.html&quot;&gt;previously used a simplistic script&lt;/a&gt; to deal with it.&lt;/p&gt;
-
-&lt;p&gt;I got tired of having to reconnect SSH tunnels when I changed
-environments and wanted &lt;a href=&quot;http://www.harding.motd.ca/autossh/&quot;&gt;autossh&lt;/a&gt; to handle the connections. I hacked
-around a bit with a shell script and then came up with his perl version.
-The config file is a standard git like config that is quite handy as it
-handles groups of servers syntax wise.&lt;/p&gt;
-
-&lt;p&gt;The calls to &lt;code&gt;tunnel&lt;/code&gt; take a tunnel definition from the config file and
-start the tunnel with the defined user. It is really written for a safe
-environment and not nailed down for security in the moment but feel free
-to play with it.&lt;/p&gt;
-
-&lt;p&gt;The config file can deal with inheritance and checks the standard directories
-(/etc, ~/ and .) and looks like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[backend &quot;rabbitmq&quot;]
-    local  = 5672
-    remote = 5672
-    host   = RABBIT_HOST
-    user   = USER_WITH_SSH_KEYS
-
-[backend &quot;couchdb&quot;]
-    local  = 5986
-    remote = 5984
-    host   = COUCHDB_HOST
-    user   = USER_WITH_SSH_KEYS
-
-[frontend &quot;couchdb&quot;]
-    local  = 5984
-    remote = 5984
-    host   = OTHER_COUCHDB_HOST
-    user   = USER_WITH_SSH_KEYS
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The tunnel script is then called with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;tunnel backend.rabbitmq
-tunnel frontend.couchdb
-...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It does some basic checking if a port is used already.&lt;/p&gt;
-
-&lt;p&gt;The script can be found in my &lt;a href=&quot;https://github.com/norbu09/bin/blob/master/tunnel&quot;&gt;&lt;code&gt;/bin&lt;/code&gt; dump on github&lt;/a&gt;&lt;/p&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/SSH-tunnel-script2/&quot;&gt;SSH tunnel script(2)&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on November 05, 2010.&lt;/p&gt;</content>
 </entry>
 
 </feed>

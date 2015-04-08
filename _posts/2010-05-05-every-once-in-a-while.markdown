@@ -6,7 +6,7 @@ description: every once in a while i stumble upon an article from someone
          unhealthy work hours and our very own unhealthy mind set.
 modified: 2010-05-05
 category: articles
-tags: [post]
+tags: [post, life]
 comments: false
 share: true
 ---

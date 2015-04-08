@@ -4,7 +4,7 @@ title: Burnout and how to see it
 description: about burnout and the fallout, changes to live
 modified: 2015-02-02
 category: articles
-tags: [post]
+tags: [post, life]
 comments: false
 share: true
 image:

@@ -5,7 +5,7 @@ description: Care For Dynamic DNS (DDNS) Updates?
 modified: 2014-03-01
 link: https://iwantmyname.com/blog/2012/03/ddns-dynamic-dns-service-on-your-own-domain.html
 category: articles
-tags: [post]
+tags: [post, iwantmyname]
 comments: false
 share: true
 ---

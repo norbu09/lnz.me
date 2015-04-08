@@ -5,7 +5,7 @@ description: Subdomain rot and the security implications
 modified: 2014-10-23
 link: https://iwantmyname.com/blog/2014/10/sub-domain-rot.html
 category: articles
-tags: [post]
+tags: [post, iwantmyname]
 comments: false
 share: true
 ---

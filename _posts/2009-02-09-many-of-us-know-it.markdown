@@ -7,7 +7,7 @@ description: i guess many of us geeks went through the one or other phase in
          prevented a clear view on the situation.
 modified: 2009-02-09
 category: articles
-tags: [post]
+tags: [post, life]
 comments: false
 share: true
 ---

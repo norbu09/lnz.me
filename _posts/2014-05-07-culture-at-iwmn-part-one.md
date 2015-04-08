@@ -5,7 +5,7 @@ description: The "one salary experiment"
 modified: 2014-05-07
 link: https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-one.html
 category: articles
-tags: [post]
+tags: [post, iwantmyname]
 comments: false
 share: true
 ---

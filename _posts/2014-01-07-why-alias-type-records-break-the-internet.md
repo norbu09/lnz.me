@@ -5,7 +5,7 @@ description: Why ALIAS-type DNS Records Break The Internet
 modified: 2014-01-07
 link: https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html
 category: articles
-tags: [post]
+tags: [post, iwantmyname]
 comments: false
 share: true
 ---

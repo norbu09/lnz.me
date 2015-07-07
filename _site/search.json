@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "The developers dilemma",
+		  "category"   : "",
+		  "url"        : "http://lnz.me/the-developers-dilemma/",
+		  "date"       : "2015-07-07 00:00:00 +1200",
+		  "shortdate"  : "July 07, 2015"
+		} ,
+	
+		{
 		  "title"      : "os//os impressions",
 		  "category"   : "",
 		  "url"        : "http://lnz.me/os-slash-slash-os-impressions/",

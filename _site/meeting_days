@@ -1,0 +1,22 @@
+#!/usr/bin/env perl
+
+use Modern::Perl;
+use Data::ICal;
+use Date::ICal;
+use Data::ICal::DateTime;
+use Data::ICal::Entry::Event;
+
+# my $calendar = Data::ICal->new(filename => 'meetings.ics');
+my $calendar = Data::ICal->new();
+
+my $vevent = Data::ICal::Entry::Event->new();
+$vevent->add_properties(
+    summary => "meeting days",
+    description => "I am generally free for meetings on these days",
+    dtstart   => Date::ICal->new( epoch => time )->ical,
+    dtend   => Date::ICal->new( epoch => time + 3600 )->ical,
+);
+ 
+$calendar->add_entry($vevent);
+
+say $calendar->as_string;

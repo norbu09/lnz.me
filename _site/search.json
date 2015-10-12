@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Lego for grownups",
+		  "category"   : "",
+		  "url"        : "http://lnz.me/lego-for-grownups/",
+		  "date"       : "2015-10-12 00:00:00 +1300",
+		  "shortdate"  : "October 12, 2015"
+		} ,
+	
+		{
 		  "title"      : "The developers dilemma",
 		  "category"   : "",
 		  "url"        : "http://lnz.me/the-developers-dilemma/",

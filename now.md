@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /now/
-title: "now - my curent priorities"
+title: "now - my current priorities"
 modified: 2015-10-22 09:40
 tags: []
 image:
@@ -19,7 +19,8 @@ is somewhat significant but not a strict rule.
 Areas of activity
 -----------------
 
-1. iwantmyname is a big focus for me at the moment
+1. [iwantmyname](https://iwantmyname.com) is a big focus for me at the
+   moment
 2. get some balance from working on a computer, currently:
     - building furniture for our house
 3. learn and teach, currently:
@@ -38,9 +39,9 @@ these days are packed with meetings and spending time with my teams
 here. If I don't get in touch or push your coffee meeting out another
 month, this is why. Focus: 1, 3
 
-I am in Nelson roughly once a week, normally based at the Bridge Street
-Collective. I normally have time for one or two coffee meetings there.
-Focus: 1, 3
+I am in Nelson roughly once a week, normally based at the [Bridge Street
+Collective](http://www.bridgestreet.co.nz/). I normally have time for
+one or two coffee meetings there. Focus: 1, 3
 
 The rest of the time I hide in the southern alps and focus on 1, 2 and
 4

@@ -26,6 +26,7 @@ Areas of activity
 3. learn and teach, currently:
     - startup weekends and working with early stage teams
     - meet interesting people and friends face to face
+    - learning [elixir](http://elixir-lang.org/)
 4. outdoorsy things, currently:
     - hiking, exploring the southern alps
     - kayaking, 

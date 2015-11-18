@@ -1,7 +1,15 @@
 [
 	
 		{
-		  "title"      : "interview for #TGASW15",
+		  "title"      : "Global Entrepreneurship Week",
+		  "category"   : "",
+		  "url"        : "http://lnz.me/global-entrepreneurship-week/",
+		  "date"       : "2015-11-18 00:00:00 +1300",
+		  "shortdate"  : "November 18, 2015"
+		} ,
+	
+		{
+		  "title"      : "Interview for #TGASW15",
 		  "category"   : "articles",
 		  "url"        : "http://lnz.me/articles/interview-for-number-tgasw15/",
 		  "date"       : "2015-10-22 00:00:00 +1300",

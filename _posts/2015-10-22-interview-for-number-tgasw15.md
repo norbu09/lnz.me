@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "interview for #TGASW15"
+title: "Interview for #TGASW15"
 description: "Interview with Venture Centre about Startup Weekend"
 modified: 2015-10-22 10:18:11 +1300
 tags: [post, startup]

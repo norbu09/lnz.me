@@ -9,7 +9,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2015-10-22T10:22:35+13:00</updated>
+<updated>2015-11-18T15:50:43+13:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
@@ -19,7 +19,59 @@
 
 
 <entry>
-  <title type="html"><![CDATA[interview for #TGASW15]]></title>
+  <title type="html"><![CDATA[Global Entrepreneurship Week]]></title>
+  <link rel="alternate" type="text/html" href="http://lnz.me/global-entrepreneurship-week/"/>
+  <id>http://lnz.me/global-entrepreneurship-week</id>
+  <updated>2015-11-18 15:17:23 +1300</updated>
+  <published>2015-11-18T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://lnz.me</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#startup" term="startup" />
+  <content type="html">
+  
+    &lt;p&gt;I care about entrepreneurship because I believe in the power of
+collaboration and the power of people working together for fun and
+profit, quite literally. I see entrepreneurship as a way to create
+resilient communities that address problems by working together, by
+building companies, by creating work for others and by investing back
+into the community. Entrepreneurs are people that have a vision and are
+crazy enough to follow that vision, passionate enough to infect others
+with their idea and make them form a team around a common interest.
+Entrepreneurs are people who create and are never satisfied with the
+status quo. People that start sentences with “I can” not with “Someone
+should” and this makes them the engines of innovation. They turn ideas
+into teams into companies. Innovation only happens if someone steps up
+and runs with a new idea and has enough passion to turn that idea
+into a viable business. Profit can have any form or colour, some are
+after the money but most entrepreneurs I have met are after the rewards
+that come with building companies. The reward of creating jobs for
+people, the reward of creating opportunities for people, the reward of
+seeing a crazy idea grow into a viable business. All this is why I spend
+many weekends every year at Startup Weekends, this is why I have coffees
+with people who want advice. Growing the entrepreneurial fabric is
+something I am very passionate about. &lt;/p&gt;
+
+&lt;p&gt;I believe that a high level of entrepreneurship creates resilient
+communities way beyond influential people, companies or politicians. I
+care about the world I live in and want to play my part in creating a
+future worth living for. Join me in encouraging more people to give it a
+go, to try to take their future and the future of their community into
+their own hands. Join me in building resilient communities. There are
+plenty of activities happening, ping me if you struggle to find them and
+I’ll hook you up with your local community leaders or help you become
+that person.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/global-entrepreneurship-week/&quot;&gt;Global Entrepreneurship Week&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on November 18, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Interview for #TGASW15]]></title>
   <link rel="alternate" type="text/html" href="http://venturecentre.co.nz/blog/startup-weekend/item/108-i-ve-just-had-a-life-changing-experience-tgasw15"/>
   <id>http://lnz.me/articles/interview-for-number-tgasw15</id>
   <updated>2015-10-22 10:18:11 +1300</updated>
@@ -37,7 +89,7 @@
 Read it on the Venture Centre blog and tweet your comments.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/interview-for-number-tgasw15/&quot;&gt;interview for #TGASW15&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 22, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/interview-for-number-tgasw15/&quot;&gt;Interview for #TGASW15&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on October 22, 2015.&lt;/p&gt;</content>
 </entry>
 
 
@@ -1121,53 +1173,6 @@ from the top.&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/leading-by-example/&quot;&gt;leading by example&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 14, 2013.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Intrinsic vs extrinsic motivation]]></title>
-  <link rel="alternate" type="text/html" href="http://lnz.me/articles/intrinsic-vs-extrinsic-motivation/"/>
-  <id>http://lnz.me/articles/intrinsic-vs-extrinsic-motivation</id>
-  <updated>2013-05-13</updated>
-  <published>2013-05-13T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://lnz.me</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#startup" term="startup" />
-  <content type="html">
-  
-    &lt;p&gt;I have mentored at Startup Weekend Auckland last weekend and noticed an
-interesting pattern. Participants that were at the weekend with the goal
-to win the competition were less motivated in the teams they were in if
-they thought the team is not doing well. Participants that were at the
-weekend primarily to learn something and did not care too much about
-winning were highly motivated and performed really well. Teams
-consisting exclusively out of participants who wanted to learn were very
-receptive to external input and managed to deliver a very good product.
-The winning team was formed by participants that wanted to learn, they
-were very motivated and executed very well as a team.&lt;/p&gt;
-
-&lt;p&gt;So, how come trying to win is in the way of winning? &lt;/p&gt;
-
-&lt;p&gt;It comes down to intrinsic vs extrinsic motivation. If your motivation
-is trying to achieve something real bad and your task involves
-non-trivial problems, or highly creative tasks then any focus on the
-goal slows you down. If the task is a highly repetitive task then
-extrinsic motivation works very well. I had seen this before and
-remembered the candle problem outlined here: &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Candle_Problem (Wikipedia: The candle problem)&quot;&gt;Wikipedia: The candle problem&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Intrinsic motivation should always be the one that you push in your
-startup. Trying to motivate you and your team by extrinsic motivators
-will hinder your performance as a team and will be in your way to make
-best use of your creativity. Always look for a way to push intrinsic
-motivators and your productivity and creativity will rise.&lt;/p&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/intrinsic-vs-extrinsic-motivation/&quot;&gt;Intrinsic vs extrinsic motivation&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 13, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>

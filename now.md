@@ -14,7 +14,17 @@ share:
 This is a page that lists my current priorities and projects. The order
 is somewhat significant but not a strict rule. 
 
-*Last update: 2015-10-22T09:54:52*
+*Last update: 2015-12-20T21:41:16*
+
+
+Christmas break
+---------------
+
+I'll have a bit of a break, spend time with friends and don't work on
+too much new things for a change.
+
+From the second January week onward, roughly, the schedule below is
+active again.
 
 Areas of activity
 -----------------

@@ -14,17 +14,8 @@ share:
 This is a page that lists my current priorities and projects. The order
 is somewhat significant but not a strict rule. 
 
-*Last update: 2015-12-20T21:41:16*
+*Last update: 2016-01-06T12:54:16*
 
-
-Christmas break
----------------
-
-I'll have a bit of a break, spend time with friends and don't work on
-too much new things for a change.
-
-From the second January week onward, roughly, the schedule below is
-active again.
 
 Areas of activity
 -----------------
@@ -32,27 +23,29 @@ Areas of activity
 1. [iwantmyname](https://iwantmyname.com) is a big focus for me at the
    moment
 2. get some balance from working on a computer, currently:
-    - building furniture for our house
+    - building a new camper
+    - building a wooden kayak
 3. learn and teach, currently:
     - startup weekends and working with early stage teams
     - meet interesting people and friends face to face
     - learning [elixir](http://elixir-lang.org/)
 4. outdoorsy things, currently:
     - hiking, exploring the southern alps
-    - kayaking, 
+    - kayaking 
     - snowboarding season is over :(
+5. new stealth project will start to take over time
 
 Physical locations
 ------------------
+
+I am in Nelson every Thursday, based at the [Bridge Street
+Collective](http://www.bridgestreet.co.nz/). I normally have time for
+one or two coffee meetings there. Focus: 5, 3
 
 I am in Wellington at least every other week for a day or two. Many of
 these days are packed with meetings and spending time with my teams
 here. If I don't get in touch or push your coffee meeting out another
 month, this is why. Focus: 1, 3
 
-I am in Nelson roughly once a week, normally based at the [Bridge Street
-Collective](http://www.bridgestreet.co.nz/). I normally have time for
-one or two coffee meetings there. Focus: 1, 3
-
-The rest of the time I hide in the southern alps and focus on 1, 2 and
-4
+The rest of the time I hide in the southern alps and focus on 1, 2, 4 and
+5

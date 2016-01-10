@@ -9,13 +9,71 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2016-01-06T12:58:56+13:00</updated>
+<updated>2016-01-11T11:48:54+13:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
   <uri>http://lnz.me/</uri>
   <email>mail@norbu09.org</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[founder.chat - growing a community]]></title>
+  <link rel="alternate" type="text/html" href="http://lnz.me/founder-dot-chat-growing-a-community/"/>
+  <id>http://lnz.me/founder-dot-chat-growing-a-community</id>
+  <updated>2016-01-11 11:19:57 +1300</updated>
+  <published>2016-01-11T00:00:00+13:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://lnz.me</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#startup" term="startup" />
+  <content type="html">
+  
+    &lt;p&gt;&lt;em&gt;TL;DR: Thursday, 14th January 2016, 5:30 at Bridge Street&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I am passionate about community and passionate about empowering people
+to realise their ideas, as opposed to just talking about them. I am also
+keen to bring together people so that they can help each other.&lt;/p&gt;
+
+&lt;p&gt;New year, new challenge. My personal challenge for this year is to build
+a robust and well connected entrepreneurial fabric in Nelson and create
+a blueprint for regions outside the major centers. There is loads of
+entrepreneurial spirit in the regions but it is not well connected yet
+and typically gets together once a year for events like Startup Weekend
+but not much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://founder.chat&quot;&gt;founder.chat&lt;/a&gt; is a weekly meetup that happens at
+Bridge Street on Thursdays at 5:30. It is open to everyone, no signup
+required, just come around, no fee, no koha, no barriers to entry other
+than you making time to show up. We’ll do a quick round of intros every
+time and then work together on a few problems within the group. This
+could be setting up a social media campaign, set up a landing page, look
+into A/B testing or get help with book keeping or a legal problem.&lt;/p&gt;
+
+&lt;p&gt;Over time I hope we can grow that fabric that whenever someone needs
+help they know who to talk to, in person, face-to-face. Community is
+what remains after the politicians, the investors and the people with an
+agenda left. My goal is to grow a fabric that is robust and long lived
+so that we can make sure it lives on for a long time. An open community
+is also something no one owns. It needs a few people to kick it off but
+once it lives there is no stopping it. Help me to get it started and
+help me to transform the Nelson region.&lt;/p&gt;
+
+&lt;p&gt;We are starting the new year with the first meetup this Thursday, 14th
+of January 2016 at 5:30 at Bridge Street. Come around, tell us what you
+are working on or what you plan to work on and what you need help with.
+After a bit of helping each other we’ll go to a nearby Pub and have a
+social wind down with a cool beverage.&lt;/p&gt;
+
+&lt;p&gt;If you have questions, hit me up on Twitter (@norbu09)&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/founder-dot-chat-growing-a-community/&quot;&gt;founder.chat - growing a community&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on January 11, 2016.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -1126,53 +1184,6 @@ know how to evaluate its usefulness to your startup.&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/how-to-get-advice/&quot;&gt;How to get advice&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 20, 2013.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[leading by example]]></title>
-  <link rel="alternate" type="text/html" href="http://lnz.me/articles/leading-by-example/"/>
-  <id>http://lnz.me/articles/leading-by-example</id>
-  <updated>2013-05-14</updated>
-  <published>2013-05-14T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://lnz.me</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#startup" term="startup" />
-  <content type="html">
-  
-    &lt;p&gt;Leadership is a tricky thing and over the years I have tried different
-styles and was exposed to different styles. I have observed many every
-successful people and people in high positions that lead big companies.&lt;/p&gt;
-
-&lt;p&gt;I found that most leaders fall into two categories. Leader by example
-and leader by position. What I mean with that is people that live and
-breath what they demand from their team, people that are respected for
-what they know and people that don’t have to hide behind a title to be
-accepted. Those leaders were generally accepted in the team they worked
-and were normally not questioned or challenged by their peers.&lt;/p&gt;
-
-&lt;p&gt;Leading by position is a style often found in larger companies where
-politics is enough to get a position and actual execution is more in the
-way than a contributing factor. If the goal is lots of money then this
-leading style can be highly efficient. If the goal is a functioning team
-and a good work environment then this leading style is toxic. It does
-not create a level of trust and you often end up with the typical management
-style where &lt;em&gt;resources&lt;/em&gt; get allocated to tasks and leaders spend most of
-their time in meetings discussing important things that the team then
-has to &lt;em&gt;execute&lt;/em&gt; on.&lt;/p&gt;
-
-&lt;p&gt;If you want to lead by example you are part of and not on top of a team.
-Leading by example means that you surround yourself with peers not with
-underlings that do your work. I have seen many very successful people
-that did exactly that, being part of a team and leading from within not
-from the top.&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/leading-by-example/&quot;&gt;leading by example&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 14, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>

@@ -139,7 +139,7 @@
         <h1 id="simple-ssh-tunnel-script">Simple ssh tunnel script</h1>
 
 <p>When replicating CouchDB you need either VPN oder authentication or
-simply a SSH tunnel. No big deal normally a simple <code>ssh -L...</code> does the
+simply a SSH tunnel. No big deal normally a simple <code class="highlighter-rouge">ssh -L...</code> does the
 trick but I ended up with those SSH sessions that blocked ports and hung
 around and it was not the way to go in terms of automating rollouts
 where you need that port once and then never again.</p>
@@ -148,18 +148,18 @@ where you need that port once and then never again.</p>
 bacula guys</a> that had the same problem and I adopted their script a
 bit to fit my needs. Here is what I came up with:</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#!/bin/sh</span>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#!/bin/sh</span>
 <span class="c"># Establishes a self-killing SSH tunnel to the</span>
 <span class="c"># given SSH server, and forwards the correct</span>
 <span class="c"># ports for couchdb usage.</span>
 
-<span class="nv">USER</span><span class="o">=[</span>YOUR USER HERE<span class="o">]</span>
-<span class="nv">HOME</span><span class="o">=</span><span class="k">$(</span>grep <span class="s2">&quot;^$USER:&quot;</span> /etc/passwd <span class="p">|</span> cut -d : -f 6<span class="k">)</span>
+<span class="nv">USER</span><span class="o">=[</span>YOUR USER HERE]
+<span class="nv">HOME</span><span class="o">=</span><span class="k">$(</span>grep <span class="s2">"^</span><span class="nv">$USER</span><span class="s2">:"</span> /etc/passwd | cut -d : -f 6<span class="k">)</span>
 <span class="nv">CLIENT</span><span class="o">=</span><span class="nv">$1</span>
 <span class="nv">SSH</span><span class="o">=</span>/usr/bin/ssh
 <span class="nv">DESTPORT</span><span class="o">=</span>5985
 
-<span class="nb">echo</span> <span class="s2">&quot;Starting SSH-tunnel to $CLIENT...&quot;</span>
+<span class="nb">echo</span> <span class="s2">"Starting SSH-tunnel to </span><span class="nv">$CLIENT</span><span class="s2">..."</span>
 <span class="c"># -f means: go into background</span>
 <span class="c"># -C means: use compression</span>
 <span class="c"># -2 means: only use SSH2</span>
@@ -172,14 +172,14 @@ bit to fit my needs. Here is what I came up with:</p>
 <span class="c"># Using this approach, we do not need to tear down the tunnel later, it</span>
 <span class="c"># disconnects itself</span>
 <span class="c"># automagically.</span>
-<span class="k">${</span><span class="nv">SSH</span><span class="k">}</span> -fC2 -L <span class="k">${</span><span class="nv">DESTPORT</span><span class="k">}</span>:localhost:5984 <span class="k">${</span><span class="nv">CLIENT</span><span class="k">}</span> sleep <span class="m">60</span> &gt;/dev/null
+<span class="k">${</span><span class="nv">SSH</span><span class="k">}</span> -fC2 -L <span class="k">${</span><span class="nv">DESTPORT</span><span class="k">}</span>:localhost:5984 <span class="k">${</span><span class="nv">CLIENT</span><span class="k">}</span> sleep 60 &gt;/dev/null
 2&gt;/dev/null
 <span class="c"># give ssh a little time to establish the connection.</span>
-sleep 10</code></pre></div>
+sleep 10</code></pre></figure>
 
-<p>Put it in a file called <code>sshtunnel</code> and make it executable. Usage is as
-simple as <code>./sshtunnel user@host</code> or without the user if it is the same
-you are using in the <code>$USER</code> variable.</p>
+<p>Put it in a file called <code class="highlighter-rouge">sshtunnel</code> and make it executable. Usage is as
+simple as <code class="highlighter-rouge">./sshtunnel user@host</code> or without the user if it is the same
+you are using in the <code class="highlighter-rouge">$USER</code> variable.</p>
 
         
       </div><!-- /.entry-content -->
@@ -189,7 +189,7 @@ you are using in the <code>$USER</code> variable.</p>
         <a href="http://lnz.me/articles/git-via-HTTP-(startup-automation-3)/" class="btn" title="git via HTTP (startup automation 3)">Previous article</a>
       
       
-        <a href="http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/" class="btn" title="Django like URL mapping in Catalyst - kind of">Next article</a>
+        <a href="http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst-kind-of/" class="btn" title="Django like URL mapping in Catalyst - kind of">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>

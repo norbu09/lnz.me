@@ -152,8 +152,9 @@ host it really simple, worst case as a CGI. Mojolicious has a very
 powerful HTTP client integrated that makes programming against JSON
 based HTTP APIs really straight forward.</p>
 
-<pre><code>$client-&gt;get($url)-&gt;success-&gt;json-&gt;{rows}-&gt;[0]-&gt;{doc}
+<div class="highlighter-rouge"><pre class="highlight"><code>$client-&gt;get($url)-&gt;success-&gt;json-&gt;{rows}-&gt;[0]-&gt;{doc}
 </code></pre>
+</div>
 
 <p>This is a request to the second part of my stack: <a href="http://couchdb.org">CouchDB</a>. CouchDB is a
 much loved citizen in my tool chain and there are no big surprises that

@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Django like URL mapping in Catalyst - kind of &#8211; Lenz Gschwendtner</title>
-<meta name="description" content="Did you ever want to override the way Catalyst builds its path? a bit like Rails or Django? Did you miss the handy config file and did it also take you half a day to finally figure out how to do it and realise that it is straight forward?">
-<meta name="keywords" content="post">
+<title>on coming home &#8211; Lenz Gschwendtner</title>
+<meta name="description" content="geek, mentor, punk">
+<meta name="keywords" content="post, freebsd">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://lnz.me/images/site-logo.png">
-<meta name="twitter:title" content="Django like URL mapping in Catalyst - kind of">
-<meta name="twitter:description" content="Did you ever want to override the way Catalyst builds its path? a bit like Rails or Django? Did you miss the handy config file and did it also take you half a day to finally figure out how to do it and realise that it is straight forward?">
+<meta name="twitter:title" content="on coming home">
+<meta name="twitter:description" content="geek, mentor, punk">
 <meta name="twitter:creator" content="@norbu09">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Django like URL mapping in Catalyst - kind of">
-<meta property="og:description" content="Did you ever want to override the way Catalyst builds its path? a bit like Rails or Django? Did you miss the handy config file and did it also take you half a day to finally figure out how to do it and realise that it is straight forward?">
-<meta property="og:url" content="http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/">
+<meta property="og:title" content="on coming home">
+<meta property="og:description" content="geek, mentor, punk">
+<meta property="og:url" content="http://lnz.me/on-coming-home/">
 <meta property="og:site_name" content="Lenz Gschwendtner">
 
 
 
 
 
-<link rel="canonical" href="http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/">
+<link rel="canonical" href="http://lnz.me/on-coming-home/">
 <link href="http://lnz.me/feed.xml" type="application/atom+xml" rel="alternate" title="Lenz Gschwendtner Feed">
 
 
@@ -114,60 +114,57 @@
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <span class="entry-tags"><a href="http://lnz.me/tags/#post" title="Pages tagged post">post</a></span>
+        <span class="entry-tags"><a href="http://lnz.me/tags/#post" title="Pages tagged post">post</a>&nbsp;&bull;&nbsp;<a href="http://lnz.me/tags/#freebsd" title="Pages tagged freebsd">freebsd</a></span>
         
-          <h1 class="entry-title">Django like URL mapping in Catalyst - kind of</h1>
+          <h1 class="entry-title">on coming home</h1>
         
       </header>
       <footer class="entry-meta">
         <img src="http://lnz.me/images/site-logo.png" alt="Lenz Gschwendtner photo" class="author-photo">
         <span class="author vcard">By <span class="fn"><a href="http://lnz.me/about/" title="About Lenz Gschwendtner">Lenz Gschwendtner</a></span></span>
-        <span class="entry-date date published"><time datetime="2009-08-26T00:00:00+12:00"><i class="icon-calendar-empty"></i> August 26, 2009</time></span>
-        <span class="entry-date date modified"><time datetime="2009-08-26"><i class="icon-pencil"></i> August 26, 2009</time></span>
+        <span class="entry-date date published"><time datetime="2016-07-26T00:00:00+12:00"><i class="icon-calendar-empty"></i> July 26, 2016</time></span>
+        <span class="entry-date date modified"><time datetime="2016-07-26 19:11:34 +1200"><i class="icon-pencil"></i> July 26, 2016</time></span>
         
-        <span><a href="http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/" rel="bookmark" title="Django like URL mapping in Catalyst - kind of"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="http://lnz.me/on-coming-home/" rel="bookmark" title="on coming home"><i class="icon-link"></i> Permalink</a></span>
         
-        <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
-        <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags=articles&text=Django like URL mapping in Catalyst - kind of&url=http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/&via=norbu09" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
-        <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url=http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
-            <!-- /.social-share -->
       </footer>
       <div class="entry-content">
-        <p>Django like URL mapping in Catalyst - kind of</p>
+        <p>My first FreeBSD version was 2.2.8, for context, that was in the late 90s. I
+started running FreeBSD on my desktops back then, and even managed to get it
+onto a few laptops. I also build servers and firewalls and I loved the OS but
+eventually caved in and switched to a Mac (a shiny 12” MacBook) around the
+FreeBSD 5 days (that would have been the mid 2000s)</p>
 
-<p>The problem I tried to solve is trivial, at least that was what I
-thought. I tried to remap URLs in one of our platforms to make it easy
-for others to adapt the way we call things. I18N related mostly. I have
-most of the things that might change in central config file already but
-figuring out how I actually get the URL map in there took a while. I
-finally found <a href="http://www.catalystframework.org/calendar/2008/11">
-this post from Matt Trout</a> where he outlines several possibilities to
-tackle it. Facing lack of time and knowing that the mapping is done by
-others ;-) I went with the verbose version. It fits quite nicely in our
-way of deploying Catalyst apps with local config files that change
-behaviour of the platform.</p>
+<p>From really enjoying shiny GUI tools and working Wifi without patching my
+kernel, did I mention suspend/resume?, I started treating my Mac more and more
+like a traditional Unix machine. I went back to mutt, I never stopped using vim
+and more recently even switched my IM setup over to mcabber. I work inside tmux
+about 80% of my day and find it so much more productive than the shiny GUIs.
+I still love a graphical browser and a few tools like zoom that are a backbone
+of my remote work environment.</p>
 
-<p>In your central config file (MyApp.conf) put a snippet like this:</p>
+<p>Over the years I went from seeing the Mac scene from lacking basic tools to
+having MacPorts and fink to getting a really good and current package manager
+with homebrew. I saw MacOS from being a fast, pretty UI that lacked a few
+things like multiple desktops to becoming pretty full featured but also less
+and less transparent. It went from being a nice OS that has enough FreeBSD
+under the hood to feel a bit like home but shiny to being shiny without any
+sense of feeling at home. It is a dull tool I have to use very day, no more
+love, no more passion, just a tool.</p>
 
-<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;Controller</span> <span class="err">Editor</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;action</span> <span class="err">index</span><span class="nt">&gt;</span>
-    Path        /vim
-  <span class="nt">&lt;/action&gt;</span>
-  <span class="nt">&lt;action</span> <span class="err">content</span><span class="nt">&gt;</span>
-    Path        /vim/content
-  <span class="nt">&lt;/action&gt;</span>
-  <span class="nt">&lt;action</span> <span class="err">tld</span><span class="nt">&gt;</span>
-    Path        /vim/tld
-  <span class="nt">&lt;/action&gt;</span>
-<span class="nt">&lt;/Controller&gt;</span></code></pre></div>
+<p>My laptop is up for renewal and I was hoping for nice new Mac hardware that has
+enough power to run a full screen FreeBSD VM in a proper hypervisor and give me
+good hardware with an OS I feel at home in plus an easy migration path. I tried
+veertu, Parallels and VirtualBox and decided to not wait for the absurdly
+secretive timeline of new hardware releases from Apple. I decided to go back to
+hacking drivers if I have to and to live with broken suspend/resume. I bought a
+boring Lenovo laptop and will report over the coming weeks about my adventures
+home in FreeBSD land.</p>
 
-<p>This maps the controller <code>Editor</code> to the path <code>/vim</code> and the two actions
-( content and tlds ) to the according endpoints under it. This stupid
-snippet cost me a couple of hours to figure out but now live is good and
-I can move on :-)</p>
+<p>Till my new laptop gets shipped I will continue to click through the error
+reports Parallels throws at me and continue to discover what FreeBSD has done
+over the past 10 years and love what I am seeing so far. It’s been a
+long time but it is good to be home again.</p>
 
 
         
@@ -175,10 +172,8 @@ I can move on :-)</p>
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://lnz.me/articles/simple-ssh-tunnel-script/" class="btn" title="simple ssh tunnel script">Previous article</a>
+        <a href="http://lnz.me/founder-dot-chat-growing-a-community/" class="btn" title="founder.chat - growing a community">Previous article</a>
       
-      
-        <a href="http://lnz.me/articles/RabbitMQ-talk-at-perlmongers/" class="btn" title="RabbitMQ for perl mongers">Next article</a>
       
     </nav><!-- /.pagination -->
   </article>

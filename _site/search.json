@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "on coming home",
+		  "category"   : "",
+		  "url"        : "http://lnz.me/on-coming-home/",
+		  "date"       : "2016-07-26 00:00:00 +1200",
+		  "shortdate"  : "July 26, 2016"
+		} ,
+	
+		{
 		  "title"      : "founder.chat - growing a community",
 		  "category"   : "",
 		  "url"        : "http://lnz.me/founder-dot-chat-growing-a-community/",
@@ -275,7 +283,7 @@
 		{
 		  "title"      : "testing buzz ...",
 		  "category"   : "articles",
-		  "url"        : "http://lnz.me/articles/testing-buzz-.../",
+		  "url"        : "http://lnz.me/articles/testing-buzz-",
 		  "date"       : "2010-02-10 00:00:00 +1300",
 		  "shortdate"  : "February 10, 2010"
 		} ,
@@ -323,7 +331,7 @@
 		{
 		  "title"      : "Django like URL mapping in Catalyst - kind of",
 		  "category"   : "articles",
-		  "url"        : "http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/",
+		  "url"        : "http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst-kind-of/",
 		  "date"       : "2009-08-26 00:00:00 +1200",
 		  "shortdate"  : "August 26, 2009"
 		} ,

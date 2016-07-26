@@ -178,21 +178,24 @@ reference in your gitosis config for your user.</p>
 - copy your ssh public key /tmp on the gitosis host
 - initialize the repository</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>sudo -H -u gitosis gitosis-init &lt; /tmp/id_dsa.pub</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">  <span class="nv">$ </span>sudo -H -u gitosis gitosis-init &lt; /tmp/id_dsa.pub
+  </code></pre></figure>
 
 <ul>
-  <li>clone the new master repository </li>
+  <li>clone the new master repository</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>git clone gitosis@GITHOST:gitosis-admin.git</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">  <span class="nv">$ </span>git clone gitosis@GITHOST:gitosis-admin.git
+  </code></pre></figure>
 
 <ul>
   <li>edit gitosis.conf</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="k">[group admin]</span>
-  <span class="na">members</span> <span class="o">=</span> <span class="s">YOURNAME</span>
-<span class="s">  writable = puppet</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ini" data-lang="ini">  <span class="nn">[group admin]</span>
+  <span class="py">members</span> <span class="p">=</span> <span class="s">YOURNAME</span>
+  <span class="py">writable</span> <span class="p">=</span> <span class="s">puppet</span>
+  </code></pre></figure>
 
 <ul>
   <li>add the gitosis.conf and commit and push</li>
@@ -202,7 +205,8 @@ setup</li>
   <li>tell the git repository where your gitosis server is</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>git remote add origin gitosis@GITHOST:puppet.git</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">  <span class="nv">$ </span>git remote add origin gitosis@GITHOST:puppet.git
+  </code></pre></figure>
 
 <ul>
   <li>touch a file (you need to have something in the repository to commit)</li>
@@ -210,7 +214,8 @@ setup</li>
   <li>push the repository to the gitosis server</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>git push origin master:refs/heads/master</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">  <span class="nv">$ </span>git push origin master:refs/heads/master
+  </code></pre></figure>
 
 <p>After this you have two things - a master gitosis repository for your
 git server management and a local puppet repository for your future
@@ -226,18 +231,18 @@ repository.</p>
 <p>Till now we did not bother finding the filesystem location of our new
 gitosis setup. Now we need some git hooks in the puppet repository and
 we have to find it. Under debain you can find the gitosis repository
-structure in <code>/srv/gitosis</code> and our puppet repository under
-<code>/srv/gitosis/repositories/puppet.git</code>.</p>
+structure in <code class="highlighter-rouge">/srv/gitosis</code> and our puppet repository under
+<code class="highlighter-rouge">/srv/gitosis/repositories/puppet.git</code>.</p>
 
-<p>I started out by creating a <code>bin</code> directory for the gitosis user as I
+<p>I started out by creating a <code class="highlighter-rouge">bin</code> directory for the gitosis user as I
 expect to share some code between different hooks. There will be many
 “check out this repo to this working directory” hooks for various
 purposes. The first script is very basic and does nothing fancy - we can
 beef it up later on as we go.</p>
 
-<p><code>/srv/gitosis/bin/update.sh</code></p>
+<p><code class="highlighter-rouge">/srv/gitosis/bin/update.sh</code></p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#!/bin/sh</span>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#!/bin/sh</span>
 <span class="nb">umask </span>002
 
 <span class="nv">PFAD</span><span class="o">=</span><span class="nv">$1</span>
@@ -246,7 +251,7 @@ beef it up later on as we go.</p>
 
 env -i /usr/bin/git-pull origin master
 env -i git-update-server-info
-<span class="nb">cd</span> <span class="k">${</span><span class="nv">CURR</span><span class="k">}</span></code></pre></div>
+<span class="nb">cd</span> <span class="k">${</span><span class="nv">CURR</span><span class="k">}</span></code></pre></figure>
 
 <p>This simple script takes one argument which is the destination path and
 doe a git pull there. Very generic and not too secure but it does the
@@ -254,10 +259,10 @@ trick for the beginning.</p>
 
 <p>Now we need to make this script executable and add it to the
 post-receive git hook in the puppet repository. Go to
-<code>/srv/gitosis/repositories/puppet.git/hooks</code> and edit the <code>post-receive</code>
+<code class="highlighter-rouge">/srv/gitosis/repositories/puppet.git/hooks</code> and edit the <code class="highlighter-rouge">post-receive</code>
 hook. We only need the following line in there for the moment:</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">~/bin/update.sh /etc/puppet</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">~/bin/update.sh /etc/puppet</code></pre></figure>
 
 <p>This calls our shiny update script we wrote moments ago. Make sure the
 hook script is executable. Now we start setting up puppet. Make sure you
@@ -266,31 +271,31 @@ have a working puppet setup already make sure you back up all your
 configuration files. I assume there is nothing here yet and we can axe
 the existing stuff and start from scratch.</p>
 
-<p>Remove the existing <code>/etc/puppet</code> directory and clone our repository
+<p>Remove the existing <code class="highlighter-rouge">/etc/puppet</code> directory and clone our repository
 here.</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span><span class="nb">cd</span> /etc
-<span class="nv">$ </span>rm -rf puppet
-<span class="nv">$ </span>git clone /srv/gitosis/repositories/puppet.git
-<span class="nv">$ </span>chmod -R g+w puppet</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span><span class="nb">cd</span> /etc
+<span class="gp">$ </span>rm -rf puppet
+<span class="gp">$ </span>git clone /srv/gitosis/repositories/puppet.git
+<span class="gp">$ </span>chmod -R g+w puppet</code></pre></figure>
 
 <p>Now we have to modify two hooks to make sure we fix permissions. This is
 a ugly hack and only gets us started for now - this should really be
-done nicer later on. Edit in the puppet directory under <code>.git/hooks</code> the
-file <code>post-merge</code> and add the following:</p>
+done nicer later on. Edit in the puppet directory under <code class="highlighter-rouge">.git/hooks</code> the
+file <code class="highlighter-rouge">post-merge</code> and add the following:</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#!/bin/sh</span>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#!/bin/sh</span>
 
-<span class="nb">echo</span> <span class="s2">&quot;granting rights in `pwd`&quot;</span>
-sudo chown -R root:root /etc/puppet</code></pre></div>
+<span class="nb">echo</span> <span class="s2">"granting rights in </span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span><span class="s2">"</span>
+sudo chown -R root:root /etc/puppet</code></pre></figure>
 
 <p>To make this work you need to make sure that the gitosis user is in your
 sodoers file and of course that sudo is installed. Make this file
-executable and copy it to the <code>post-checkout</code> hook.</p>
+executable and copy it to the <code class="highlighter-rouge">post-checkout</code> hook.</p>
 
 <p>Nearly there, test it now and see if you get errors when you push puppet
 configuration to the server. If all goes well you should see the puppet
-config hitting your <code>/etc/puppet</code> directory on the server right after
+config hitting your <code class="highlighter-rouge">/etc/puppet</code> directory on the server right after
 you pushed your local repository.</p>
 
 <p>How to set up a basic puppet infrastructure will be covered in the next

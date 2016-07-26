@@ -148,7 +148,7 @@ around a bit with a shell script and then came up with his perl version.
 The config file is a standard git like config that is quite handy as it
 handles groups of servers syntax wise.</p>
 
-<p>The calls to <code>tunnel</code> take a tunnel definition from the config file and
+<p>The calls to <code class="highlighter-rouge">tunnel</code> take a tunnel definition from the config file and
 start the tunnel with the defined user. It is really written for a safe
 environment and not nailed down for security in the moment but feel free
 to play with it.</p>
@@ -156,7 +156,7 @@ to play with it.</p>
 <p>The config file can deal with inheritance and checks the standard directories
 (/etc, ~/ and .) and looks like this:</p>
 
-<pre><code>[backend "rabbitmq"]
+<div class="highlighter-rouge"><pre class="highlight"><code>[backend "rabbitmq"]
     local  = 5672
     remote = 5672
     host   = RABBIT_HOST
@@ -174,17 +174,19 @@ to play with it.</p>
     host   = OTHER_COUCHDB_HOST
     user   = USER_WITH_SSH_KEYS
 </code></pre>
+</div>
 
 <p>The tunnel script is then called with:</p>
 
-<pre><code>tunnel backend.rabbitmq
+<div class="highlighter-rouge"><pre class="highlight"><code>tunnel backend.rabbitmq
 tunnel frontend.couchdb
 ...
 </code></pre>
+</div>
 
 <p>It does some basic checking if a port is used already.</p>
 
-<p>The script can be found in my <a href="https://github.com/norbu09/bin/blob/master/tunnel"><code>/bin</code> dump on github</a></p>
+<p>The script can be found in my <a href="https://github.com/norbu09/bin/blob/master/tunnel"><code class="highlighter-rouge">/bin</code> dump on github</a></p>
 
 
         

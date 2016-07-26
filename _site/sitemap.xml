@@ -6,7 +6,7 @@
     
     
     <url>
-        <loc>http://lnz.me/404.html</loc>
+        <loc>http://lnz.me/404/</loc>
     </url>
     
     <url>
@@ -22,7 +22,7 @@
     </url>
     
     <url>
-        <loc>http://lnz.me/index.html</loc>
+        <loc>http://lnz.me/</loc>
     </url>
     
     <url>
@@ -42,6 +42,10 @@
     </url>
     
 
+    
+    <url>
+        <loc>http://lnz.me/on-coming-home/</loc>
+    </url>
     
     <url>
         <loc>http://lnz.me/founder-dot-chat-growing-a-community/</loc>
@@ -180,7 +184,7 @@
     </url>
     
     <url>
-        <loc>http://lnz.me/articles/testing-buzz-.../</loc>
+        <loc>http://lnz.me/articles/testing-buzz-</loc>
     </url>
     
     <url>
@@ -204,7 +208,7 @@
     </url>
     
     <url>
-        <loc>http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst---kind-of/</loc>
+        <loc>http://lnz.me/articles/Django-like-URL-mapping-in-Catalyst-kind-of/</loc>
     </url>
     
     <url>

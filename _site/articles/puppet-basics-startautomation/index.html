@@ -145,7 +145,7 @@ of configuring gitosis and the puppet config directory to make
 deployment of the config files really easy. Obviously we need some test
 clients and a working server now to play. I use parallels for local
 development and normally fire up one VM per project. I created an empty
-debian VM and just did a <code>apt-get install puppet</code>. This installs all
+debian VM and just did a <code class="highlighter-rouge">apt-get install puppet</code>. This installs all
 dependencies and leaves you with a working client.</p>
 
 <h2 id="create-a-basic-configuration">create a basic configuration</h2>
@@ -154,80 +154,80 @@ dependencies and leaves you with a working client.</p>
 templates, they are more or less standard debian config files so you
 might have to tweak paths a bit for your environment:</p>
 
-<p><code>puppet.conf</code></p>
+<p><code class="highlighter-rouge">puppet.conf</code></p>
 
-<div class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="k">[main]</span>
-<span class="na">logdir</span><span class="o">=</span><span class="s">/var/log/puppet</span>
-<span class="na">vardir</span><span class="o">=</span><span class="s">/var/lib/puppet</span>
-<span class="na">ssldir</span><span class="o">=</span><span class="s">/var/lib/puppet/ssl</span>
-<span class="na">rundir</span><span class="o">=</span><span class="s">/var/run/puppet</span>
-<span class="na">factpath</span><span class="o">=</span><span class="s">$vardir/lib/facter</span>
-<span class="na">pluginsync</span><span class="o">=</span><span class="s">true</span>
+<figure class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="nn">[main]</span>
+<span class="py">logdir</span><span class="p">=</span><span class="s">/var/log/puppet</span>
+<span class="py">vardir</span><span class="p">=</span><span class="s">/var/lib/puppet</span>
+<span class="py">ssldir</span><span class="p">=</span><span class="s">/var/lib/puppet/ssl</span>
+<span class="py">rundir</span><span class="p">=</span><span class="s">/var/run/puppet</span>
+<span class="py">factpath</span><span class="p">=</span><span class="s">$vardir/lib/facter</span>
+<span class="py">pluginsync</span><span class="p">=</span><span class="s">true</span>
 
-<span class="k">[puppetmasterd]</span>
-<span class="na">templatedir</span><span class="o">=</span><span class="s">/var/lib/puppet/templates</span></code></pre></div>
+<span class="nn">[puppetmasterd]</span>
+<span class="py">templatedir</span><span class="p">=</span><span class="s">/var/lib/puppet/templates</span></code></pre></figure>
 
-<p><code>fileserver.conf</code></p>
+<p><code class="highlighter-rouge">fileserver.conf</code></p>
 
-<div class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="c1"># This file consists of arbitrarily named sections/modules</span>
-<span class="c1"># defining where files are served from and to whom</span>
-
-<span class="c1"># Define a section &#39;files&#39;</span>
-<span class="c1"># Adapt the allow/deny settings to your needs. Order</span>
-<span class="c1"># for allow/deny does not matter, allow always takes precedence</span>
-<span class="c1"># over deny</span>
-<span class="k">[files]</span>
+<figure class="highlight"><pre><code class="language-ini" data-lang="ini"><span class="c"># This file consists of arbitrarily named sections/modules
+# defining where files are served from and to whom
+</span>
+<span class="c"># Define a section 'files'
+# Adapt the allow/deny settings to your needs. Order
+# for allow/deny does not matter, allow always takes precedence
+# over deny
+</span><span class="nn">[files]</span>
 <span class="err">path</span> <span class="err">/etc/puppet/files</span>
-<span class="c1">#  allow *.example.com</span>
-<span class="c1">#  deny *.evil.example.com</span>
-<span class="c1">#  allow 192.168.0.0/24</span>
+<span class="c">#  allow *.example.com
+#  deny *.evil.example.com
+#  allow 192.168.0.0/24
+</span>
+<span class="nn">[plugins]</span>
+<span class="c">#  allow *.example.com
+#  deny *.evil.example.com
+</span><span class="err">#</span>  <span class="err">allow</span> <span class="err">192.168.0.0/24</span></code></pre></figure>
 
-<span class="k">[plugins]</span>
-<span class="c1">#  allow *.example.com</span>
-<span class="c1">#  deny *.evil.example.com</span>
-<span class="c1">#  allow 192.168.0.0/24</span></code></pre></div>
+<p>and a basic <code class="highlighter-rouge">manifests/site.pp</code></p>
 
-<p>and a basic <code>manifests/site.pp</code></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># site.pp</span>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># site.pp</span>
-
-<span class="n">filebucket</span> <span class="p">{</span> <span class="ss">main</span><span class="p">:</span> <span class="n">server</span> <span class="o">=&gt;</span> <span class="s1">&#39;YOUR_PUPPET_SERVER_HERE&#39;</span> <span class="p">}</span>
+<span class="n">filebucket</span> <span class="p">{</span> <span class="ss">main: </span><span class="n">server</span> <span class="o">=&gt;</span> <span class="s1">'YOUR_PUPPET_SERVER_HERE'</span> <span class="p">}</span>
 
 <span class="c1"># global defaults</span>
 <span class="no">File</span> <span class="p">{</span> <span class="n">backup</span> <span class="o">=&gt;</span> <span class="n">main</span> <span class="p">}</span>
-<span class="no">Exec</span> <span class="p">{</span> <span class="n">path</span> <span class="o">=&gt;</span> <span class="s2">&quot;/usr/bin:/usr/sbin/:/bin:/sbin&quot;</span> <span class="p">}</span>
+<span class="no">Exec</span> <span class="p">{</span> <span class="n">path</span> <span class="o">=&gt;</span> <span class="s2">"/usr/bin:/usr/sbin/:/bin:/sbin"</span> <span class="p">}</span>
 
 <span class="no">Package</span> <span class="p">{</span>
     <span class="n">provider</span> <span class="o">=&gt;</span> <span class="vg">$operatingsystem</span> <span class="p">?</span> <span class="p">{</span>
         <span class="n">debian</span> <span class="o">=&gt;</span> <span class="n">aptitude</span><span class="p">,</span>
         <span class="n">redhat</span> <span class="o">=&gt;</span> <span class="n">up2date</span>
     <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
-<p>Make sure you edit the <code>sites.pp</code> to actually point to your puppet
+<p>Make sure you edit the <code class="highlighter-rouge">sites.pp</code> to actually point to your puppet
 server. Add those files, commit and push. Then restart your
 puppetmasterd on the server.</p>
 
 <p>We need two shells now, one on the server and one on your client. Fire
 up your shell on the server and ask the puppetmaster for pending
-certificate requests with the <code>puppetca</code> command: </p>
+certificate requests with the <code class="highlighter-rouge">puppetca</code> command:</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>puppetca --list</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>puppetca --list</code></pre></figure>
 
 <p>This should return with ` no pending requests` message or so.</p>
 
 <p>Fire up the second shell on your client and request a certificate from
-your server. We try it interactive first till things go smooth: </p>
+your server. We try it interactive first till things go smooth:</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>puppetd --server YOUR_PUPPET_SERVER --waitforcert <span class="m">60</span> --test</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>puppetd --server YOUR_PUPPET_SERVER --waitforcert 60 --test</code></pre></figure>
 
 <p>This should come back with an error that the cert could not be issued
 yet. This is expected as we have not authorized the client yet. To do so
 we hop over to our server console again and issue the puppetca command
 again. We should have a pending request now from our test client. Go on
-and sign it with </p>
+and sign it with</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>puppetca --sign CLIENT_NAME</code></pre></div>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>puppetca --sign CLIENT_NAME</code></pre></figure>
 
 <p>If you rerun the client now with the same command it should be happy and
 report success.</p>

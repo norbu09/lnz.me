@@ -3,19 +3,75 @@
 
 
 
-  
-
 <title type="text">Lenz Gschwendtner</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lnz.me/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lnz.me/" />
-<updated>2016-01-11T11:48:54+13:00</updated>
+<updated>2016-07-26T20:01:14+12:00</updated>
 <id>http://lnz.me/</id>
 <author>
   <name>Lenz Gschwendtner</name>
   <uri>http://lnz.me/</uri>
   <email>mail@norbu09.org</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[on coming home]]></title>
+  <link rel="alternate" type="text/html" href="http://lnz.me/on-coming-home/"/>
+  <id>http://lnz.me/on-coming-home</id>
+  <updated>2016-07-26 19:11:34 +1200</updated>
+  <published>2016-07-26T00:00:00+12:00</published>
+  
+  <author>
+    <name>Lenz Gschwendtner</name>
+    <uri>http://lnz.me</uri>
+    <email>mail@norbu09.org</email>
+  </author>
+  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#freebsd" term="freebsd" />
+  <content type="html">
+  
+    &lt;p&gt;My first FreeBSD version was 2.2.8, for context, that was in the late 90s. I
+started running FreeBSD on my desktops back then, and even managed to get it
+onto a few laptops. I also build servers and firewalls and I loved the OS but
+eventually caved in and switched to a Mac (a shiny 12” MacBook) around the
+FreeBSD 5 days (that would have been the mid 2000s)&lt;/p&gt;
+
+&lt;p&gt;From really enjoying shiny GUI tools and working Wifi without patching my
+kernel, did I mention suspend/resume?, I started treating my Mac more and more
+like a traditional Unix machine. I went back to mutt, I never stopped using vim
+and more recently even switched my IM setup over to mcabber. I work inside tmux
+about 80% of my day and find it so much more productive than the shiny GUIs.
+I still love a graphical browser and a few tools like zoom that are a backbone
+of my remote work environment.&lt;/p&gt;
+
+&lt;p&gt;Over the years I went from seeing the Mac scene from lacking basic tools to
+having MacPorts and fink to getting a really good and current package manager
+with homebrew. I saw MacOS from being a fast, pretty UI that lacked a few
+things like multiple desktops to becoming pretty full featured but also less
+and less transparent. It went from being a nice OS that has enough FreeBSD
+under the hood to feel a bit like home but shiny to being shiny without any
+sense of feeling at home. It is a dull tool I have to use very day, no more
+love, no more passion, just a tool.&lt;/p&gt;
+
+&lt;p&gt;My laptop is up for renewal and I was hoping for nice new Mac hardware that has
+enough power to run a full screen FreeBSD VM in a proper hypervisor and give me
+good hardware with an OS I feel at home in plus an easy migration path. I tried
+veertu, Parallels and VirtualBox and decided to not wait for the absurdly
+secretive timeline of new hardware releases from Apple. I decided to go back to
+hacking drivers if I have to and to live with broken suspend/resume. I bought a
+boring Lenovo laptop and will report over the coming weeks about my adventures
+home in FreeBSD land.&lt;/p&gt;
+
+&lt;p&gt;Till my new laptop gets shipped I will continue to click through the error
+reports Parallels throws at me and continue to discover what FreeBSD has done
+over the past 10 years and love what I am seeing so far. It’s been a
+long time but it is good to be home again.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://lnz.me/on-coming-home/&quot;&gt;on coming home&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on July 26, 2016.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -111,7 +167,7 @@ people, the reward of creating opportunities for people, the reward of
 seeing a crazy idea grow into a viable business. All this is why I spend
 many weekends every year at Startup Weekends, this is why I have coffees
 with people who want advice. Growing the entrepreneurial fabric is
-something I am very passionate about. &lt;/p&gt;
+something I am very passionate about.&lt;/p&gt;
 
 &lt;p&gt;I believe that a high level of entrepreneurship creates resilient
 communities way beyond influential people, companies or politicians. I
@@ -271,7 +327,7 @@ to write their own code. As with any trade, developers are often very
 proud of what they produce, very opinionated about the one right way of
 doing things and often very much in love with the nitty gritty details
 of the implementation and the technology they use to get the desired
-result. &lt;/p&gt;
+result.&lt;/p&gt;
 
 &lt;p&gt;People using the artefacts developers produce normally only see a more
 or less working product that they can interact with. They never ever see
@@ -332,7 +388,7 @@ completion of any project and need a lot of mentoring along the way.&lt;/p&gt;
 developers unhappy but at least there was a product that started pay off
 the costs for the development of that project. Those projects are often
 in production for a long time and get refactored all the time but
-ultimately reach a point where “the big new system” needs to be written. &lt;/p&gt;
+ultimately reach a point where “the big new system” needs to be written.&lt;/p&gt;
 
 &lt;p&gt;I have seen “big new systems” developed, the big new system that fixes
 everything and makes the whole mess a really nice to develop platform
@@ -1123,67 +1179,6 @@ encouraging feedback that helps them do it better the next time.&lt;/p&gt;
 
   
   &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/communication/&quot;&gt;Communication&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 21, 2013.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[How to get advice]]></title>
-  <link rel="alternate" type="text/html" href="http://lnz.me/articles/how-to-get-advice/"/>
-  <id>http://lnz.me/articles/how-to-get-advice</id>
-  <updated>2013-05-20</updated>
-  <published>2013-05-20T00:00:00+12:00</published>
-  
-  <author>
-    <name>Lenz Gschwendtner</name>
-    <uri>http://lnz.me</uri>
-    <email>mail@norbu09.org</email>
-  </author>
-  <category scheme="http://lnz.me/tags/#post" term="post" /><category scheme="http://lnz.me/tags/#startup" term="startup" />
-  <content type="html">
-  
-    &lt;p&gt;A key task for any co-founder is getting advice. Especially if you are
-new to something it is key to ask. It is important to understand that
-others have more experience in things that you will bang your head
-against. Getting advice is key to a successful start and helps you keep
-on track, helps you grow and helps you reposition yourself. Advice is a
-key ingredient for many of the most successful entrepreneurs and not
-getting advice is a silly thing to do.&lt;/p&gt;
-
-&lt;p&gt;So how does one get advice? A lot of young entrepreneurs mistake advice
-with a “how-to”. Trust me, there is no how-to on being successful, there
-are way too many factors that come into play and if there would be a
-how-to we would drown in a flood of successful startups and would need
-another word for it.&lt;/p&gt;
-
-&lt;p&gt;I grew up next to a buddhist monastery and many of my fundamental world
-views are based on buddhist principles like do no evil, live an
-altruistic life and live what you teach. One very fundamental principle
-that always stood out for me is that a student teacher relationship is
-something that needs to be re-evaluated, constantly. A student should
-always ask himself if the teacher is right, if the topic is relevant to
-the student and if the teacher is going into the right direction from
-the students point of view.&lt;/p&gt;
-
-&lt;p&gt;Taking this principle and applying it to getting advice lead me to
-always trying to get to the essence someone advises me on. I try to get
-the core principle, the core idea and then evaluate how it fits into my
-world view, into my bigger picture. Reevaluating advice and having a
-clear idea of your core values and your core idea helps you applying
-advice and still staying true to your values. Advice used as a how-to,
-blindly followed and executing upon without understanding the underlying
-learnings can derail perfectly good ideas and teams. Not because the one
-giving advice wants to harm you but because blindly following a recipe
-is rarely giving you the insights that you need to apply the recipe in
-the right way.&lt;/p&gt;
-
-&lt;p&gt;Always try to understand what the key learning is and how to apply it to
-your startup. Advice comes from people, often successful, from their
-point of view and from their point of view in their companies. It may be
-highly relevant but it is always from their angle, be aware of it and
-know how to evaluate its usefulness to your startup.&lt;/p&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http://lnz.me/articles/how-to-get-advice/&quot;&gt;How to get advice&lt;/a&gt; was originally published by Lenz Gschwendtner at &lt;a href=&quot;http://lnz.me&quot;&gt;Lenz Gschwendtner&lt;/a&gt; on May 20, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>

@@ -1,6 +1,8 @@
 #!/bin/sh
 
-echo -e "\033[0;32mDeploying updates...\033[0m"
+SITE=lnz.me
+
+echo -e "\033[0;32mDeploying updates to ${SITE}...\033[0m"
 
 # Build the project.
 hugo
@@ -20,6 +22,6 @@ git pull --rebase
 git push origin master
 
 echo -e "\033[0;32mUpdating site on server...\033[0m"
-ssh norbu09.org 'cd lnz.me && git pull'
-open http://lnz.me
+ssh ${SITE} 'cd ${SITE} && git pull'
+open http://${SITE}
 

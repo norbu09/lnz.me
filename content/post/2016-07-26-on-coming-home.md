@@ -1,17 +1,11 @@
 ---
-comments: null
 date: 2016-07-26T00:00:00Z
-image:
-  credit: null
-  creditlink: null
-  feature: null
 modified: 2016-07-26 19:11:34 +1200
-share: null
 tags:
-- post
 - freebsd
 title: on coming home
 url: /2016/07/26/on-coming-home/
+description: moving from MacOS back to FreeBSD
 ---
 
 My first FreeBSD version was 2.2.8, for context, that was in the late 90s. I

@@ -6,53 +6,8 @@
     <description>Recent content in Post on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
-    <lastBuildDate>Tue, 26 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://lnz.me/tags/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>on coming home</title>
-      <link>http://lnz.me/2016/07/26/on-coming-home/</link>
-      <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://lnz.me/2016/07/26/on-coming-home/</guid>
-      <description>&lt;p&gt;My first FreeBSD version was 2.2.8, for context, that was in the late 90s. I
-started running FreeBSD on my desktops back then, and even managed to get it
-onto a few laptops. I also build servers and firewalls and I loved the OS but
-eventually caved in and switched to a Mac (a shiny 12&amp;rdquo; MacBook) around the
-FreeBSD 5 days (that would have been the mid 2000s)&lt;/p&gt;
-
-&lt;p&gt;From really enjoying shiny GUI tools and working Wifi without patching my
-kernel, did I mention suspend/resume?, I started treating my Mac more and more
-like a traditional Unix machine. I went back to mutt, I never stopped using vim
-and more recently even switched my IM setup over to mcabber. I work inside tmux
-about 80% of my day and find it so much more productive than the shiny GUIs.
-I still love a graphical browser and a few tools like zoom that are a backbone
-of my remote work environment.&lt;/p&gt;
-
-&lt;p&gt;Over the years I went from seeing the Mac scene from lacking basic tools to
-having MacPorts and fink to getting a really good and current package manager
-with homebrew. I saw MacOS from being a fast, pretty UI that lacked a few
-things like multiple desktops to becoming pretty full featured but also less
-and less transparent. It went from being a nice OS that has enough FreeBSD
-under the hood to feel a bit like home but shiny to being shiny without any
-sense of feeling at home. It is a dull tool I have to use very day, no more
-love, no more passion, just a tool.&lt;/p&gt;
-
-&lt;p&gt;My laptop is up for renewal and I was hoping for nice new Mac hardware that has
-enough power to run a full screen FreeBSD VM in a proper hypervisor and give me
-good hardware with an OS I feel at home in plus an easy migration path. I tried
-veertu, Parallels and VirtualBox and decided to not wait for the absurdly
-secretive timeline of new hardware releases from Apple. I decided to go back to
-hacking drivers if I have to and to live with broken suspend/resume. I bought a
-boring Lenovo laptop and will report over the coming weeks about my adventures
-home in FreeBSD land.&lt;/p&gt;
-
-&lt;p&gt;Till my new laptop gets shipped I will continue to click through the error
-reports Parallels throws at me and continue to discover what FreeBSD has done
-over the past 10 years and love what I am seeing so far. It&amp;rsquo;s been a
-long time but it is good to be home again.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>founder.chat - growing a community</title>
@@ -924,6 +879,40 @@ Leading by example means that you surround yourself with peers not with
 underlings that do your work. I have seen many very successful people
 that did exactly that, being part of a team and leading from within not
 from the top.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intrinsic vs extrinsic motivation</title>
+      <link>http://lnz.me/2013/05/13/intrinsic-vs-extrinsic-motivation/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/13/intrinsic-vs-extrinsic-motivation/</guid>
+      <description>&lt;p&gt;I have mentored at Startup Weekend Auckland last weekend and noticed an
+interesting pattern. Participants that were at the weekend with the goal
+to win the competition were less motivated in the teams they were in if
+they thought the team is not doing well. Participants that were at the
+weekend primarily to learn something and did not care too much about
+winning were highly motivated and performed really well. Teams
+consisting exclusively out of participants who wanted to learn were very
+receptive to external input and managed to deliver a very good product.
+The winning team was formed by participants that wanted to learn, they
+were very motivated and executed very well as a team.&lt;/p&gt;
+
+&lt;p&gt;So, how come trying to win is in the way of winning?&lt;/p&gt;
+
+&lt;p&gt;It comes down to intrinsic vs extrinsic motivation. If your motivation
+is trying to achieve something real bad and your task involves
+non-trivial problems, or highly creative tasks then any focus on the
+goal slows you down. If the task is a highly repetitive task then
+extrinsic motivation works very well. I had seen this before and
+remembered the candle problem outlined here: &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Candle_Problem&#34; title=&#34;Wikipedia: The candle problem&#34;&gt;Wikipedia: The candle problem&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Intrinsic motivation should always be the one that you push in your
+startup. Trying to motivate you and your team by extrinsic motivators
+will hinder your performance as a team and will be in your way to make
+best use of your creativity. Always look for a way to push intrinsic
+motivators and your productivity and creativity will rise.&lt;/p&gt;
 </description>
     </item>
     

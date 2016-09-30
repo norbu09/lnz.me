@@ -1,11 +1,11 @@
 +++
 date = "2016-09-30T15:27:00+13:00"
 description = "a quick update on going back to FreeBSD"
-title = "2016 09 30 laptop update"
-
+title = "laptop update"
+tags = ["FreeBSD"]
 +++
 
-Back in July I wrote about going back to FreeBSD and I wanted to give a quick
+[Back in July I wrote](/2016/07/26/on-coming-home/) about going back to FreeBSD and I wanted to give a quick
 update on that. To sum it up, it was so painless it nearly does not warrant a
 blog post. I tinkered around a bit with 10.3-RELEASE and 11-CURRENT before
 stumbling over [TrueOS](https://www.trueos.org/) the new name for PCBSD, gave

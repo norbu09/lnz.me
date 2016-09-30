@@ -10,12 +10,12 @@
     <atom:link href="http://lnz.me/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>2016 09 30 laptop update</title>
+      <title>laptop update</title>
       <link>http://lnz.me/post/2016-09-30-laptop-update/</link>
       <pubDate>Fri, 30 Sep 2016 15:27:00 +1300</pubDate>
       
       <guid>http://lnz.me/post/2016-09-30-laptop-update/</guid>
-      <description>&lt;p&gt;Back in July I wrote about going back to FreeBSD and I wanted to give a quick
+      <description>&lt;p&gt;&lt;a href=&#34;http://lnz.me/2016/07/26/on-coming-home/&#34;&gt;Back in July I wrote&lt;/a&gt; about going back to FreeBSD and I wanted to give a quick
 update on that. To sum it up, it was so painless it nearly does not warrant a
 blog post. I tinkered around a bit with 10.3-RELEASE and 11-CURRENT before
 stumbling over &lt;a href=&#34;https://www.trueos.org/&#34;&gt;TrueOS&lt;/a&gt; the new name for PCBSD, gave

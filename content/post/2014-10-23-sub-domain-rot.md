@@ -1,0 +1,19 @@
+---
+categories:
+- articles
+comments: false
+date: 2014-10-23T00:00:00Z
+description: Subdomain rot and the security implications
+link: https://iwantmyname.com/blog/2014/10/sub-domain-rot.html
+modified: 2014-10-23
+share: true
+tags:
+- post
+- iwantmyname
+title: Subdomain rot and the security implications
+url: /2014/10/23/sub-domain-rot/
+---
+
+A post I wrote for the iwantmyname blog about sub domains and how not
+cleaning them up every now and then can lead to unexpected behaviour.
+

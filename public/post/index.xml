@@ -11,10 +11,10 @@
     
     <item>
       <title>laptop update</title>
-      <link>http://lnz.me/post/2016-09-30-laptop-update/</link>
+      <link>http://lnz.me/2016/09/30/laptop-update/</link>
       <pubDate>Fri, 30 Sep 2016 15:27:00 +1300</pubDate>
       
-      <guid>http://lnz.me/post/2016-09-30-laptop-update/</guid>
+      <guid>http://lnz.me/2016/09/30/laptop-update/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://lnz.me/2016/07/26/on-coming-home/&#34;&gt;Back in July I wrote&lt;/a&gt; about going back to FreeBSD and I wanted to give a quick
 update on that. To sum it up, it was so painless it nearly does not warrant a
 blog post. I tinkered around a bit with 10.3-RELEASE and 11-CURRENT before
@@ -23,23 +23,20 @@ it a try and never looked back. Initially I had some trouble with my display
 driver and just used the framebuffer one to have something working but TrueOS
 found all hardware instantly and just made it work.&lt;/p&gt;
 
-&lt;p&gt;Things that work out of the box on the X1 Carbon that surprised me:
-- plugging in an external projector, notoriously painful, just works
-- sound
-- trackpad, incl scrolling how I am used to on a mac&lt;/p&gt;
+&lt;p&gt;Things that work out of the box on the X1 Carbon that surprised me are plugging
+in an external projector, notoriously painful, just works. Sound, no fiddling,
+works out of the box and the trackpad, incl scrolling how I am used to on a mac.&lt;/p&gt;
 
-&lt;p&gt;Things I needed to fix:
-- media keys for volume
-- resume&lt;/p&gt;
+&lt;p&gt;Things I still needed to fix are the media keys for volume and resume.&lt;/p&gt;
 
 &lt;p&gt;So far I am super happy, still need to figure out a nicer way to run the update
 process from i3 as I got really used to that and seem to struggle a bit with
-Lumina but happy enough to just fire up that every now and then and update from
+Lumina but happy enough to just fire up Lumina every now and then and update from
 there.&lt;/p&gt;
 
 &lt;p&gt;The suspend works nicely but resume messes up my graphics but surprisingly I
-got used to shutting down my laptop and have a few interesting side effects,
-like starting with a clean slate every morning.&lt;/p&gt;
+got used to shutting down my laptop and an interesting side effect is that I
+start with a clean slate every morning.&lt;/p&gt;
 
 &lt;p&gt;Very happy that I made the switch back to FreeBSD and nothing that could make
 me switch back any time soon.&lt;/p&gt;

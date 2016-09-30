@@ -1,0 +1,274 @@
+    <!DOCTYPE html>
+<html lang="en-nz">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Lenz Gschwendtner">
+		<meta name="description" content="random thoughts of Lenz Gschwendtner (norbu09)">
+		<meta name="generator" content="Hugo 0.16" />
+		<title>Lego for grownups &middot; norbu09</title>
+		<link rel="shortcut icon" href="http://lnz.me/images/favicon.ico">
+		<link rel="stylesheet" href="http://lnz.me/css/style.css">
+		<link rel="stylesheet" href="http://lnz.me/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="http://lnz.me/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://lnz.me/index.xml" rel="alternate" type="application/rss+xml" title="norbu09" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://lnz.me/'> <span class="arrow">←</span>home</a>
+	
+
+	
+		<a href='http://lnz.me/about'>about</a>
+	
+
+	
+		<a href='http://lnz.me/now'>now</a>
+	
+
+	
+	<a class="cta" href="http://lnz.me/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Lego for grownups</h1>
+                    <h2 class="headline">
+                    October 12, 2015 
+                    <br>
+                    
+                    
+                        
+                            <a href="http://lnz.me/tags/post">post</a>
+                        
+                            <a href="http://lnz.me/tags/iwantmyname">iwantmyname</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>When I think about building software I try to see where we need to end
+up in order to help the customer right now and then work backwards from
+there. Because I am really bad at knowing what customers want I mock up
+something that is good enough to get feedback and then morph it into
+working code and then robust infrastructure. At iwantmyname I have
+pushed for this since we started and for the most part we succeeded till
+we tried to grow up and &ldquo;clean up&rdquo; and &ldquo;do things properly&rdquo;. The result
+was the complete loss of the playfulness of our stack and a return to
+&ldquo;work&rdquo; instead of experimentation. We are currently fixing this and it
+is mainly a mindset thing.</p>
+
+<p>We had an internal security audit recently and one of the outcomes
+was that our architecture is slightly ahead of its time, we do
+micro-services for at least 6 years by now and learned a lot about them.
+In this post I&rsquo;ll talk a bit about how to go from mock code to robust
+infrastructure.</p>
+
+<p>When a customer or we have an idea about a feature or a request or we
+see a lot of support in a specific area we want to invest a bit of time
+to implement an initial assumption about how we could address this. If
+it is easy to implement this and if it is simple to deploy this change
+then everyone in the team will be happy to make these little changes and
+over time we create a relevant product. Creating an environment where
+these changes have a low barrier is key in my view. It fosters ownership
+of the product across all parts of the company and helps create relevant
+products.</p>
+
+<p>If adding a feature involves writing a project request, a few meetings,
+deployment windows, various iterations of accept/review/sign off cycles,
+then any experiment becomes a costly thing and that has two big
+drawbacks. First, it is not fun to experiment and therefor less
+experiments will happen. This means less and less features or
+improvements will hit the site over time. The second issue is the time
+and money sunk in an early assumption, This first draft is most
+likely not what your customers actually wanted but with all that
+investment it will most probably be the way they have to use that
+feature. Any change would need to go through the same cycle of project
+management and other things will always be more urgent.</p>
+
+<p>How is it possible to go from a simple idea and mockup to working
+code that is scalable without much pain and without compromising
+security or reliability for the rest of the system. For us the answer
+was in a service oriented architecture or micro services or whatever the
+current buzz word for it is. We write every functionality on the site as a
+RabbitMQ endpoint that has a little daemon listing on it that implements
+that feature. To get a new feature out the door, we write a crude first
+version of what we think the functionality should be, mock up a bit of UI
+that interacts with that daemon and see how our customers like it. Over
+time that first crude prototype will morph into a nicer bit of code that
+is maintainable but because all bits of code are loosely coupled and the
+interfaces are just JSON messages via AMQP the internals of any daemon
+are not that important. The code quality can evolve over time and any
+bit can be replaced with new code even in new languages by just
+maintaining the external JSON interface. Also, and that is important,
+buggy code is limited to that daemon, no impact on the rest of the
+system. Mocking up an idea in code has no operational impact on the rest
+of the system and that makes it save to play.</p>
+
+<p>This way, moving from an idea to a scalable and reliable part of the
+system is an easy progression, time and money is spent on the parts that
+need to be reliable and are actually used, the bits that are nice to
+haves get re-writes less often. Code evolves as part of the system. The
+system evolves as user behaviour changes over time. The system becomes
+an adaptable organism, code is killed off like old cells, new code is
+introduced as new experiments are done. It is a living thing, not a
+painstakingly architected, implemented and finally handed over to ops
+kind a system. We still have an architecture that we adhere to but it is
+as reduced as JSON via AMQP and two sorts of data stores. The rest is
+morphing over time and will change as our customers change.</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/norbu09">
+                        <img class="avatar" src="http://lnz.me/images/avatar.png">
+                        <div>
+                            <span class="dark">Lenz Gschwendtner</span>
+                            <span>hacking established assumptions since ages ago</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2flnz.me%2f2015%2f10%2f12%2flego-for-grownups%2f - Lego%20for%20grownups by @norbu09"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/07/26/on-coming-home/">on coming home<aside class="dates">Jul 26</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/01/11/founder-dot-chat-growing-a-community/">founder.chat - growing a community<aside class="dates">Jan 11</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/11/18/global-entrepreneurship-week/">Global Entrepreneurship Week<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/10/22/interview-for-number-tgasw15/">Interview for #TGASW15<aside class="dates">Oct 22</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/10/12/lego-for-grownups/">Lego for grownups<aside class="dates">Oct 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/07/07/the-developers-dilemma/">The developers dilemma<aside class="dates">Jul 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/04/20/os-slash-slash-os-impressions/">os//os impressions<aside class="dates">Apr 20</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/04/09/does-open-source-contribute-to-a-more-open-society/">Does open source contribute to a more open society?<aside class="dates">Apr 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/03/09/a-new-view/">a new view<aside class="dates">Mar 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/02/28/miserable-state-of-tech-law-in-nz/">The chilling effect of tech law<aside class="dates">Feb 28</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/norbu09">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/norbu09">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2016 Lenz Gschwendtner
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://lnz.me/js/main.js"></script>
+<script src="http://lnz.me/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

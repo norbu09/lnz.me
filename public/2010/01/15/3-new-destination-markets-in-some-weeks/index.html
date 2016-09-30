@@ -1,0 +1,268 @@
+    <!DOCTYPE html>
+<html lang="en-nz">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Lenz Gschwendtner">
+		<meta name="description" content="random thoughts of Lenz Gschwendtner (norbu09)">
+		<meta name="generator" content="Hugo 0.16" />
+		<title>3 new destination markets in some months &middot; norbu09</title>
+		<link rel="shortcut icon" href="http://lnz.me/images/favicon.ico">
+		<link rel="stylesheet" href="http://lnz.me/css/style.css">
+		<link rel="stylesheet" href="http://lnz.me/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="http://lnz.me/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://lnz.me/index.xml" rel="alternate" type="application/rss+xml" title="norbu09" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://lnz.me/'> <span class="arrow">←</span>home</a>
+	
+
+	
+		<a href='http://lnz.me/about'>about</a>
+	
+
+	
+		<a href='http://lnz.me/now'>now</a>
+	
+
+	
+	<a class="cta" href="http://lnz.me/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>3 new destination markets in some months</h1>
+                    <h2 class="headline">
+                    January 15, 2010 
+                    <br>
+                    
+                    
+                        
+                            <a href="http://lnz.me/tags/post">post</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<h1 id="three-new-destination-markets-in-some-months">Three new destination markets in some months</h1>
+
+<p>It&rsquo;s been a bit of a busy time lately as we launched three new platforms
+in the last time and that brought with it a lot of challenges.
+Fortunately it also pushed me to complete our migration to our new
+backend which is now entirely message driven and based only on the
+finest stuff one finds in the moment.</p>
+
+<p>The backend engine is <a href="http://rabbitmq.com">RabbitMQ</a> based and persists messages to
+<a href="http://couchdb.apache.org">CouchDB</a> if necessary. We have a simple home grown workflow engine
+that enables us to easily customise and change flows like what happens
+if a domain gets registered or exactly when we charge a user. I spoke
+about an early version of this workflow engine last year at the erlounge
+Wellington
+(<a href="http://norbu09.org/2009/10/15/one-system-to-rule-them-all.html">http://norbu09.org/2009/10/15/one-system-to-rule-them-all.html</a>). This
+backend engine is a scalable hub for tasks and the main challenge was to
+make our frontend stupid simple and more or less only a wrapper for
+tasks happening in the backend. We have now nearly all the logic moved
+and the frontend is quite slim, holding only the e-commerce and user
+profile functionality whereas all the domain specific functionality
+moved out.</p>
+
+<p>The next step was to make our frontend not only simple but also
+brandable and multi currency/language. This is the moment where you
+notice that strings are everywhere and solid internal APIs pay off big
+time. This challenge was a big one but we managed to master it and have
+now an <a href="http://iWantMyName.com">English</a>, <a href="http://meinName.com">German</a> and <a href="http://benikvrij.nl">Dutch</a> version online selling
+in USD, EUR and <a href="http://iWantMyName.co.nz">NZD</a>. The frontend is a generic one that has many
+configuration knobs that can tweak the functionality but it is still
+only one code base for all projects. The template sets are separate so
+each language has its own template set. The two English speaking
+platforms share a template set but have different currencies - the
+content however is not 100% the same on the two. All this needs lots of
+config variables to check against and Template::Toolkit was a big help
+here.</p>
+
+<p>As you can see there went a lot of effort into designing a flexible
+system that can act in different environments and still be only
+one system. Most of the content is now served out of CouchDB and we
+further reduced the amount of data stored in PostgreSQL as well as hard
+coded texts in templates. We rewrote our shopping card from scratch and
+the checkout process is really simple now as most of the heavy lifting
+is now in the backend. Stuff we are working on in the moment is Session
+handling and user management in CouchDB with a goal to strip out
+PostgreSQL entirely (the according Catalyst::Plugins are on the way).
+Don&rsquo;t get me wrong, we love PostgreSQL but there is no need for it
+anymore once we have the remaining things ported over to CouchDB. It
+simplifies our stack and reduces our admin overhead.</p>
+
+<p>Speaking of admin overhead - we also run all setups (including local
+development VMs) off a puppet setup and code/template/CouchDB rollout is
+done via capistrano which turns out to work quite well with catalyst and
+perl. We roll out a new frontend webserver in about half an hour
+from bare debian to running frontend with the most time being spent
+waiting for puppet and no manual step other then installing puppet.</p>
+
+<p>You see we have been busy, if you find bugs, report them. We know that
+the performance in the DNS editor is still crap but we try to sort that
+and there are some rough edges here and there but most of the platforms
+should run smoothly. It was a steep learning curve once again but we
+managed to create a scalable system that is extremely flexible and fast.</p>
+
+<p>&hellip; hope you like it &hellip;</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/norbu09">
+                        <img class="avatar" src="http://lnz.me/images/avatar.png">
+                        <div>
+                            <span class="dark">Lenz Gschwendtner</span>
+                            <span>hacking established assumptions since ages ago</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2flnz.me%2f2010%2f01%2f15%2f3-new-destination-markets-in-some-weeks%2f - 3%20new%20destination%20markets%20in%20some%20months by @norbu09"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/07/26/on-coming-home/">on coming home<aside class="dates">Jul 26</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/01/11/founder-dot-chat-growing-a-community/">founder.chat - growing a community<aside class="dates">Jan 11</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/11/18/global-entrepreneurship-week/">Global Entrepreneurship Week<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/10/22/interview-for-number-tgasw15/">Interview for #TGASW15<aside class="dates">Oct 22</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/10/12/lego-for-grownups/">Lego for grownups<aside class="dates">Oct 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/07/07/the-developers-dilemma/">The developers dilemma<aside class="dates">Jul 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/04/20/os-slash-slash-os-impressions/">os//os impressions<aside class="dates">Apr 20</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/04/09/does-open-source-contribute-to-a-more-open-society/">Does open source contribute to a more open society?<aside class="dates">Apr 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/03/09/a-new-view/">a new view<aside class="dates">Mar 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/02/28/miserable-state-of-tech-law-in-nz/">The chilling effect of tech law<aside class="dates">Feb 28</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/norbu09">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/norbu09">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2016 Lenz Gschwendtner
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://lnz.me/js/main.js"></script>
+<script src="http://lnz.me/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

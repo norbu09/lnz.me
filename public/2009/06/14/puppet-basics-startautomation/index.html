@@ -1,0 +1,304 @@
+    <!DOCTYPE html>
+<html lang="en-nz">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Lenz Gschwendtner">
+		<meta name="description" content="random thoughts of Lenz Gschwendtner (norbu09)">
+		<meta name="generator" content="Hugo 0.16" />
+		<title>puppet basics (startup automation 2) &middot; norbu09</title>
+		<link rel="shortcut icon" href="http://lnz.me/images/favicon.ico">
+		<link rel="stylesheet" href="http://lnz.me/css/style.css">
+		<link rel="stylesheet" href="http://lnz.me/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="http://lnz.me/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://lnz.me/index.xml" rel="alternate" type="application/rss+xml" title="norbu09" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://lnz.me/'> <span class="arrow">←</span>home</a>
+	
+
+	
+		<a href='http://lnz.me/about'>about</a>
+	
+
+	
+		<a href='http://lnz.me/now'>now</a>
+	
+
+	
+	<a class="cta" href="http://lnz.me/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>puppet basics (startup automation 2)</h1>
+                    <h2 class="headline">
+                    June 14, 2009 
+                    <br>
+                    
+                    
+                        
+                            <a href="http://lnz.me/tags/post">post</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<h1 id="startup-automation-part-2">Startup automation - Part 2</h1>
+
+<h2 id="puppet-basics">puppet basics</h2>
+
+<p>In the last part of startup automation I talked you through the basics
+of configuring gitosis and the puppet config directory to make
+deployment of the config files really easy. Obviously we need some test
+clients and a working server now to play. I use parallels for local
+development and normally fire up one VM per project. I created an empty
+debian VM and just did a <code>apt-get install puppet</code>. This installs all
+dependencies and leaves you with a working client.</p>
+
+<h2 id="create-a-basic-configuration">create a basic configuration</h2>
+
+<p>we need some basic configuration files before we can start. Use these as
+templates, they are more or less standard debian config files so you
+might have to tweak paths a bit for your environment:</p>
+
+<p><code>puppet.conf</code>
+
+[main]
+logdir=/var/log/puppet
+vardir=/var/lib/puppet
+ssldir=/var/lib/puppet/ssl
+rundir=/var/run/puppet
+factpath=$vardir/lib/facter
+pluginsync=true
+
+[puppetmasterd]
+templatedir=/var/lib/puppet/templates
+</p>
+
+<p><code>fileserver.conf</code>
+
+# This file consists of arbitrarily named sections/modules
+# defining where files are served from and to whom
+
+# Define a section 'files'
+# Adapt the allow/deny settings to your needs. Order
+# for allow/deny does not matter, allow always takes precedence
+# over deny
+[files]
+path /etc/puppet/files
+#  allow *.example.com
+#  deny *.evil.example.com
+#  allow 192.168.0.0/24
+
+[plugins]
+#  allow *.example.com
+#  deny *.evil.example.com
+#  allow 192.168.0.0/24
+</p>
+
+<p>and a basic <code>manifests/site.pp</code></p>
+
+
+# site.pp
+
+filebucket { main: server => 'YOUR_PUPPET_SERVER_HERE' }
+
+# global defaults
+File { backup => main }
+Exec { path => "/usr/bin:/usr/sbin/:/bin:/sbin" }
+
+Package {
+    provider => $operatingsystem ? {
+        debian => aptitude,
+        redhat => up2date
+    }
+}
+
+
+<p>Make sure you edit the <code>sites.pp</code> to actually point to your puppet
+server. Add those files, commit and push. Then restart your
+puppetmasterd on the server.</p>
+
+<p>We need two shells now, one on the server and one on your client. Fire
+up your shell on the server and ask the puppetmaster for pending
+certificate requests with the <code>puppetca</code> command:
+
+$ puppetca --list
+
+This should return with <code>no pending requests</code> message or so.</p>
+
+<p>Fire up the second shell on your client and request a certificate from
+your server. We try it interactive first till things go smooth:
+
+$ puppetd --server YOUR_PUPPET_SERVER --waitforcert 60 --test
+
+This should come back with an error that the cert could not be issued
+yet. This is expected as we have not authorized the client yet. To do so
+we hop over to our server console again and issue the puppetca command
+again. We should have a pending request now from our test client. Go on
+and sign it with
+
+$ puppetca --sign CLIENT_NAME
+
+If you rerun the client now with the same command it should be happy and
+report success.</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/norbu09">
+                        <img class="avatar" src="http://lnz.me/images/avatar.png">
+                        <div>
+                            <span class="dark">Lenz Gschwendtner</span>
+                            <span>hacking established assumptions since ages ago</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2flnz.me%2f2009%2f06%2f14%2fpuppet-basics-startautomation%2f - puppet%20basics%20%28startup%20automation%202%29 by @norbu09"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/07/26/on-coming-home/">on coming home<aside class="dates">Jul 26</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/01/11/founder-dot-chat-growing-a-community/">founder.chat - growing a community<aside class="dates">Jan 11</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/11/18/global-entrepreneurship-week/">Global Entrepreneurship Week<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/10/22/interview-for-number-tgasw15/">Interview for #TGASW15<aside class="dates">Oct 22</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/10/12/lego-for-grownups/">Lego for grownups<aside class="dates">Oct 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/07/07/the-developers-dilemma/">The developers dilemma<aside class="dates">Jul 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/04/20/os-slash-slash-os-impressions/">os//os impressions<aside class="dates">Apr 20</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/04/09/does-open-source-contribute-to-a-more-open-society/">Does open source contribute to a more open society?<aside class="dates">Apr 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/03/09/a-new-view/">a new view<aside class="dates">Mar 9</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/02/28/miserable-state-of-tech-law-in-nz/">The chilling effect of tech law<aside class="dates">Feb 28</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/norbu09">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/norbu09">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2016 Lenz Gschwendtner
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://lnz.me/js/main.js"></script>
+<script src="http://lnz.me/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

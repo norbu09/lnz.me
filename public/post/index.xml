@@ -6,8 +6,45 @@
     <description>Recent content in Posts on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
-    <lastBuildDate>Tue, 26 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Sep 2016 15:27:00 +1300</lastBuildDate>
     <atom:link href="http://lnz.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016 09 30 laptop update</title>
+      <link>http://lnz.me/post/2016-09-30-laptop-update/</link>
+      <pubDate>Fri, 30 Sep 2016 15:27:00 +1300</pubDate>
+      
+      <guid>http://lnz.me/post/2016-09-30-laptop-update/</guid>
+      <description>&lt;p&gt;Back in July I wrote about going back to FreeBSD and I wanted to give a quick
+update on that. To sum it up, it was so painless it nearly does not warrant a
+blog post. I tinkered around a bit with 10.3-RELEASE and 11-CURRENT before
+stumbling over &lt;a href=&#34;https://www.trueos.org/&#34;&gt;TrueOS&lt;/a&gt; the new name for PCBSD, gave
+it a try and never looked back. Initially I had some trouble with my display
+driver and just used the framebuffer one to have something working but TrueOS
+found all hardware instantly and just made it work.&lt;/p&gt;
+
+&lt;p&gt;Things that work out of the box on the X1 Carbon that surprised me:
+- plugging in an external projector, notoriously painful, just works
+- sound
+- trackpad, incl scrolling how I am used to on a mac&lt;/p&gt;
+
+&lt;p&gt;Things I needed to fix:
+- media keys for volume
+- resume&lt;/p&gt;
+
+&lt;p&gt;So far I am super happy, still need to figure out a nicer way to run the update
+process from i3 as I got really used to that and seem to struggle a bit with
+Lumina but happy enough to just fire up that every now and then and update from
+there.&lt;/p&gt;
+
+&lt;p&gt;The suspend works nicely but resume messes up my graphics but surprisingly I
+got used to shutting down my laptop and have a few interesting side effects,
+like starting with a clean slate every morning.&lt;/p&gt;
+
+&lt;p&gt;Very happy that I made the switch back to FreeBSD and nothing that could make
+me switch back any time soon.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>on coming home</title>
@@ -814,37 +851,6 @@ really prefer doing stuff I like without any time restriction.&lt;/p&gt;
       <description>&lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we hire people&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-three.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Berlin</title>
-      <link>http://lnz.me/2014/08/07/berlin/</link>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://lnz.me/2014/08/07/berlin/</guid>
-      <description>&lt;p&gt;Since a while we live in Berlin for a change. It is really interesting
-to see how much New Zealand changed me and to see how different things
-look to me now, that I have distance to them.&lt;/p&gt;
-
-&lt;p&gt;The most obvious thing to me is that there is this interesting split
-between expats that are here to enjoy living in the startup capital of
-Europe and the Germans that always find something that is bothering
-them, something they can complain about, something that someone needs to
-change. The observation for me is that Germans in Germany are happy to
-make some else responsible for their current situation whereas those who
-come here just try to get stuff done.&lt;/p&gt;
-
-&lt;p&gt;This may be a bigger thought and because of the comparably young age of
-New Zealand most Kiwis needed to get stuff done, complaining did not get
-you anywhere. Obviously there are awesome people here in Germany that
-get stuff done, don&amp;rsquo;t blame any higher instance for their current
-situation and there are Kiwis that complain bitterly about things, it is
-more the general mood, the general way of how the majority thinks and
-represents itself to me.&lt;/p&gt;
-
-&lt;p&gt;So, summer is awesome and there are plenty of positive people around me,
-just most of them speak English &amp;hellip; like me.&lt;/p&gt;
 </description>
     </item>
     

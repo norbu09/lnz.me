@@ -22,6 +22,9 @@ git pull --rebase
 git push origin master
 
 echo -e "\033[0;32mUpdating site on server...\033[0m"
-ssh ${SITE} 'cd ${SITE} && git pull'
-open http://${SITE}
+ssh ${SITE} <<EOF
+  cd ${SITE}
+  git pull
+EOF
 
+open http://${SITE}

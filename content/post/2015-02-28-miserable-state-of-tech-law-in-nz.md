@@ -1,14 +1,11 @@
 ---
-categories:
-- articles
 comments: false
 date: 2015-02-28T00:00:00Z
 description: The TICSA bill and what happens with NZ tech industry
-link: http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11409067
 modified: 2015-02-28
 share: true
 tags:
-- post
+- future
 title: The chilling effect of tech law
 url: /2015/02/28/miserable-state-of-tech-law-in-nz/
 ---
@@ -28,3 +25,5 @@ tax advantage in doing so.
 
 We can, however, keep turning a blind eye on the increasingly warm
 summers that dry out our country and hope that dairy is the future.
+
+[Read the post on the NZ Herald](http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11409067)

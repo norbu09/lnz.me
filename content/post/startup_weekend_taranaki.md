@@ -14,7 +14,7 @@ help deliver a relevant event.
 
 Over the years both of us have been deeply involved in other experimental
 events, like [Mashup](http://mashup.nz) and
-[statup.school.nz](http://startup.school.nz) where we explore ways of introducing
+[startup.school.nz](http://startup.school.nz) where we explore ways of introducing
 entrepreneurship in other ways than the Startup Weekend format. Learning from
 these events and with the combined background of over 30 Startup Weekends we
 constantly push the format to become more relevant for the respective audience.

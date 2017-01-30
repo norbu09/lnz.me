@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Freebsd on norbu09</title>
-    <link>http://lnz.me/tags/freebsd/</link>
+    <link>http://lnz.me/tags/freebsd/index.xml</link>
     <description>Recent content in Freebsd on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
-    <lastBuildDate>Fri, 30 Sep 2016 15:27:00 +1300</lastBuildDate>
     <atom:link href="http://lnz.me/tags/freebsd/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

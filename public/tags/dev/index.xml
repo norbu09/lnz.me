@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev on norbu09</title>
-    <link>http://lnz.me/tags/dev/</link>
+    <link>http://lnz.me/tags/dev/index.xml</link>
     <description>Recent content in Dev on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
-    <lastBuildDate>Tue, 07 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://lnz.me/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

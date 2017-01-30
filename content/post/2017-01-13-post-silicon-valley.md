@@ -1,6 +1,6 @@
 ---
 date: 2017-01-30T23:43:12
-description: a thnking piece about a possible future for the startup scene
+description: a thinking piece about a possible future for the startup scene
 title: How could a post Silicon Valley startup scene look like
 tags: 
  - Startup

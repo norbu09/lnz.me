@@ -6,8 +6,78 @@
     <description>Recent content in Posts on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
-    <lastBuildDate>Mon, 30 Jan 2017 23:43:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Feb 2017 05:03:39 +0100</lastBuildDate>
     <atom:link href="http://lnz.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why values based communites are so important</title>
+      <link>http://lnz.me/post/2017-02-21-values-based-communities/</link>
+      <pubDate>Tue, 21 Feb 2017 05:03:39 +0100</pubDate>
+      
+      <guid>http://lnz.me/post/2017-02-21-values-based-communities/</guid>
+      <description>&lt;p&gt;Intentions for people to engage in any community are as diverse as the
+people that engage. Many intentions means many desired outcomes and that
+means that tensions may arise from simply trying to &amp;ldquo;do the right thing&amp;rdquo;
+as &amp;ldquo;the right thing&amp;rdquo; has never been articulated.&lt;/p&gt;
+
+&lt;p&gt;I have been part of many projects, communities, companies and teams that
+ran into exactly this problem, &amp;ldquo;why am I here and what do I want to get
+out of it&amp;rdquo;. People want to get something from the community they engage
+with based on their views, their ideals, their values and that,
+unfortunately, means that if those outcomes are either not clear or the
+value set is not aligned frustration builds up and may erupt quite
+violently, often to the complete surprise of the person that triggered
+it.&lt;/p&gt;
+
+&lt;p&gt;Things get worse if we have people involved that are celebrated for
+their contributions in the field, often looked up to which may creates
+big egos. Not necessarily a bad thing but often these people are then
+referred to as being &amp;ldquo;in it for the wrong reasons&amp;rdquo; - I have seen this
+(and am guilty of saying this) in many communities I have been involved
+in.&lt;/p&gt;
+
+&lt;p&gt;Small diversion, I have been at Webstock last week and really liked
+Jared Spools talk about the UX tipping point where he explained a concept
+that stuck with me since. He talked about four stages people go through
+when they learn. They start out in a state of &amp;ldquo;unconscious incompetence&amp;rdquo;
+- a state where you don&amp;rsquo;t know what you don&amp;rsquo;t know. This is a happy
+place till you realise that there is something you have been missing out
+on, something you should read up on, learn some more. This is called
+&amp;ldquo;conscious incompetence&amp;rdquo; and is normally a place you want to get away
+from. Once you figured out how to repeatedly get a desired outcome you
+enter the state of &amp;ldquo;conscious competence&amp;rdquo; and that is normally where we
+stop, we can do something, we can repeat the outcome, done. However, if
+we do something out of reflex, no thinking required we reach a state of
+&amp;ldquo;unconscious competence&amp;rdquo; and this is where the real magic happens, if
+you apply learnings without even knowing you do, just out of reflex, you
+truly mastered something. The path from unconscious incompetence to
+conscious incompetence is referred to as &amp;ldquo;literacy&amp;rdquo;, the path onwards to
+conscious competence is referred to as &amp;ldquo;fluency&amp;rdquo; and then on to
+unconscious competence as &amp;ldquo;mastery&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;This gave me a lot to think about, when we refer to people as being
+literate in something, do we really just mean they reached conscious
+incompetence? Especially in terms of building functioning and welcoming
+communities I see it vital that we create a pathway for everyone who
+joins a community to unconsciously be competent about the values of
+that community. Now, moving someone from literacy to fluency and then
+to mastery means we need to educate, we need to coach, we need to have a
+defined pathway and a defined set of values and goals for a community
+and then we need to be very patient and move people through the
+stages. Telling people off and being upset does not help that person
+when they messed up but coaching them towards the share values and
+explain why something is not aligned with these values will over time.&lt;/p&gt;
+
+&lt;p&gt;If you join a community or create a new one, ask for the values, ask why
+people participate and help establish a shared value set everyone in
+that community wants to contribute by. Then help everyone to work
+towards that value set and help everyone to become unconsciously
+competent.&lt;/p&gt;
+
+&lt;p&gt;My goal for the next months is to work towards this in the communities I am
+involved in, I&amp;rsquo;ll share my learnings along the way.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How could a post Silicon Valley startup scene look like</title>
@@ -911,19 +981,6 @@ change your pace. Running a company is a long term thing and it is only
 rewarding if you are on that peak and enjoy the view without that
 desire to vomit and sleep or to just hope that a helicopter comes around
 the corner to pick you up.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Subdomain rot and the security implications</title>
-      <link>http://lnz.me/2014/10/23/sub-domain-rot/</link>
-      <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://lnz.me/2014/10/23/sub-domain-rot/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about sub domains and how not
-cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/10/sub-domain-rot.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

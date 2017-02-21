@@ -1,6 +1,6 @@
 +++
-title = "Why values based communites are so important"
-description = "If we truely want to address issues in our society we need to work towards shared values"
+title = "Why values based communities are so important"
+description = "If we truly want to address issues in our society we need to work towards shared values"
 date = "2017-02-21T05:03:39+01:00"
 
 +++

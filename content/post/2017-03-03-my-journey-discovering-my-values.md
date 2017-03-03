@@ -68,7 +68,7 @@ people in your community.
 
 What community values do you want to see in a community you are part of?
 How does your journey of discovering values look like? Please join the
-discussion on Twitter by using the hashtag [`#startupcommunityvalues`](https://twitter.com/search?q=%23startupcommunityvalues).
+discussion on Twitter by using the hashtag [`#startupcommunityvalues`](https://twitter.com/hashtag/startupcommunityvalues).
 
 Updates
 -------

@@ -27,4 +27,4 @@ ssh ${SITE} <<EOF
   git pull
 EOF
 
-open http://${SITE}
+echo "updated, check http://lnz.me"

@@ -76,3 +76,7 @@ Updates
 [Dan](https://twitter.com/leancto) has written a post about a shared
 community operating system [over at the zeropoint.ventures blog]
 (https://blog.zeropoint.ventures/towards-a-shared-operating-system-for-values-led-startup-communities-902282234cc7#.kfl8xkhdo)
+
+[Pascale](https://twitter.com/phpnz) has written a very insightful post
+about navigating the future with values based communites [on the
+VentureCentre blog](http://venturecentre.co.nz/blog/item/183-navigating-our-future)

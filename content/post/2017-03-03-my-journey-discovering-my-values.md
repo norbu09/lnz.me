@@ -80,3 +80,12 @@ community operating system [over at the zeropoint.ventures blog]
 [Pascale](https://twitter.com/phpnz) has written a very insightful post
 about navigating the future with values based communites [on the
 VentureCentre blog](http://venturecentre.co.nz/blog/item/183-navigating-our-future)
+
+[Dave](https://twitter.com/davemosk) has written up a post about his
+work in Startup Weekend and how he wants to bring values into everything
+he is involved in. Read [his post over at his blog]
+(https://dave.moskovitz.co.nz/2017/03/03/building-the-entrepreneurial-community-we-want-to-live-in/)
+
+[Peter](https://twitter.com/PeterJThomson) has writen a very insightful
+post about the more international angle of the startup community [on his
+blog](http://www.peterjthomson.com/2017/03/international-startup-community-values/)

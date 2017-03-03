@@ -1,7 +1,7 @@
 +++
 title = "My journey discovering my values"
 description = "How can we move towards welcoming communities long term?"
-date = "2017-03-01T22:41:48+01:00"
+date = "2017-03-03T12:41:48+01:00"
 
 +++
 

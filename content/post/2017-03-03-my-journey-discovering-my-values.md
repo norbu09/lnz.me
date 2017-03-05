@@ -88,4 +88,12 @@ he is involved in. Read [his post over at his blog]
 
 [Peter](https://twitter.com/PeterJThomson) has writen a very insightful
 post about the more international angle of the startup community [on his
-blog](http://www.peterjthomson.com/2017/03/international-startup-community-values/)
+blog](http://www.peterjthomson.com/2019/03/international-startup-community-values/)
+
+[Jane](https://twitter.com/JaneTHoye) wrote a very personal view of how she found her tribe [on her
+blog](https://medium.com/@JaneTHoye/my-quest-to-find-my-startup-tribe-2c3896592d8#.crnvobm88)
+- a very insightful piece about values in the startup scene
+
+[Colart](https://twitter.com/colart) added a piece on how he sees the bigger picture and how a
+value driven discussion about our future is needed more than ever. Read
+it on [the velox innovation blog](http://veloxinnovation.com/news-and-insights/2017/3/5/accelerating-futures)

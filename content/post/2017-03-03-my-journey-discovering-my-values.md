@@ -97,3 +97,8 @@ blog](https://medium.com/@JaneTHoye/my-quest-to-find-my-startup-tribe-2c3896592d
 [Colart](https://twitter.com/colart) added a piece on how he sees the bigger picture and how a
 value driven discussion about our future is needed more than ever. Read
 it on [the velox innovation blog](http://veloxinnovation.com/news-and-insights/2017/3/5/accelerating-futures)
+
+[Sarah](https://twitter.com/quisitivity) wrote a wonderful piece about her
+role in supporting and participating in what has to be the most complete
+list of startup initiatives in the country. [Read her impressive lineup
+and takeaways on medium](https://medium.com/@sarahday/gold-in-them-hills-a-supporter-view-of-a-values-driven-nz-startup-ecosystem-c6ec3b8921e8#.sx4rzdaax)

@@ -41,5 +41,5 @@ administrate the forum. We want this to be a highly transparent place so we also
 release all sponsorship information publicly, to follow along, check out this
 thread: http://www.nzstartup.community/t/financial-transparency/38
 
-Please use this place, fill it with live and start creating the open door we
-want for our awesome community.
+Please use this place, fill it with life and love and start creating the open
+door we want for our awesome community.

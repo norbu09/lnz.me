@@ -1,0 +1,359 @@
+    <!DOCTYPE html>
+<html lang="en-nz">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Lenz Gschwendtner">
+		<meta name="description" content="random thoughts of Lenz Gschwendtner (norbu09)">
+		<meta name="generator" content="Hugo 0.26" />
+		<title>git via HTTP (startup automation 3) &middot; norbu09</title>
+		<link rel="shortcut icon" href="http://lnz.me/images/favicon.ico">
+		<link rel="stylesheet" href="http://lnz.me/css/style.css">
+		<link rel="stylesheet" href="http://lnz.me/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="http://lnz.me/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://lnz.me/index.xml" rel="alternate" type="application/rss+xml" title="norbu09" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://lnz.me/'> <span class="arrow">←</span>home</a>
+	
+
+	
+		<a href='http://lnz.me/about'>about</a>
+	
+
+	
+		<a href='http://lnz.me/now'>now</a>
+	
+
+	
+	<a class="cta" href="http://lnz.me/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>git via HTTP (startup automation 3)</h1>
+                    <h2 class="headline">
+                    August 2, 2009 
+                    <br>
+                    
+                    
+                        
+                            <a href="http://lnz.me/tags/post">post</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<h1 id="startup-automation-part-3">Startup automation - Part 3</h1>
+
+<h2 id="git-via-http-with-nginx">git via HTTP with nginx</h2>
+
+<p>Just in case you don&rsquo;t know (very unlikely) or never played with nginx
+before. This is <em>the</em> web server and frontend HTTP loadbalancer all your
+HTTP based setups should have anyway. There is documentation in English
+on the nginx wiki (<a href="http://wiki.nginx.org">http://wiki.nginx.org</a>)
+and if you get stuck there is a lot of stuff just on google. The rails
+community love nginx and they tend to document well - a thanks at this
+point to those guys.</p>
+
+<p>The setup is really straight forward but has some minor cave eats that
+can cause you grief and debugging hours I want to save you.</p>
+
+<p>First of all you need nginx installed on your system - obviously. I
+assume that your webroot is under <code>/var/www</code>. We need a directory called
+<code>git</code> under it and need to link the repositories in that you want to
+share.</p>
+
+
+$ mkdir /var/www/git
+$ cd /var/www/git
+$ ln -s /srv/gitosis/repositories/[repository].git [repository]
+
+
+<p>This includes some assumptions. I take that you have more repositories
+in your gitosis setup than public repositories you want to share or make
+available via http. If this is not the case you can simply point nginx
+at your gitosis repository path and add a simple rewrite rule that cuts
+off the trailing <code>.git</code> of the repository path.</p>
+
+<p>In nginx we need some configuration that acually serves those
+repositories now. That is initially really straight forward:</p>
+
+
+server {
+    listen   80;
+    server_name  git.[your.domain.tld];
+    access_log  /var/log/nginx/git.access.log;
+    location / {
+        root   /var/www/git/;
+    }
+}
+
+
+<p>This is the first very basic configuration for nginx. All we have to do
+now is enabling a simple hook in our git repository we want to serve
+and we are done.</p>
+
+<p>To do that we need to go to our gitosis repository (you can simply <code>cd</code> to
+the linked directory now) and edit the <code>hooks/post-update</code> hook. Add the
+following line (or uncomment it) and make sure the file has the
+executable bit set (<code>chmod +x hooks/post-update</code>).</p>
+
+
+exec git-update-server-info
+
+
+<p>This post update hook needs to be run once now. You can either push
+something to the repository to trigger the hook or <code>su</code> to the git user
+and simply run the hook. The <code>su</code> is important to not screw up the
+permissions.</p>
+
+<p>Speaking of permissions - we need to make the repository readable by the
+nginx user. The easy way is to add <code>www-data</code> to the git group that owns
+the git repository. The git group should only have read access to the
+git repositories anyway so it does not open up a too big hole in your
+security.</p>
+
+<p>Once all that is done you can test your setup with the following
+command:</p>
+
+
+git ls-remote
+http://git.[your.domain.tld]/[repository] master
+
+
+<p>This should come back with something like this:</p>
+
+<p><code>171bb2f12ceb908fd4802857a2f577a1739f8d1f        refs/heads/master</code></p>
+
+<h2 id="securing-the-setup-with-basic-auth-and-https">Securing the setup with &ldquo;basic auth&rdquo; and HTTPS</h2>
+
+<p>Now comes the fun part. After we have this setup up and running we can
+start to use it for rollout systems like capistrano and have read only
+repositories that we serve via HTTPS and basic auth without the need of
+deploying SSH keys all over for access to gitosis.</p>
+
+<p>All we have to do now is change our nginx configuration slightly. We
+need to enable HTTPS and we can even have different auth files for
+different projects. This might be interesting if you run several
+projects on your gitosis host with different committers.</p>
+
+
+server {
+    listen   443;
+    server_name  git.[your.domain.tld];
+    access_log  /var/log/nginx/git.access.log;
+
+    ssl  on;
+    ssl_certificate  certs/git.pem;
+    ssl_certificate_key  certs/git.key;
+
+    ssl_session_timeout  5m;
+
+    ssl_protocols  SSLv2 SSLv3 TLSv1;
+    ssl_ciphers  ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP;
+    ssl_prefer_server_ciphers   on;
+
+    location / {
+        root   /var/www/git/;
+        auth_basic            "Restricted";
+        auth_basic_user_file  conf.d/htpasswd.general;
+    }
+
+    location /[repository 1] {
+        root   /var/www/git/;
+        autoindex  on;
+        auth_basic            "Restricted";
+        auth_basic_user_file  conf.d/htpasswd.[group 1];
+    }
+    location /[repository 2] {
+        root   /var/www/git/;
+        autoindex  on;
+        auth_basic            "Restricted";
+        auth_basic_user_file  conf.d/htpasswd.[group 2];
+    }
+}
+
+
+<p>Reload your nginx and you have your repositories served up under HTTPS
+and only need to create the htaccess files now. This is simply done with
+the <code>htaccess</code> program that is part of apache (or the apache utils with
+come as a separate package).
+Also note that your <code>root</code> directory is always the base git webroot.</p>
+
+<h2 id="some-oddities">some oddities</h2>
+
+<p>While testing I used self signed certificates and as the host is only
+used in non public ways I will stay with them. This caused some googling
+however as git came up with the following error:</p>
+
+<p><code>fatal: https://[user:pass@git.host]/[repository]/info/refs download error - SSL certificate problem, verify that the CA cert is OK.</code></p>
+
+<p>This is due to the self signed cert and has to be overridden with a
+environment variable. A simple</p>
+
+
+$ export GIT_SSL_NO_VERIFY=true
+
+
+<p>did the trick. If you have a rollout user you want this parameter to be
+in his <code>.profile</code> or your shell specific equivalent (eg <code>.bashrc</code>).</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/norbu09">
+                        <img class="avatar" src="http://lnz.me/images/avatar.png">
+                        <div>
+                            <span class="dark">Lenz Gschwendtner</span>
+                            <span>hacking established assumptions since ages ago</span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2flnz.me%2f2009%2f08%2f02%2fgit-via-http-startup-automation-3%2f - git%20via%20HTTP%20%28startup%20automation%203%29 by @norbu09"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="http://lnz.me/post/2017-05-02-community-and-walled-gardens/">Community and walled gardens<aside class="dates">May 2</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/post/2017-03-03-my-journey-discovering-my-values/">My journey discovering my values<aside class="dates">Mar 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/post/2017-02-21-values-based-communities/">Why values based communities are so important<aside class="dates">Feb 21</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2017/01/13/post-silicon-valley/">How could a post Silicon Valley startup scene look like<aside class="dates">Jan 30</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2017/01/17/about-perception/">About perception<aside class="dates">Jan 17</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/10/20/startup-weekend-taranaki/">Startup Weekend Taranaki<aside class="dates">Oct 20</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/09/30/laptop-update/">laptop update<aside class="dates">Sep 30</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/07/26/on-coming-home/">on coming home<aside class="dates">Jul 26</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2016/01/11/founder-dot-chat-growing-a-community/">founder.chat - growing a community<aside class="dates">Jan 11</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://lnz.me/2015/11/18/global-entrepreneurship-week/">Global Entrepreneurship Week<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/norbu09">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/norbu09">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2017 Lenz Gschwendtner
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://lnz.me/js/main.js"></script>
+<script src="http://lnz.me/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

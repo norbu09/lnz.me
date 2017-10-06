@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on norbu09</title>
-    <link>http://lnz.me/post/index.xml</link>
+    <link>http://lnz.me/post/</link>
     <description>Recent content in Posts on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <lastBuildDate>Tue, 02 May 2017 10:06:48 +1200</lastBuildDate>
-    <atom:link href="http://lnz.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://lnz.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Community and walled gardens</title>
@@ -15,44 +17,8 @@
       <pubDate>Tue, 02 May 2017 10:06:48 +1200</pubDate>
       
       <guid>http://lnz.me/post/2017-05-02-community-and-walled-gardens/</guid>
-      <description>&lt;p&gt;I have helped build and contribute to the NZ startup community since around 2008
-and during that time have been granted access to many groups, back channels, side
-channels, communication channels that I signed up to or got signed up to and it
-continues, every new group that forms starts creating yet another mailing
-list and slack channel and Facebook group.&lt;/p&gt;
-
-&lt;p&gt;Over the years we have created this monster that looks very open and
-approachable from the inside but gives no clues on how to join it from the
-outside. I have been asked so many times about how one becomes a part of this
-startup community and my answer was always: &amp;ldquo;Just sign up here and there, I&amp;rsquo;ll
-invite you into this channel and sign you up to that&amp;rdquo; till I realised, this
-massive ivory tower we built is everything but approachable. We claim to be open
-when in reality we are open to those in the know.&lt;/p&gt;
-
-&lt;p&gt;There are many voices out there that say that people who are keen to participate
-will find the right channel for them and while this is true for some I see many
-that are turned off by it and don&amp;rsquo;t build the companies they want to build or
-don&amp;rsquo;t get the advice that would help them to be more successful. It is a bit like
-in the (hopefully) older days where we claimed that we (as in white male geeks)
-can create a diverse scene by inviting a few women along to our meetups.&lt;/p&gt;
-
-&lt;p&gt;I have set up &lt;a href=&#34;http://www.nzstartup.community&#34;&gt;www.nzstartup.community&lt;/a&gt; as a public
-forum that everyone can read without the need to sign up, where everyone can
-post news, interesting articles, events and anything they want to tell the
-community. It is a public place that is inclusive and approachable and even
-though it is yet another thing we add to the many channels we have I hope it to
-be a place where people can find information even though they are not yet invited
-into the elitist circles we have built over the years.&lt;/p&gt;
-
-&lt;p&gt;The forum is still in its very early stages but please make use of it, please
-let me know if you want to help out either as a sponsor or by helping to
-administrate the forum. We want this to be a highly transparent place so we also
-release all sponsorship information publicly, to follow along, check out this
-thread: &lt;a href=&#34;http://www.nzstartup.community/t/financial-transparency/38&#34;&gt;http://www.nzstartup.community/t/financial-transparency/38&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Please use this place, fill it with life and love and start creating the open
-door we want for our awesome community.&lt;/p&gt;
-</description>
+      <description>I have helped build and contribute to the NZ startup community since around 2008 and during that time have been granted access to many groups, back channels, side channels, communication channels that I signed up to or got signed up to and it continues, every new group that forms starts creating yet another mailing list and slack channel and Facebook group.
+Over the years we have created this monster that looks very open and approachable from the inside but gives no clues on how to join it from the outside.</description>
     </item>
     
     <item>
@@ -61,103 +27,8 @@ door we want for our awesome community.&lt;/p&gt;
       <pubDate>Fri, 03 Mar 2017 12:41:48 +0100</pubDate>
       
       <guid>http://lnz.me/post/2017-03-03-my-journey-discovering-my-values/</guid>
-      <description>
-
-&lt;p&gt;UPDATES BELOW&lt;/p&gt;
-
-&lt;p&gt;For most of my adult life I was to some degree involved in internet
-infrastructure and the open source community. These two communities are
-special in one very fundamental trait, they only work if people
-collaborate. I did not realise that this was such a special thing till
-I encountered other communities that were much more elitist and harder to
-approach and did not understand what made them different till way later
-in my life.&lt;/p&gt;
-
-&lt;p&gt;I grew up with implicit privileges I was not aware of for a very long
-time. I am a white male European, got a good education and had parents
-that taught me creative thinking. I have been fortunate enough that I
-got jobs in the past that helped me grow my experience and confidence
-and made me work with awesome people that taught me everything I know.&lt;/p&gt;
-
-&lt;p&gt;Looking back my value system evolved over time from an open, collaborative
-mindset that is open as long as you contribute like we have in the open
-source scene and the internet infrastructure community to a way deeper
-understanding on how welcoming communities work. The first fundamental
-new cultural value that I added to my core value set was diversity,
-as a white male I was pretty oblivious of that problem for a long time
-till I started working with more diverse teams and understood what I
-was missing out on. I started to pay attention to it and working with
-teams and contributing to communities that have a high degree of
-diversity became more and more important to me.&lt;/p&gt;
-
-&lt;p&gt;With collaborative and diverse teams and communities I thought I had my
-value system pretty much sorted till I realised that some communities
-are very much driven by a few people at the top. Communities that
-are built like ivory towers and are anything but approachable or
-welcoming even if they think they are. I started to add transparent
-and welcoming to my value set over time as a result.&lt;/p&gt;
-
-&lt;p&gt;Over the years I have seen that there are broadly two types of people
-that build communities, the ones that try to dominate them and the ones
-that step back as soon as there are a few others and then help those
-become awesome without pushing their own ego. The second type is more
-aligned with my values  and I think more sustainable as I have seen
-quite a few of the strong ego driven communities fall short when the
-people at the top burn out so I started building and contributing to
-those flat communities more, very much pushing a &amp;ldquo;no-ego give before you
-take&amp;rdquo; mentality.&lt;/p&gt;
-
-&lt;p&gt;A lot about building functioning communities for me is about listening
-and then asking the right questions. Just like mentoring teams and
-startups it is a lot about listening to others so empathy became another
-really important value I push for in communities I am involved in.
-The journey to where I am right now will hopefully not be the end of
-discovering values that become more important to me in the future. I
-hope that I can continue to learn from others about values I have been
-ignorant about so far and hope that people teach me about them in the
-years to come.&lt;/p&gt;
-
-&lt;p&gt;Building communities that are value driven help to create communities
-that people want to be part of. If you struggle to find people that want
-to be part of your community, sit down with everyone, create a value set
-that you believe in and start to work towards that. Live your values,
-don&amp;rsquo;t just talk about them and evolve them over time to reflect the
-people in your community.&lt;/p&gt;
-
-&lt;p&gt;What community values do you want to see in a community you are part of?
-How does your journey of discovering values look like? Please join the
-discussion on Twitter by using the hashtag &lt;a href=&#34;https://twitter.com/hashtag/startupcommunityvalues&#34;&gt;&lt;code&gt;#startupcommunityvalues&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;updates&#34;&gt;Updates&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/leancto&#34;&gt;Dan&lt;/a&gt; has written a post about a shared
-community operating system &lt;a href=&#34;https://blog.zeropoint.ventures/towards-a-shared-operating-system-for-values-led-startup-communities-902282234cc7#.kfl8xkhdo&#34;&gt;over at the zeropoint.ventures blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/phpnz&#34;&gt;Pascale&lt;/a&gt; has written a very insightful post
-about navigating the future with values based communites &lt;a href=&#34;http://venturecentre.co.nz/blog/item/183-navigating-our-future&#34;&gt;on the
-VentureCentre blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/davemosk&#34;&gt;Dave&lt;/a&gt; has written up a post about his
-work in Startup Weekend and how he wants to bring values into everything
-he is involved in. Read &lt;a href=&#34;https://dave.moskovitz.co.nz/2017/03/03/building-the-entrepreneurial-community-we-want-to-live-in/&#34;&gt;his post over at his blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/PeterJThomson&#34;&gt;Peter&lt;/a&gt; has writen a very insightful
-post about the more international angle of the startup community &lt;a href=&#34;http://www.peterjthomson.com/2019/03/international-startup-community-values/&#34;&gt;on his
-blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/JaneTHoye&#34;&gt;Jane&lt;/a&gt; wrote a very personal view of how she found her tribe &lt;a href=&#34;https://medium.com/@JaneTHoye/my-quest-to-find-my-startup-tribe-2c3896592d8#.crnvobm88&#34;&gt;on her
-blog&lt;/a&gt;
-- a very insightful piece about values in the startup scene&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/colart&#34;&gt;Colart&lt;/a&gt; added a piece on how he sees the bigger picture and how a
-value driven discussion about our future is needed more than ever. Read
-it on &lt;a href=&#34;http://veloxinnovation.com/news-and-insights/2017/3/5/accelerating-futures&#34;&gt;the velox innovation blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/quisitivity&#34;&gt;Sarah&lt;/a&gt; wrote a wonderful piece about her
-role in supporting and participating in what has to be the most complete
-list of startup initiatives in the country. &lt;a href=&#34;https://medium.com/@sarahday/gold-in-them-hills-a-supporter-view-of-a-values-driven-nz-startup-ecosystem-c6ec3b8921e8#.sx4rzdaax&#34;&gt;Read her impressive lineup
-and takeaways on medium&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>UPDATES BELOW
+For most of my adult life I was to some degree involved in internet infrastructure and the open source community. These two communities are special in one very fundamental trait, they only work if people collaborate. I did not realise that this was such a special thing till I encountered other communities that were much more elitist and harder to approach and did not understand what made them different till way later in my life.</description>
     </item>
     
     <item>
@@ -166,68 +37,8 @@ and takeaways on medium&lt;/a&gt;&lt;/p&gt;
       <pubDate>Tue, 21 Feb 2017 05:03:39 +0100</pubDate>
       
       <guid>http://lnz.me/post/2017-02-21-values-based-communities/</guid>
-      <description>&lt;p&gt;Intentions for people to engage in any community are as diverse as the
-people that engage. Many intentions means many desired outcomes and that
-means that tensions may arise from simply trying to &amp;ldquo;do the right thing&amp;rdquo;
-as &amp;ldquo;the right thing&amp;rdquo; has never been articulated.&lt;/p&gt;
-
-&lt;p&gt;I have been part of many projects, communities, companies and teams that
-ran into exactly this problem, &amp;ldquo;why am I here and what do I want to get
-out of it&amp;rdquo;. People want to get something from the community they engage
-with based on their views, their ideals, their values and that,
-unfortunately, means that if those outcomes are either not clear or the
-value set is not aligned frustration builds up and may erupt quite
-violently, often to the complete surprise of the person that triggered
-it.&lt;/p&gt;
-
-&lt;p&gt;Things get worse if we have people involved that are celebrated for
-their contributions in the field, often looked up to which may creates
-big egos. Not necessarily a bad thing but often these people are then
-referred to as being &amp;ldquo;in it for the wrong reasons&amp;rdquo; - I have seen this
-(and am guilty of saying this) in many communities I have been involved
-in.&lt;/p&gt;
-
-&lt;p&gt;Small diversion, I have been at Webstock last week and really liked
-Jared Spools talk about the UX tipping point where he explained a concept
-that stuck with me since. He talked about four stages people go through
-when they learn. They start out in a state of &amp;ldquo;unconscious incompetence&amp;rdquo;
-- a state where you don&amp;rsquo;t know what you don&amp;rsquo;t know. This is a happy
-place till you realise that there is something you have been missing out
-on, something you should read up on, learn some more. This is called
-&amp;ldquo;conscious incompetence&amp;rdquo; and is normally a place you want to get away
-from. Once you figured out how to repeatedly get a desired outcome you
-enter the state of &amp;ldquo;conscious competence&amp;rdquo; and that is normally where we
-stop, we can do something, we can repeat the outcome, done. However, if
-we do something out of reflex, no thinking required we reach a state of
-&amp;ldquo;unconscious competence&amp;rdquo; and this is where the real magic happens, if
-you apply learnings without even knowing you do, just out of reflex, you
-truly mastered something. The path from unconscious incompetence to
-conscious incompetence is referred to as &amp;ldquo;literacy&amp;rdquo;, the path onwards to
-conscious competence is referred to as &amp;ldquo;fluency&amp;rdquo; and then on to
-unconscious competence as &amp;ldquo;mastery&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;This gave me a lot to think about, when we refer to people as being
-literate in something, do we really just mean they reached conscious
-incompetence? Especially in terms of building functioning and welcoming
-communities I see it vital that we create a pathway for everyone who
-joins a community to unconsciously be competent about the values of
-that community. Now, moving someone from literacy to fluency and then
-to mastery means we need to educate, we need to coach, we need to have a
-defined pathway and a defined set of values and goals for a community
-and then we need to be very patient and move people through the
-stages. Telling people off and being upset does not help that person
-when they messed up but coaching them towards the share values and
-explain why something is not aligned with these values will over time.&lt;/p&gt;
-
-&lt;p&gt;If you join a community or create a new one, ask for the values, ask why
-people participate and help establish a shared value set everyone in
-that community wants to contribute by. Then help everyone to work
-towards that value set and help everyone to become unconsciously
-competent.&lt;/p&gt;
-
-&lt;p&gt;My goal for the next months is to work towards this in the communities I am
-involved in, I&amp;rsquo;ll share my learnings along the way.&lt;/p&gt;
-</description>
+      <description>Intentions for people to engage in any community are as diverse as the people that engage. Many intentions means many desired outcomes and that means that tensions may arise from simply trying to &amp;ldquo;do the right thing&amp;rdquo; as &amp;ldquo;the right thing&amp;rdquo; has never been articulated.
+I have been part of many projects, communities, companies and teams that ran into exactly this problem, &amp;ldquo;why am I here and what do I want to get out of it&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -236,52 +47,8 @@ involved in, I&amp;rsquo;ll share my learnings along the way.&lt;/p&gt;
       <pubDate>Mon, 30 Jan 2017 23:43:12 +0000</pubDate>
       
       <guid>http://lnz.me/2017/01/13/post-silicon-valley/</guid>
-      <description>&lt;p&gt;I did a lot of thinking about ways how we could build a more humane and
-inclusive startup scene in New Zealand but the recent events in the US
-made me think a little bigger. These ideas are very much a &amp;ldquo;thinking in
-progress&amp;rdquo; so please give me feedback on them so we can push this idea
-forward. This is where I am at:&lt;/p&gt;
-
-&lt;p&gt;Looking at what we currently call digital nomads and the emergence of
-remote first companies, how relevant are location, political systems and
-financial hubs in a post Silicon Valley startup scene?&lt;/p&gt;
-
-&lt;p&gt;I would like to postulate a very provocative &amp;ldquo;not at all&amp;rdquo;. Looking at
-iwantmyname, we have people in New Zealand, USA, Canada, Sweden, Austria
-and Germany at the moment, Over the years we have been approached by
-investors from many countries, some from the obvious financial centers but
-also from places that I would call &amp;ldquo;emerging markets&amp;rdquo;. We hire by talent
-not by location and I travel a lot and work from various places, so do
-many in our company. Location became one of the many parameters
-describing my current situation but it is not a defining one and
-certainly not constant.&lt;/p&gt;
-
-&lt;p&gt;Looking at the current startup scene through the lens of a startup
-mentor I would suggest to someone creating a new scene to disrupt the
-established system with fresh ideas that fit this new reality. If we
-take Silicon Valley as the old incumbent and push for a new niche, a
-truly distributed but well connected startup scene that is based on a
-solid foundation of core values rather than an investment model seems
-like a good niche to start with. I would be keen to try something like
-that and would back a new, post Silicon Valley startup scene like that
-with my time and experience and networks.&lt;/p&gt;
-
-&lt;p&gt;An antifragile startup scene that can&amp;rsquo;t be disrupted by changing
-political systems because we can simply switch to new countries, work
-out of new co-working spaces, join new physical communities, learn
-from them, then take that learning with us to the next and the next
-place. A scene that does not need temples for the egos of the founders in
-the form of massive office buildings but rather lets people work from
-where they want because the output matters, not their attendance. If we
-take all this and pour it into a founding fabric of values, would that
-be a scene you want to be associated with?&lt;/p&gt;
-
-&lt;p&gt;Ping me on twitter &lt;a href=&#34;https://twitter.com/norbu09&#34;&gt;@norbu09&lt;/a&gt; if you want
-to discuss this in more detail or have ideas how we can push these ideas
-further into the mainstream. Please point me to people thinking along
-the same lines, show me the existing networks already doing this without
-me knowing.&lt;/p&gt;
-</description>
+      <description>I did a lot of thinking about ways how we could build a more humane and inclusive startup scene in New Zealand but the recent events in the US made me think a little bigger. These ideas are very much a &amp;ldquo;thinking in progress&amp;rdquo; so please give me feedback on them so we can push this idea forward. This is where I am at:
+Looking at what we currently call digital nomads and the emergence of remote first companies, how relevant are location, political systems and financial hubs in a post Silicon Valley startup scene?</description>
     </item>
     
     <item>
@@ -290,10 +57,7 @@ me knowing.&lt;/p&gt;
       <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2017/01/17/about-perception/</guid>
-      <description>&lt;p&gt;I wrote a post about perception and my &amp;ldquo;don&amp;rsquo;t complain but fix&amp;rdquo; policy
-for this year over at the iwantmyname blog.
-&lt;a href=&#34;https://iwantmyname.com/blog/about-perception&#34;&gt;Head over to the iwantmyname blog&lt;/a&gt; and tweet your comments.&lt;/p&gt;
-</description>
+      <description>I wrote a post about perception and my &amp;ldquo;don&amp;rsquo;t complain but fix&amp;rdquo; policy for this year over at the iwantmyname blog. Head over to the iwantmyname blog and tweet your comments.</description>
     </item>
     
     <item>
@@ -302,60 +66,8 @@ for this year over at the iwantmyname blog.
       <pubDate>Thu, 20 Oct 2016 10:22:04 +1300</pubDate>
       
       <guid>http://lnz.me/2016/10/20/startup-weekend-taranaki/</guid>
-      <description>&lt;p&gt;Last weekend I co-facilitated &lt;a href=&#34;http://startuptaranaki.nz&#34;&gt;Startup Weekend
-Taranaki&lt;/a&gt; with &lt;a href=&#34;http://twitter.com/phpnz&#34;&gt;Pascale&lt;/a&gt;,
-a team that in my view works very well: two funny accents, two funny last
-names, two very different backgrounds so we cover a large amount of ground to
-help deliver a relevant event.&lt;/p&gt;
-
-&lt;p&gt;Over the years both of us have been deeply involved in other experimental
-events, like &lt;a href=&#34;http://mashup.nz&#34;&gt;Mashup&lt;/a&gt; and
-&lt;a href=&#34;http://startup.school.nz&#34;&gt;startup.school.nz&lt;/a&gt; where we explore ways of introducing
-entrepreneurship in other ways than the Startup Weekend format. Learning from
-these events and with the combined background of over 30 Startup Weekends we
-constantly push the format to become more relevant for the respective audience.
-The weekends are very intense and once everyone is out the building on the
-Sunday night we sit together and do an quick analysis on how the weekend went,
-what needs work next time, what went well and so on. On Monday Pascale and I
-had breakfast in New Plymouth and wrote down all the things we want to tweak
-next time.&lt;/p&gt;
-
-&lt;p&gt;One of the new things that went very well this time was the Lean Canvas session
-we did on Saturday morning. We quickly crowd sourced the business model
-for a taxi company, then pulled out a bunch of properties of that business - like
-price point, target demographic, target region and so on - and then did the
-same exercise with Ueber as a business model that focusses on a global market
-in the same segment. This worked very well and all teams understood the use of
-the canvas and made way better use of it compared to other Startup Weekends we
-have been at. Introducing the Value Proposition canvas at Saturday lunch time
-helped but was too late, next time we will try to introduce that on Friday
-night as a pre-exercise to the Lean Canvas.&lt;/p&gt;
-
-&lt;p&gt;Another addition we will make is the team building aspect. We have a few ideas
-on how to gel the teams on Friday night better to make sure we avoid people
-dropping off, wandering between teams of feeling lost in a team over the
-weekend. We also have a few ideas around ongoing team protocols so that we
-strengthen that aspect a bit more. Teams already learn a lot about team work
-but it would be nice it they could leave Startup Weekend with one or two tools
-that will help them in any new team in the future. The exact tools for this
-are still discussed but if anyone has good experience with one I&amp;rsquo;d love to hear
-about it.&lt;/p&gt;
-
-&lt;p&gt;Major achievement this weekend from my point of view was that all teams
-understood the Canvas. No teams starting over after Friday with new ideas that
-would have invalidated all work done leading up to that point. Teams that
-pivoted after Friday night were iterating over business models or customer
-segments rather than abandoning the idea. As a result we had less of the
-obvious business models and more interesting ones. Explaining the Canvas as a
-tool to quickly explore a business model and then start validating it paid off
-in my view.&lt;/p&gt;
-
-&lt;p&gt;The thing that makes me come back to Startup Weekend is this tweaking of the
-formula, this working on the format to make it relevant for the audience in the
-room. Trying out new tools to help the teams get the most out of the weekend
-and making sure everyone has a good time even if things are hard going every now
-and then.&lt;/p&gt;
-</description>
+      <description>Last weekend I co-facilitated Startup Weekend Taranaki with Pascale, a team that in my view works very well: two funny accents, two funny last names, two very different backgrounds so we cover a large amount of ground to help deliver a relevant event.
+Over the years both of us have been deeply involved in other experimental events, like Mashup and startup.school.nz where we explore ways of introducing entrepreneurship in other ways than the Startup Weekend format.</description>
     </item>
     
     <item>
@@ -364,32 +76,7 @@ and then.&lt;/p&gt;
       <pubDate>Fri, 30 Sep 2016 15:27:00 +1300</pubDate>
       
       <guid>http://lnz.me/2016/09/30/laptop-update/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://lnz.me/2016/07/26/on-coming-home/&#34;&gt;Back in July I wrote&lt;/a&gt; about going back to FreeBSD and I wanted to give a quick
-update on that. To sum it up, it was so painless it nearly does not warrant a
-blog post. I tinkered around a bit with 10.3-RELEASE and 11-CURRENT before
-stumbling over &lt;a href=&#34;https://www.trueos.org/&#34;&gt;TrueOS&lt;/a&gt; the new name for PCBSD, gave
-it a try and never looked back. Initially I had some trouble with my display
-driver and just used the framebuffer one to have something working but TrueOS
-found all hardware instantly and just made it work.&lt;/p&gt;
-
-&lt;p&gt;Things that work out of the box on the X1 Carbon that surprised me are plugging
-in an external projector, notoriously painful, just works. Sound, no fiddling,
-works out of the box and the trackpad, incl scrolling how I am used to on a mac.&lt;/p&gt;
-
-&lt;p&gt;Things I still needed to fix are the media keys for volume and resume.&lt;/p&gt;
-
-&lt;p&gt;So far I am super happy, still need to figure out a nicer way to run the update
-process from i3 as I got really used to that and seem to struggle a bit with
-Lumina but happy enough to just fire up Lumina every now and then and update from
-there.&lt;/p&gt;
-
-&lt;p&gt;The suspend works nicely but resume messes up my graphics but surprisingly I
-got used to shutting down my laptop and an interesting side effect is that I
-start with a clean slate every morning.&lt;/p&gt;
-
-&lt;p&gt;Very happy that I made the switch back to FreeBSD and nothing that could make
-me switch back any time soon.&lt;/p&gt;
-</description>
+      <description>Back in July I wrote about going back to FreeBSD and I wanted to give a quick update on that. To sum it up, it was so painless it nearly does not warrant a blog post. I tinkered around a bit with 10.3-RELEASE and 11-CURRENT before stumbling over TrueOS the new name for PCBSD, gave it a try and never looked back. Initially I had some trouble with my display driver and just used the framebuffer one to have something working but TrueOS found all hardware instantly and just made it work.</description>
     </item>
     
     <item>
@@ -398,43 +85,8 @@ me switch back any time soon.&lt;/p&gt;
       <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2016/07/26/on-coming-home/</guid>
-      <description>&lt;p&gt;My first FreeBSD version was 2.2.8, for context, that was in the late 90s. I
-started running FreeBSD on my desktops back then, and even managed to get it
-onto a few laptops. I also build servers and firewalls and I loved the OS but
-eventually caved in and switched to a Mac (a shiny 12&amp;rdquo; MacBook) around the
-FreeBSD 5 days (that would have been the mid 2000s)&lt;/p&gt;
-
-&lt;p&gt;From really enjoying shiny GUI tools and working Wifi without patching my
-kernel, did I mention suspend/resume?, I started treating my Mac more and more
-like a traditional Unix machine. I went back to mutt, I never stopped using vim
-and more recently even switched my IM setup over to mcabber. I work inside tmux
-about 80% of my day and find it so much more productive than the shiny GUIs.
-I still love a graphical browser and a few tools like zoom that are a backbone
-of my remote work environment.&lt;/p&gt;
-
-&lt;p&gt;Over the years I went from seeing the Mac scene from lacking basic tools to
-having MacPorts and fink to getting a really good and current package manager
-with homebrew. I saw MacOS from being a fast, pretty UI that lacked a few
-things like multiple desktops to becoming pretty full featured but also less
-and less transparent. It went from being a nice OS that has enough FreeBSD
-under the hood to feel a bit like home but shiny to being shiny without any
-sense of feeling at home. It is a dull tool I have to use very day, no more
-love, no more passion, just a tool.&lt;/p&gt;
-
-&lt;p&gt;My laptop is up for renewal and I was hoping for nice new Mac hardware that has
-enough power to run a full screen FreeBSD VM in a proper hypervisor and give me
-good hardware with an OS I feel at home in plus an easy migration path. I tried
-veertu, Parallels and VirtualBox and decided to not wait for the absurdly
-secretive timeline of new hardware releases from Apple. I decided to go back to
-hacking drivers if I have to and to live with broken suspend/resume. I bought a
-boring Lenovo laptop and will report over the coming weeks about my adventures
-home in FreeBSD land.&lt;/p&gt;
-
-&lt;p&gt;Till my new laptop gets shipped I will continue to click through the error
-reports Parallels throws at me and continue to discover what FreeBSD has done
-over the past 10 years and love what I am seeing so far. It&amp;rsquo;s been a
-long time but it is good to be home again.&lt;/p&gt;
-</description>
+      <description>My first FreeBSD version was 2.2.8, for context, that was in the late 90s. I started running FreeBSD on my desktops back then, and even managed to get it onto a few laptops. I also build servers and firewalls and I loved the OS but eventually caved in and switched to a Mac (a shiny 12&amp;rdquo; MacBook) around the FreeBSD 5 days (that would have been the mid 2000s)
+From really enjoying shiny GUI tools and working Wifi without patching my kernel, did I mention suspend/resume?</description>
     </item>
     
     <item>
@@ -443,44 +95,9 @@ long time but it is good to be home again.&lt;/p&gt;
       <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2016/01/11/founder-dot-chat-growing-a-community/</guid>
-      <description>&lt;p&gt;&lt;em&gt;TL;DR: Thursday, 14th January 2016, 5:30 at Bridge Street&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I am passionate about community and passionate about empowering people
-to realise their ideas, as opposed to just talking about them. I am also
-keen to bring together people so that they can help each other.&lt;/p&gt;
-
-&lt;p&gt;New year, new challenge. My personal challenge for this year is to build
-a robust and well connected entrepreneurial fabric in Nelson and create
-a blueprint for regions outside the major centers. There is loads of
-entrepreneurial spirit in the regions but it is not well connected yet
-and typically gets together once a year for events like Startup Weekend
-but not much more.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://founder.chat&#34;&gt;founder.chat&lt;/a&gt; is a weekly meetup that happens at
-Bridge Street on Thursdays at 5:30. It is open to everyone, no signup
-required, just come around, no fee, no koha, no barriers to entry other
-than you making time to show up. We&amp;rsquo;ll do a quick round of intros every
-time and then work together on a few problems within the group. This
-could be setting up a social media campaign, set up a landing page, look
-into A/B testing or get help with book keeping or a legal problem.&lt;/p&gt;
-
-&lt;p&gt;Over time I hope we can grow that fabric that whenever someone needs
-help they know who to talk to, in person, face-to-face. Community is
-what remains after the politicians, the investors and the people with an
-agenda left. My goal is to grow a fabric that is robust and long lived
-so that we can make sure it lives on for a long time. An open community
-is also something no one owns. It needs a few people to kick it off but
-once it lives there is no stopping it. Help me to get it started and
-help me to transform the Nelson region.&lt;/p&gt;
-
-&lt;p&gt;We are starting the new year with the first meetup this Thursday, 14th
-of January 2016 at 5:30 at Bridge Street. Come around, tell us what you
-are working on or what you plan to work on and what you need help with.
-After a bit of helping each other we&amp;rsquo;ll go to a nearby Pub and have a
-social wind down with a cool beverage.&lt;/p&gt;
-
-&lt;p&gt;If you have questions, hit me up on Twitter (@norbu09)&lt;/p&gt;
-</description>
+      <description>TL;DR: Thursday, 14th January 2016, 5:30 at Bridge Street
+I am passionate about community and passionate about empowering people to realise their ideas, as opposed to just talking about them. I am also keen to bring together people so that they can help each other.
+New year, new challenge. My personal challenge for this year is to build a robust and well connected entrepreneurial fabric in Nelson and create a blueprint for regions outside the major centers.</description>
     </item>
     
     <item>
@@ -489,38 +106,7 @@ social wind down with a cool beverage.&lt;/p&gt;
       <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/11/18/global-entrepreneurship-week/</guid>
-      <description>&lt;p&gt;I care about entrepreneurship because I believe in the power of
-collaboration and the power of people working together for fun and
-profit, quite literally. I see entrepreneurship as a way to create
-resilient communities that address problems by working together, by
-building companies, by creating work for others and by investing back
-into the community. Entrepreneurs are people that have a vision and are
-crazy enough to follow that vision, passionate enough to infect others
-with their idea and make them form a team around a common interest.
-Entrepreneurs are people who create and are never satisfied with the
-status quo. People that start sentences with &amp;ldquo;I can&amp;rdquo; not with &amp;ldquo;Someone
-should&amp;rdquo; and this makes them the engines of innovation. They turn ideas
-into teams into companies. Innovation only happens if someone steps up
-and runs with a new idea and has enough passion to turn that idea
-into a viable business. Profit can have any form or colour, some are
-after the money but most entrepreneurs I have met are after the rewards
-that come with building companies. The reward of creating jobs for
-people, the reward of creating opportunities for people, the reward of
-seeing a crazy idea grow into a viable business. All this is why I spend
-many weekends every year at Startup Weekends, this is why I have coffees
-with people who want advice. Growing the entrepreneurial fabric is
-something I am very passionate about.&lt;/p&gt;
-
-&lt;p&gt;I believe that a high level of entrepreneurship creates resilient
-communities way beyond influential people, companies or politicians. I
-care about the world I live in and want to play my part in creating a
-future worth living for. Join me in encouraging more people to give it a
-go, to try to take their future and the future of their community into
-their own hands. Join me in building resilient communities. There are
-plenty of activities happening, ping me if you struggle to find them and
-I&amp;rsquo;ll hook you up with your local community leaders or help you become
-that person.&lt;/p&gt;
-</description>
+      <description>I care about entrepreneurship because I believe in the power of collaboration and the power of people working together for fun and profit, quite literally. I see entrepreneurship as a way to create resilient communities that address problems by working together, by building companies, by creating work for others and by investing back into the community. Entrepreneurs are people that have a vision and are crazy enough to follow that vision, passionate enough to infect others with their idea and make them form a team around a common interest.</description>
     </item>
     
     <item>
@@ -529,9 +115,7 @@ that person.&lt;/p&gt;
       <pubDate>Thu, 22 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/10/22/interview-for-number-tgasw15/</guid>
-      <description>&lt;p&gt;I gave an interview about Startup Weekends and what draws me to them.
-&lt;a href=&#34;http://venturecentre.co.nz/blog/startup-weekend/item/108-i-ve-just-had-a-life-changing-experience-tgasw15&#34;&gt;Read it on the Venture Centre blog&lt;/a&gt; and tweet your comments.&lt;/p&gt;
-</description>
+      <description>I gave an interview about Startup Weekends and what draws me to them. Read it on the Venture Centre blog and tweet your comments.</description>
     </item>
     
     <item>
@@ -540,76 +124,7 @@ that person.&lt;/p&gt;
       <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/10/12/lego-for-grownups/</guid>
-      <description>&lt;p&gt;When I think about building software I try to see where we need to end
-up in order to help the customer right now and then work backwards from
-there. Because I am really bad at knowing what customers want I mock up
-something that is good enough to get feedback and then morph it into
-working code and then robust infrastructure. At iwantmyname I have
-pushed for this since we started and for the most part we succeeded till
-we tried to grow up and &amp;ldquo;clean up&amp;rdquo; and &amp;ldquo;do things properly&amp;rdquo;. The result
-was the complete loss of the playfulness of our stack and a return to
-&amp;ldquo;work&amp;rdquo; instead of experimentation. We are currently fixing this and it
-is mainly a mindset thing.&lt;/p&gt;
-
-&lt;p&gt;We had an internal security audit recently and one of the outcomes
-was that our architecture is slightly ahead of its time, we do
-micro-services for at least 6 years by now and learned a lot about them.
-In this post I&amp;rsquo;ll talk a bit about how to go from mock code to robust
-infrastructure.&lt;/p&gt;
-
-&lt;p&gt;When a customer or we have an idea about a feature or a request or we
-see a lot of support in a specific area we want to invest a bit of time
-to implement an initial assumption about how we could address this. If
-it is easy to implement this and if it is simple to deploy this change
-then everyone in the team will be happy to make these little changes and
-over time we create a relevant product. Creating an environment where
-these changes have a low barrier is key in my view. It fosters ownership
-of the product across all parts of the company and helps create relevant
-products.&lt;/p&gt;
-
-&lt;p&gt;If adding a feature involves writing a project request, a few meetings,
-deployment windows, various iterations of accept/review/sign off cycles,
-then any experiment becomes a costly thing and that has two big
-drawbacks. First, it is not fun to experiment and therefor less
-experiments will happen. This means less and less features or
-improvements will hit the site over time. The second issue is the time
-and money sunk in an early assumption, This first draft is most
-likely not what your customers actually wanted but with all that
-investment it will most probably be the way they have to use that
-feature. Any change would need to go through the same cycle of project
-management and other things will always be more urgent.&lt;/p&gt;
-
-&lt;p&gt;How is it possible to go from a simple idea and mockup to working
-code that is scalable without much pain and without compromising
-security or reliability for the rest of the system. For us the answer
-was in a service oriented architecture or micro services or whatever the
-current buzz word for it is. We write every functionality on the site as a
-RabbitMQ endpoint that has a little daemon listing on it that implements
-that feature. To get a new feature out the door, we write a crude first
-version of what we think the functionality should be, mock up a bit of UI
-that interacts with that daemon and see how our customers like it. Over
-time that first crude prototype will morph into a nicer bit of code that
-is maintainable but because all bits of code are loosely coupled and the
-interfaces are just JSON messages via AMQP the internals of any daemon
-are not that important. The code quality can evolve over time and any
-bit can be replaced with new code even in new languages by just
-maintaining the external JSON interface. Also, and that is important,
-buggy code is limited to that daemon, no impact on the rest of the
-system. Mocking up an idea in code has no operational impact on the rest
-of the system and that makes it save to play.&lt;/p&gt;
-
-&lt;p&gt;This way, moving from an idea to a scalable and reliable part of the
-system is an easy progression, time and money is spent on the parts that
-need to be reliable and are actually used, the bits that are nice to
-haves get re-writes less often. Code evolves as part of the system. The
-system evolves as user behaviour changes over time. The system becomes
-an adaptable organism, code is killed off like old cells, new code is
-introduced as new experiments are done. It is a living thing, not a
-painstakingly architected, implemented and finally handed over to ops
-kind a system. We still have an architecture that we adhere to but it is
-as reduced as JSON via AMQP and two sorts of data stores. The rest is
-morphing over time and will change as our customers change.&lt;/p&gt;
-</description>
+      <description>When I think about building software I try to see where we need to end up in order to help the customer right now and then work backwards from there. Because I am really bad at knowing what customers want I mock up something that is good enough to get feedback and then morph it into working code and then robust infrastructure. At iwantmyname I have pushed for this since we started and for the most part we succeeded till we tried to grow up and &amp;ldquo;clean up&amp;rdquo; and &amp;ldquo;do things properly&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -618,310 +133,8 @@ morphing over time and will change as our customers change.&lt;/p&gt;
       <pubDate>Tue, 07 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/07/07/the-developers-dilemma/</guid>
-      <description>
-
-&lt;p&gt;Writing software is an interesting process. It transforms abstract
-concepts, feature requests, vague ideas into something people can
-interact with. It is a modern way of making ideas real, tangible,
-visible and hopefully usable. This process is a strange mixture of
-operating within tight constraints and at the same time being highly
-creative.&lt;/p&gt;
-
-&lt;p&gt;Developers come in many flavours, just like traditional crafts men, they
-may have studied for many years or just picked up an editor and started
-mucking around in someone else&amp;rsquo;s code till they felt comfortable enough
-to write their own code. As with any trade, developers are often very
-proud of what they produce, very opinionated about the one right way of
-doing things and often very much in love with the nitty gritty details
-of the implementation and the technology they use to get the desired
-result.&lt;/p&gt;
-
-&lt;p&gt;People using the artefacts developers produce normally only see a more
-or less working product that they can interact with. They never ever see
-any of the implementation details and will never find kind words for all
-the work that went into building the product. They, most likely, only
-give you annoyed feedback about the bugs they find.&lt;/p&gt;
-
-&lt;p&gt;The other big measure for someone using software is also how fast a new
-feature will be available, how fast a bug they found will be fixed and
-how soon the product will look nicer or be more usable than it is right
-now. In other words all they care is a working product, no appreciation
-what so ever for the time and effort that went into writing all that
-beautiful code.&lt;/p&gt;
-
-&lt;p&gt;Over time every project develops into a large pile of well meant
-approaches and quick feature hacks to make customers happy and still
-retain a somewhat maintainable code base. Over time, often the team
-working on the project changes, gets bigger, new ideas and concepts get
-introduced. This is normally the moment where a bigger rewrite or
-cleanup of the code base is needed and the client (boss, paying
-customer or more general the user) will not understand why the next new
-feature takes so much longer than it used to. Even more important, you
-start spending money on things no one ever pays something for, you start
-spending money on technical dept without any way of recovering those
-costs.&lt;/p&gt;
-
-&lt;p&gt;The developers dilemma is the balance of speed of development and
-accumulation of technical dept. The balance of quickly pushing out
-something that will pay for the time spent on developing that very feature
-and taking enough time to do it in a way that future developers have a
-chance to maintain that feature without the immediate desire the rewrite
-it and therefor killing the profit you can make with that feature.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-normal-product-life-cycle&#34;&gt;A normal product life cycle&lt;/h2&gt;
-
-&lt;p&gt;If I look back at many of the products I developed or overlooked
-development of than I can see a pattern that emerged independent of the
-developers, management approach and industry they were in. A project
-starts out well planned, with all the best of intentions. After a while
-things take way longer than planned and stuff needs to happen right now,
-somehow. Projects that never entered that phase dragged on forever and
-never went into production. The ones that entered that phase had to make
-compromises.&lt;/p&gt;
-
-&lt;p&gt;On the projects that never entered production I can also see a desire of
-mostly developers with a strong academic background to design a piece of
-software that ticks all the boxes of a certain way of doing things.
-Design patterns, Test driven development, a special framework pick any
-&amp;ldquo;this is the right way of doing it&amp;rdquo; approach and you will often find
-projects that never see the light of day but cost lots of money. I would
-even go that far as to say that a very opinionated developer that never
-had to ship a project him or herself to make a living, someone who
-always worked in companies that payed them a regular salary and never
-had to actually listen to costomer feedback, are a high risk to the
-completion of any project and need a lot of mentoring along the way.&lt;/p&gt;
-
-&lt;p&gt;On the projects that shipped I can see that the compromises made the
-developers unhappy but at least there was a product that started pay off
-the costs for the development of that project. Those projects are often
-in production for a long time and get refactored all the time but
-ultimately reach a point where &amp;ldquo;the big new system&amp;rdquo; needs to be written.&lt;/p&gt;
-
-&lt;p&gt;I have seen &amp;ldquo;big new systems&amp;rdquo; developed, the big new system that fixes
-everything and makes the whole mess a really nice to develop platform
-that &amp;ldquo;just works&amp;rdquo;. I&amp;rsquo;ve sunk a lot of money on those projects in my
-lifetime and not a single one of those new systems ever saw the light of
-day. Even more impressive is that these shiny new systems often get
-rewritten a few times completely even before they go into production
-because there is a newer even better and nicer way of doing things and
-everyone wants to start using that. Add different skill levels and
-willingness to learn new things to the mix and you will easily see why
-those projects often fail. The one sentence that you should always watch
-out for is &amp;ldquo;while we don&amp;rsquo;t have this in production we might as well do
-it properly and use &amp;hellip;&amp;ldquo;. This very sentence cost me years of dev time
-in the past, watch out for it and challenge it wherever you can.&lt;/p&gt;
-
-&lt;h2 id=&#34;developers-are-in-love-with-their-craft&#34;&gt;Developers are in love with their craft&lt;/h2&gt;
-
-&lt;p&gt;A boat builder that is really good at building beautiful wooden boats
-will have many admirers that will look at the boats and see how nice
-they are built. If you ask that boat builder to build a camper he will
-most probably try to find a way how he can build a beautiful wooden land
-yacht that is stunning to look at and roughly in the price class of a
-wooden boat. This will most probably be a stunning piece of engineering
-and a real head turner for people who can appreciate the craftsmanship.
-If, however, you tried to launch a production line of budget campers to
-rent out to ignorant tourists that just want to race in a hurry from A
-to B and tick the most prominent sights on the way before they hop on a
-plane and head home again, then you just wasted an awful lot of money
-on something that is totally over-engineered for the purpose.&lt;/p&gt;
-
-&lt;p&gt;With developing software it is not as obvious but it definitely goes
-into the same direction. More often than not a trivial problem can be
-built in a way that ties up man power for months to do it properly.
-Unfortunately, especially in early stage startups, no one even knows if
-that feature will be used, how it will be used, if this is the right way
-of doing it and so on. Spending a lot of time just to throw that piece
-of software away later looks like a wasteful way of doing things but
-it is the normal way most developers operate. If problem X comes along
-then solution Y is the right way of doing it. We want to deliver nice
-code, something that is robust, something that can scale, something that
-has a defined scope and we can test that the software we deliver
-operates within those constraints.&lt;/p&gt;
-
-&lt;p&gt;Two months down the track you have to accept the fact that the
-parameters you thought you operate in are not how your users use the
-feature. They found it really useful to do Y with it and never even use
-it for X. This means now that you have to rewrite your test suite, fix
-your code, make sure it still scales for the new problem and then deploy
-the new code &amp;hellip; only to find out that a few weeks later the scope
-changed yet again.&lt;/p&gt;
-
-&lt;p&gt;Early stage startups and new features that have not been tested on a
-large audience are often the most obvious place where time wasted in too
-much engineering can be found. A new feature is something no one knows
-how (or if) it will be used. In my experience pushing out an early
-prototype that does a subset of what the final feature should be capable
-of, kind of a minimal viable feature, and then refining it over time
-till it is nice and does what your customers expect is in the end a way
-cheaper mode of developing than a full spec and months of dev time early
-on.&lt;/p&gt;
-
-&lt;p&gt;The challenge is that developers more often than not will not buy into
-this concept and this needs a lot of convincing and a very robust
-infrastructure to roll out changes and roll back changes in production
-very easy. If developers get comfortable deploying code into production
-and trying things out, quick and dirty, then they will start pushing out
-quick experiments to test if a feature could work. This makes your
-product so much faster and visibly moving forward for your customers.&lt;/p&gt;
-
-&lt;h2 id=&#34;saying-sorry-to-a-client&#34;&gt;Saying sorry to a client&lt;/h2&gt;
-
-&lt;p&gt;I have seen very upset clients that used an early feature that was buggy
-and stuff that went horribly wrong. They were angry for a reason, buggy
-code in the wild is always a bad thing. However, with that feedback and
-a fast deployment mechanism the developers can fix that one problem
-really quick and get back to the client, apologise and tell them that
-the problem is already fixed. I have seen this happening in under half
-an hour after complaint and saw very happy customers that were just
-stunned by the fast turnaround of bug fixes. Many of them were very
-loyal customers after that.&lt;/p&gt;
-
-&lt;p&gt;Using a new feature and develop it with the needs of your customers
-instead of your own ideas for a feature makes sure that you develop a
-relevant product, not just one that works for you. Customer feedback is
-so important in that early phase of product and feature development and
-if you as a dev always think about all the code you have to change instead
-of looking forward to refining the feature then you are doing things
-wrong. Product development is fundamentally different from project based
-development. Project based development is a lot about covering your ass
-against future law suites. Product development is about trying things
-out, making sure you can quickly react to changes in the market, about
-saying sorry to your clients only to surprise them a few hours later.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-avoid-the-big-system&#34;&gt;How to avoid the big system&lt;/h2&gt;
-
-&lt;p&gt;Developing a new product is an awesome challenge and there are so many
-ways to do things right but there are a few traps that I have seen that
-hinder projects to scale once they have to. The biggest such trap is the
-&amp;ldquo;one big system&amp;rdquo; trap. Initially when starting out everything is nice
-and pretty. A few well developed libraries glued together with some
-logic. Everything well structured, nicely designed and so on. After a
-few years of maintaining and developing that code base the number of
-external libraries grow, the glue code becomes a full blown code base
-in its own right and maintenance starts to become a real issue. A good
-measure is always how long it takes a new developer to wrap his or her
-head around the code base.&lt;/p&gt;
-
-&lt;p&gt;The larger the system the more side effects there are, the harder it
-becomes to add something new as it always impacts the entire system and
-there is really not a lot of leeway to try out new things as they always
-have to fit in with how things are done currently. This can become more
-and more of a hurdle going forward as programming languages and
-approaches develop. What looked like a good idea 2 years ago is most
-likely not the state of the art anymore today. If you stick to the
-monolithic approach then it will become harder and harder to find
-developers that are keen to work on your code base as it is dated code
-that does stuff in a way that does not seem modern anymore and
-eventually the demand for a complete rewrite will come up. At this stage
-you are at the best path to build the &amp;ldquo;big new system&amp;rdquo; we discussed
-before. You will also end up with a good part of your development
-bandwidth stuck in building the exciting new thing while the rest has to
-maintain the old beast, implement features on the old code base and
-motivation and speed to deliver new features will go down.&lt;/p&gt;
-
-&lt;p&gt;If you look around in large companies that are successful since many
-years and have a large amount of code then you&amp;rsquo;ll notice a common
-pattern. No big systems but many loosely coupled systems that all do one
-thing really well and talk to each other via a defined API. Very famous
-for that approach is &lt;a href=&#34;https://www.quora.com/Amazon/Does-Amazon-still-build-all-their-internal-software-around-internal-APIs&#34;&gt;Amazon&lt;/a&gt;, sometime back in 2002 they decided that
-everything internally needs to communicate via an API. Preferably via an
-API that could be exposed externally. This was the decision that made
-AWS possible and brought us the Amazon we as developers know, the
-platform that offers all the things you need to build a scalable
-product.&lt;/p&gt;
-
-&lt;p&gt;Building your internal infrastructure around internal APIs, maybe a
-message bus, something that lets you hide the implementation details of
-a feature behind an API that can then be used by other parts of the
-system will not only get you in the position that you can at some
-stage expose those APIs to 3rd parties but way more important is the
-side effect that you can now start using any technology, any approach to
-structure your code, any new hip trendy thing your develeopers just wanted
-to experiment with and deploy it into production. You can build an
-infrastructure that embraces trying things out. You can create a culture
-of wanting to play in the front line of new technology and you don&amp;rsquo;t
-need to fear that it breaks your established business processes.&lt;/p&gt;
-
-&lt;p&gt;A service oriented architecture is an easy way to keep your technical
-dept low and to make sure your developers like working on your code
-base. They stay relevant, they work with the languages they see most
-suited for a problem, they are motivated to work on new exciting
-solutions for your problems because they can. Because they are not bound
-by the constraints of a single large monolithic system that mandates how
-things are done.&lt;/p&gt;
-
-&lt;p&gt;Recent developments and trends like Docker and micro services help with
-this approach and go exactly in that very direction. It is a way of
-loosely coupling complex systems out of simple, easy to understand and
-refactor parts.&lt;/p&gt;
-
-&lt;h2 id=&#34;computers-are-awesome-use-them&#34;&gt;Computers are awesome, use them&lt;/h2&gt;
-
-&lt;p&gt;Automation is key to make sure you can scale a business. I have worked
-with admin teams that really liked doing things the way we always did
-stuff, manually and proper. Truth is if you get a pager alert at 4am you
-don&amp;rsquo;t appreciate that approach and would love to just run a script and
-be done with it. Automation of your infrastructure is not only a
-blessing for the sysadmins that have pager duty, it is also a really
-good way to make sure you don&amp;rsquo;t need lots of sysadmins. In a properly
-automated infrastructure it is surprising how little sysadmin tasks have
-to be done on a regular basis. Automating early on is so important that
-I would stress that as one of the first things before you even go live.
-If you just get traction and loose your one main server you probably
-wish that you had all the little config changes, that are now somewhere
-in a backup file, just handy to push them to the new server. There is no
-excuse not to use configuration management systems. It does not matter
-which one you use, just use one that you can learn quickly and use from
-the start.&lt;/p&gt;
-
-&lt;h2 id=&#34;opinions-are-just-that&#34;&gt;Opinions are just that&lt;/h2&gt;
-
-&lt;p&gt;I have fought this all my life, opinionated people that tell you why
-emacs is so much better than vi and why you have to switch in order to
-be productive. These holy wars go from editors via programming languages
-to databases and operating systems. In the end, they don&amp;rsquo;t matter. I
-have worked on impressive systems running AS400, VMS, Windows, Linux and
-FreeBSD, written in anything from Fortran via Visual Basic and Perl to
-Clojure and in the end they all delivered what they were designed for.&lt;/p&gt;
-
-&lt;p&gt;Before you crucify me now, please take a moment and think why your
-favourite X is something everyone else should use? How can you judge
-someone else&amp;rsquo;s comfort level, his level of experience, his background,
-his opinions on things. All those holy wars only cripple productivity so
-why would we want them? All of us like to be productive with the tools
-we like most. As a good rule of thumb I work with the approach that if
-there are two in a team that can support a certain technology and they
-feel comfortable with the responsibility of supporting that technology
-then they can deploy it in production.&lt;/p&gt;
-
-&lt;p&gt;Desires, however, must not have a negative impact on the rest of the
-company. If the opinion is that we should replace X with Y and it means
-we have to re-write 80% of our code base then this is a disruptive
-change that means lost productivity for the benefit of using another
-technology. As this benefit is paid for by a customer and they really
-don&amp;rsquo;t care what is used under the hood of their product, I would
-consider this not as a viable project. If the project, however, takes
-one aspect of an existing solution, refactors it to use Y to make it
-more robust, then we have a project that may be well worth spending time
-on as it increases the service level the client can expect from the
-product.&lt;/p&gt;
-
-&lt;p&gt;Desires and strong opinions are something every developer needs to work
-with in any team. There are always many ways that lead to a shippable
-product but some are more painful than others and some are purely driven
-by ego and a strong opinion. Try to detect those strong opinions and
-question them wherever you see them.&lt;/p&gt;
-
-&lt;p&gt;Another trait that is very common is perfectionism. I admire nice code
-as much as all developers but perfectionism can be in the way of
-shipping a perfectly fine feature. As a developer, try to understand
-when a feature is good enough, when a feature has just the right ratio
-of things that can be improved the next time you come back to this code
-base versus being major enough to be shippable. Code that has nothing
-left to improve upon is over engineered and belongs in research
-projects, not in product companies.&lt;/p&gt;
-</description>
+      <description>Writing software is an interesting process. It transforms abstract concepts, feature requests, vague ideas into something people can interact with. It is a modern way of making ideas real, tangible, visible and hopefully usable. This process is a strange mixture of operating within tight constraints and at the same time being highly creative.
+Developers come in many flavours, just like traditional crafts men, they may have studied for many years or just picked up an editor and started mucking around in someone else&amp;rsquo;s code till they felt comfortable enough to write their own code.</description>
     </item>
     
     <item>
@@ -930,64 +143,8 @@ projects, not in product companies.&lt;/p&gt;
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/04/20/os-slash-slash-os-impressions/</guid>
-      <description>
-
-&lt;p&gt;Last week I attended an interesting conference called
-&lt;a href=&#34;http://opensourceopensociety.com/&#34;&gt;open source//open society&lt;/a&gt; that
-brought together an interesting cross section of geekdom that I have not
-seen at a conference before. I had discussions ranging from editor flame
-wars via &amp;ldquo;the open source model&amp;rdquo; to tiny houses and earthships. The
-most interesting in my view was the high diversity of skills in the room
-that made for extremely interesting discussions.&lt;/p&gt;
-
-&lt;p&gt;It also helped me spell out and phrase what for me open source really
-means and what the essence of the open source movement is in my view so
-I wanted to share it and write it down for future reference.&lt;/p&gt;
-
-&lt;h2 id=&#34;open-source&#34;&gt;open source&lt;/h2&gt;
-
-&lt;p&gt;is in my view the process of sharing and a way for others to comment on
-it so that I can learn from them and they can learn from me. The sharing
-and reviewing and the giving feedback on the thing that has been shared
-is the central thing, the &lt;em&gt;what&lt;/em&gt; is in my view only a way to engage over
-a topic. Going with this definition also makes it obvious that open
-source for me is far from limited to code. It is a general concept that
-is applicable to many situations and a general concept of discussion. If
-we discuss abstract things we often base most of the discussion on
-abstract ideas that are hard to communicate and hard to give feedback
-on. Once we have something that shows what we are talking about, it
-makes giving constructive feedback so much easier and therefor the
-discussion way more topical and useful.&lt;/p&gt;
-
-&lt;h2 id=&#34;giving-feedback&#34;&gt;giving feedback&lt;/h2&gt;
-
-&lt;p&gt;and receiving feedback is a skill that well run open source projects try
-to hone. They try to make their community really good at providing
-good feedback as it generates a more welcoming environment that more
-people like to contribute to. So, if I look at those projects, the
-pattern I see is listening, asking questions, trying to understand where
-that person is coming from and then give them support in contributing
-and helping them to grow personally by empowering them. If a contributer
-can express her or his point of view by contributing what they think is
-the right way of doing something and then having a discussion about that
-contribution the discussion is most likely focussed on that
-contribution. If the contribution can&amp;rsquo;t be made without jumping through
-hoops the likelihood of someone new to the project contributing is
-dramatically lowered which leads to lower diversity and smaller
-relevance of the project.&lt;/p&gt;
-
-&lt;p&gt;Distributed version control really helped us coders to give qualified
-feedback on specific pull requests. I would love to carry that idea into
-other parts of life to make sure feedback on anything is more about the
-actual contribution and not about who I am or what I believe in.&lt;/p&gt;
-
-&lt;p&gt;Feedback on contributions rather than vague concepts and accepting
-feedback and giving feedback in a way that it is positive will cut out
-many non-topical aspects of discussions that many of us dislike so much.
-Discussions held in a way that stop us contributing in environments that
-are based on status, heritage and well honed language rather than actual
-contributions.&lt;/p&gt;
-</description>
+      <description>Last week I attended an interesting conference called open source//open society that brought together an interesting cross section of geekdom that I have not seen at a conference before. I had discussions ranging from editor flame wars via &amp;ldquo;the open source model&amp;rdquo; to tiny houses and earthships. The most interesting in my view was the high diversity of skills in the room that made for extremely interesting discussions.
+It also helped me spell out and phrase what for me open source really means and what the essence of the open source movement is in my view so I wanted to share it and write it down for future reference.</description>
     </item>
     
     <item>
@@ -996,12 +153,409 @@ contributions.&lt;/p&gt;
       <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/04/09/does-open-source-contribute-to-a-more-open-society/</guid>
-      <description>&lt;p&gt;Linking to a post I wrote for the iwantmyname blog a few days ago in the
-leadup for &lt;a href=&#34;http://www.opensourceopensociety.com/&#34;&gt;OS//OS&lt;/a&gt; - a
-conference about open source and open society.&lt;/p&gt;
+      <description>Linking to a post I wrote for the iwantmyname blog a few days ago in the leadup for OS//OS - a conference about open source and open society.
+Read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>a new view</title>
+      <link>http://lnz.me/2015/03/09/a-new-view/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2015/03/09/a-new-view/</guid>
+      <description>We are starting a new experiment in our life, it is called &amp;ldquo;project mountain retreat&amp;rdquo;. The back story to this experiment is that Manu, ever since we first were in St Arnaud and looked at Lake Rotoiti, loved this place and it felt very much at home for me right away. It took us years to come back to this place but now we plan to stay a bit longer.</description>
+    </item>
+    
+    <item>
+      <title>The chilling effect of tech law</title>
+      <link>http://lnz.me/2015/02/28/miserable-state-of-tech-law-in-nz/</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2015/02/28/miserable-state-of-tech-law-in-nz/</guid>
+      <description>Two years ago I was part of a bunch of people who put in a submission on the Telecommunications (Interception Capability and Security) Bill. Dave wrote about it here: http://dave.moskovitz.co.nz/2013/08/13/tics-bill-submission/.
+Juha Saarinen posted this article on the Herald and it is really not helping to turn around and say &amp;ldquo;we told you so&amp;rdquo;, what we actually need is politicians to get off their arrogant attitude and actually listen to the tech community.</description>
+    </item>
+    
+    <item>
+      <title>Burnout and how to see it</title>
+      <link>http://lnz.me/2015/02/02/burnout-and-how-to-see-it/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2015/02/02/burnout-and-how-to-see-it/</guid>
+      <description>I read Derek Sivers post Getting out of a bad place today and it made me clean up my blog, re-launch it, collect a few old posts I had scattered around and release a post that I, myself, had only shared privately so far. It is about my history with work-till-you-drop and my history with a mind that is driven to continue well past the point where it is productive or healthy.</description>
+    </item>
+    
+    <item>
+      <title>Subdomain rot and the security implications</title>
+      <link>http://lnz.me/2014/10/23/sub-domain-rot/</link>
+      <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/10/23/sub-domain-rot/</guid>
+      <description>A post I wrote for the iwantmyname blog about sub domains and how not cleaning them up every now and then can lead to unexpected behaviour.
+read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>The difference between 4hww and me</title>
+      <link>http://lnz.me/2014/08/21/the-difference-between-4hww-and-me/</link>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/08/21/the-difference-between-4hww-and-me/</guid>
+      <description>I attended a 4 hour work week meetup in Berlin yesterday and noticed one big difference between me and many that were there. Tim Ferris, the author or 4 hour work week, starts from the point of view that work is something that is not fun and in order to &amp;ldquo;live&amp;rdquo; you need to work as little as possible so you can enjoy your life.
+Now, this is where I would argue that I haven&amp;rsquo;t worked in a long time as everything I do are things I actually enjoy doing.</description>
+    </item>
+    
+    <item>
+      <title>On hiring and hierarchy</title>
+      <link>http://lnz.me/2014/08/19/culture-at-iwmn-part-three/</link>
+      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/08/19/culture-at-iwmn-part-three/</guid>
+      <description>A post I wrote for the iwantmyname blog about culture and how we hire people
+read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>Berlin</title>
+      <link>http://lnz.me/2014/08/07/berlin/</link>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/08/07/berlin/</guid>
+      <description>Since a while we live in Berlin for a change. It is really interesting to see how much New Zealand changed me and to see how different things look to me now, that I have distance to them.
+The most obvious thing to me is that there is this interesting split between expats that are here to enjoy living in the startup capital of Europe and the Germans that always find something that is bothering them, something they can complain about, something that someone needs to change.</description>
+    </item>
+    
+    <item>
+      <title>The &#34;work-from-anywhere experiment&#34;</title>
+      <link>http://lnz.me/2014/05/22/culture-at-iwmn-part-two/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/05/22/culture-at-iwmn-part-two/</guid>
+      <description>A post I wrote for the iwantmyname blog about culture and our work place policy.
+read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>The &#34;one salary experiment&#34;</title>
+      <link>http://lnz.me/2014/05/07/culture-at-iwmn-part-one/</link>
+      <pubDate>Wed, 07 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/05/07/culture-at-iwmn-part-one/</guid>
+      <description>A post I wrote for the iwantmyname blog about culture and how we decide on who gets how much.
+read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>Why ALIAS-type DNS Records Break The Internet</title>
+      <link>http://lnz.me/2014/01/07/why-alias-type-records-break-the-internet/</link>
+      <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2014/01/07/why-alias-type-records-break-the-internet/</guid>
+      <description>A post I wrote for the iwantmyname blog about ALIAS DNS records and why they break the internet.
+read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>upcoming Startup Weekends</title>
+      <link>http://lnz.me/2013/06/05/upcoming-startup-weekends/</link>
+      <pubDate>Wed, 05 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/06/05/upcoming-startup-weekends/</guid>
+      <description>There are two Startup Weekends coming up in Hawkes Bay and Taurange. Startup Weekends are a perfect opportunity to learn how to transform an idea to a MVP, a minimal viable product. Startup Weekends are a crash course in entrepreneurschip over a weekend in a sheltered environment and with near to no financial implications. The costs, in fact, are often not even covering the food and drinks provided during the weekend.</description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>http://lnz.me/2013/05/21/communication/</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/21/communication/</guid>
+      <description>When starting a company there is a lot of stuff that needs to be looked at. There are lots of things that need your attention and many things will not be talked about because there is simply no time for it. This can very easily lead to a habit of not communicating with everyone in the team. Another frequent problem is that from your own point of view a lot of things are very obvious and you just can&amp;rsquo;t understand how someone in your team can&amp;rsquo;t see it.</description>
+    </item>
+    
+    <item>
+      <title>How to get advice</title>
+      <link>http://lnz.me/2013/05/20/how-to-get-advice/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/20/how-to-get-advice/</guid>
+      <description>A key task for any co-founder is getting advice. Especially if you are new to something it is key to ask. It is important to understand that others have more experience in things that you will bang your head against. Getting advice is key to a successful start and helps you keep on track, helps you grow and helps you reposition yourself. Advice is a key ingredient for many of the most successful entrepreneurs and not getting advice is a silly thing to do.</description>
+    </item>
+    
+    <item>
+      <title>leading by example</title>
+      <link>http://lnz.me/2013/05/14/leading-by-example/</link>
+      <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/14/leading-by-example/</guid>
+      <description>Leadership is a tricky thing and over the years I have tried different styles and was exposed to different styles. I have observed many every successful people and people in high positions that lead big companies.
+I found that most leaders fall into two categories. Leader by example and leader by position. What I mean with that is people that live and breath what they demand from their team, people that are respected for what they know and people that don&amp;rsquo;t have to hide behind a title to be accepted.</description>
+    </item>
+    
+    <item>
+      <title>Intrinsic vs extrinsic motivation</title>
+      <link>http://lnz.me/2013/05/13/intrinsic-vs-extrinsic-motivation/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/13/intrinsic-vs-extrinsic-motivation/</guid>
+      <description>I have mentored at Startup Weekend Auckland last weekend and noticed an interesting pattern. Participants that were at the weekend with the goal to win the competition were less motivated in the teams they were in if they thought the team is not doing well. Participants that were at the weekend primarily to learn something and did not care too much about winning were highly motivated and performed really well. Teams consisting exclusively out of participants who wanted to learn were very receptive to external input and managed to deliver a very good product.</description>
+    </item>
+    
+    <item>
+      <title>How to end a conversation with me</title>
+      <link>http://lnz.me/2013/05/08/how-to-end-a-conversation-with-me/</link>
+      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/08/how-to-end-a-conversation-with-me/</guid>
+      <description>I get quite a few people that ask me for advice on technical co-founders or how to find a technical person for their startup. The one sentence that ends a conversation with me needing to urgently attend another meeting or some other way of getting away in a polite way is the following:
+&amp;ldquo;I know how to do idea X; I only need a technical person to build it for me.</description>
+    </item>
+    
+    <item>
+      <title>Getting into habits</title>
+      <link>http://lnz.me/2013/05/07/getting-into-habits/</link>
+      <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/05/07/getting-into-habits/</guid>
+      <description>Habits structure your life. Knowing your habits and training new habits can be real challenging and a lot of books have been written about how to get into habits that help you achieve your goals. Thing is, like most new year resolutions, it is real hard to stick to a habit and make it stick around.
+I have recently started playing HabitRPG and challenged my partner to join me. We now battle us for points to things like drinking enough water during the day or go running.</description>
+    </item>
+    
+    <item>
+      <title>Where to start?</title>
+      <link>http://lnz.me/2013/04/25/where-to-start/</link>
+      <pubDate>Thu, 25 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2013/04/25/where-to-start/</guid>
+      <description>I often get asked what non-technical co-founders should start with till they have found a technical co-founder. Mostly followed by, &amp;ldquo;where can I find a technical co-founder&amp;rdquo;.
+This is an interesting topic as quite often I see the non-technical co-founders seeing their role in telling a tech guy what to do who then magically turns it into working code. Unfortunately this is not quite how it works and as a non-technical co-founder joining a startup without any understanding what it means to write software and to build a startup will most probably end in tears.</description>
+    </item>
+    
+    <item>
+      <title>Care For Dynamic DNS (DDNS) Updates?</title>
+      <link>http://lnz.me/2012/03/01/ddns-dynamic-dns-service-on-your-own-domain/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2012/03/01/ddns-dynamic-dns-service-on-your-own-domain/</guid>
+      <description>A post I wrote for the iwantmyname blog about dynamic DNS updates at iwantmyname.
+Read the post on the iwantmyname blog</description>
+    </item>
+    
+    <item>
+      <title>SSH tunnel script(2)</title>
+      <link>http://lnz.me/2010/11/05/ssh-tunnel-script2/</link>
+      <pubDate>Fri, 05 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/11/05/ssh-tunnel-script2/</guid>
+      <description>SSH tunnel script(2) I work quite a bit with daemons on remote hosts that are normally not directly listening to the public internet. I use SSH tunnels a lot and had previously used a simplistic script to deal with it.
+I got tired of having to reconnect SSH tunnels when I changed environments and wanted autossh to handle the connections. I hacked around a bit with a shell script and then came up with his perl version.</description>
+    </item>
+    
+    <item>
+      <title>InternetNZ&#39;s missed opportunity</title>
+      <link>http://lnz.me/2010/07/27/internetnzs-missed-opportunity/</link>
+      <pubDate>Tue, 27 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/07/27/internetnzs-missed-opportunity/</guid>
+      <description>InternetNZ&amp;rsquo;s missed opportunity Open and uncapturable is the mission of InternetNZ and the promise to push for access to the internet for everyone. This is what we as a incorporated society stand for and what we try to push. We, all the members of InternetNZ.
+Yesterday at 10:00 AM the internet saw the first ever dedicated indigenous script going online in the form of the Maori macron implementation in the .</description>
+    </item>
+    
+    <item>
+      <title>slides from Web Meetup</title>
+      <link>http://lnz.me/2010/07/15/slides-from-web-meetup/</link>
+      <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/07/15/slides-from-web-meetup/</guid>
+      <description>slides from Web Meetup
+The slides from my short talk at the Wellington Web Meetup about Wellingtons worst User experience. The challenge was to describe the worst user experience in Wellington in 2 min min 5 min max.
+Here are my slides:
+Url uxView more presentations from Lenz Gschwendtner. and here is a direct link to the PDF: PDF</description>
+    </item>
+    
+    <item>
+      <title>lean prototyping stack</title>
+      <link>http://lnz.me/2010/05/25/lean-prototyping-stack/</link>
+      <pubDate>Tue, 25 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/05/25/lean-prototyping-stack/</guid>
+      <description>lean prototyping stack For my new startup I play with a lean prototyping stack that will enable me to prototype and evaluate ideas really fast and test on the market. The idea is to bump out a new idea, prove it and if it works scale it further. In order to not having to rewrite the entire app once it is clear that the idea is worth pushing I tried to come up with a nice stack that enables me to prototype fast and scale if I have to.</description>
+    </item>
+    
+    <item>
+      <title>slides from mojolicious talk</title>
+      <link>http://lnz.me/2010/05/12/slides-from-mojolicious-talk/</link>
+      <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/05/12/slides-from-mojolicious-talk/</guid>
+      <description>slides from mojolicious talk The slides from my talk about mojolicious at perlmongers Wellington yesterday are on slideshare and can be downloaded below in PDF.
+MojoliciousView more presentations from Lenz Gschwendtner. and the PDF version:
+mojo.pdf</description>
+    </item>
+    
+    <item>
+      <title>customer uses proposal as spec</title>
+      <link>http://lnz.me/2010/05/07/customer-uses-proposal-as-spec/</link>
+      <pubDate>Fri, 07 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/05/07/customer-uses-proposal-as-spec/</guid>
+      <description>customer uses proposal as spec One of the joys of working as a contractor is quoting for projects that possibly become a real project some when. The joys of a contractor quoting to a larger company (at least by New Zealand standards) is that the decision trees are so arbitrary and long that it might take ages to get one of those projects. In the meantime you hang in limbo - not too sure if you should take on another project or not as that bigger one could still come.</description>
+    </item>
+    
+    <item>
+      <title>real geeks die early</title>
+      <link>http://lnz.me/2010/05/05/every-once-in-a-while/</link>
+      <pubDate>Wed, 05 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/05/05/every-once-in-a-while/</guid>
+      <description>real geeks die early every once in a while i stumble upon an article from someone pointing out the dangers we geeks live in in terms of unhealthy work hours and our very own unhealthy mind set.
+I am a developer for profit since the late 90s and a team lead since the early 2000s. i&amp;rsquo;ve seen a fair amount of problems and have done my fair share of work during nights, weekends and my holidays.</description>
+    </item>
+    
+    <item>
+      <title>ignite wellington talk</title>
+      <link>http://lnz.me/2010/04/06/ignite-wellington-talk/</link>
+      <pubDate>Tue, 06 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/04/06/ignite-wellington-talk/</guid>
+      <description>ignite wellington talk the slides and the video from my ignite wellington talk are finally online. i took part in the first ignite event in wellington which was part of the global ignite week. my talk about &amp;ldquo;realising ideas&amp;rdquo; was quite a success and i got a lot of positive feedback. in case you missed it - here is it:
 
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2015/03/does-open-source-contribute-to-a-more-open-society.html&#34;&gt;Read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+and the slides on slideshare:
+realising ideasView more presentations from Lenz Gschwendtner.</description>
+    </item>
+    
+    <item>
+      <title>testing buzz ...</title>
+      <link>http://lnz.me/2010/02/10/testing-buzz-.../</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/02/10/testing-buzz-.../</guid>
+      <description>testing buzz &amp;hellip; as buzz is only available via my iPhone so far i tried to figure out from the API docs and the mailinglist how to make it all work. i hope i have all the right headers in place and google actually knows that this blog belongs to my shiny google profile and all.
+if all goes well this post will trigger a new entry in my buzz &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>test driven monitoring</title>
+      <link>http://lnz.me/2010/02/09/test-driven-monitoring/</link>
+      <pubDate>Tue, 09 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/02/09/test-driven-monitoring/</guid>
+      <description>test driven monitoring the slides from my talk at perlmongers Wellington are up on slideshare. the talk was about how much monitoring systems suck and how to make it better. test driven monitoring is just around the corner, i only have to bump out some more base libraries but basic monitoring and notification works already. the code for the project is on github - check it out and contribute.</description>
+    </item>
+    
+    <item>
+      <title>slides from LCA talk</title>
+      <link>http://lnz.me/2010/01/19/slides-from-lca-talk/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/01/19/slides-from-lca-talk/</guid>
+      <description>MPI, Erlang and the web The slides from my talk at LCA2010 in Wellington about parallel programming and why it matters for internet infrastructures are now up on slideshare
+MPI, Erlang and the webView more documents from Lenz Gschwendtner. And a direct link to the PDF</description>
+    </item>
+    
+    <item>
+      <title>3 new destination markets in some months</title>
+      <link>http://lnz.me/2010/01/15/3-new-destination-markets-in-some-weeks/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2010/01/15/3-new-destination-markets-in-some-weeks/</guid>
+      <description>Three new destination markets in some months It&amp;rsquo;s been a bit of a busy time lately as we launched three new platforms in the last time and that brought with it a lot of challenges. Fortunately it also pushed me to complete our migration to our new backend which is now entirely message driven and based only on the finest stuff one finds in the moment.
+The backend engine is RabbitMQ based and persists messages to CouchDB if necessary.</description>
+    </item>
+    
+    <item>
+      <title>one system to rule them all</title>
+      <link>http://lnz.me/2009/10/15/one-system-to-rule-them-all/</link>
+      <pubDate>Thu, 15 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/10/15/one-system-to-rule-them-all/</guid>
+      <description>One system to rule them all Here are the slides from my talk at erounge Wellington yesterday. It is about a workflow system I wrote in perl and erlang based on RabbitMQ and CouchDB. It is language independent and communicates with JSON messages.
+RabbitMQ + CouchDB = AwesomeView more documents from Lenz Gschwendtner. And a direct link to the PDF</description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ for perl mongers</title>
+      <link>http://lnz.me/2009/09/09/rabbitmq-talk-at-perlmongers/</link>
+      <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/09/09/rabbitmq-talk-at-perlmongers/</guid>
+      <description>RabbitMQ for perl mongers
+This is a short summary of the talk I gave yesterday at perl mongers Wellington about RabbitMQ and messaging in general and how to use it from perl.
+The slides are on slideshare
+RabbitMQ for Perl mongersView more documents from Lenz Gschwendtner. The git repositories are on github: http://github.com/norbu09 relevant repositories are: - net-amqp - Net_RabbitMQ_HTTP - RabbitIntro
+There was a fair amount of interest in the topic so if some one wants to know more feel free to contact me.</description>
+    </item>
+    
+    <item>
+      <title>Django like URL mapping in Catalyst - kind of</title>
+      <link>http://lnz.me/2009/08/26/django-like-url-mapping-in-catalyst---kind-of/</link>
+      <pubDate>Wed, 26 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/08/26/django-like-url-mapping-in-catalyst---kind-of/</guid>
+      <description>Django like URL mapping in Catalyst - kind of
+The problem I tried to solve is trivial, at least that was what I thought. I tried to remap URLs in one of our platforms to make it easy for others to adapt the way we call things. I18N related mostly. I have most of the things that might change in central config file already but figuring out how I actually get the URL map in there took a while.</description>
+    </item>
+    
+    <item>
+      <title>simple ssh tunnel script</title>
+      <link>http://lnz.me/2009/08/04/simple-ssh-tunnel-script/</link>
+      <pubDate>Tue, 04 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/08/04/simple-ssh-tunnel-script/</guid>
+      <description>Simple ssh tunnel script When replicating CouchDB you need either VPN oder authentication or simply a SSH tunnel. No big deal normally a simple ssh -L... does the trick but I ended up with those SSH sessions that blocked ports and hung around and it was not the way to go in terms of automating rollouts where you need that port once and then never again.
+A bit of googling brought up a script of the bacula guys that had the same problem and I adopted their script a bit to fit my needs.</description>
+    </item>
+    
+    <item>
+      <title>git via HTTP (startup automation 3)</title>
+      <link>http://lnz.me/2009/08/02/git-via-http-startup-automation-3/</link>
+      <pubDate>Sun, 02 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/08/02/git-via-http-startup-automation-3/</guid>
+      <description>Startup automation - Part 3 git via HTTP with nginx Just in case you don&amp;rsquo;t know (very unlikely) or never played with nginx before. This is the web server and frontend HTTP loadbalancer all your HTTP based setups should have anyway. There is documentation in English on the nginx wiki (http://wiki.nginx.org) and if you get stuck there is a lot of stuff just on google. The rails community love nginx and they tend to document well - a thanks at this point to those guys.</description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ talk at erlounge</title>
+      <link>http://lnz.me/2009/07/17/rabbitmq-talk-at-erlounge/</link>
+      <pubDate>Fri, 17 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/07/17/rabbitmq-talk-at-erlounge/</guid>
+      <description>RabbitMQ talk at erlounge
+This is a short summary of the talk I gave yesterday at erlounge Wellington about RabbitMQ and messaging in general.
+The slides are now on slideshare
+RabbitMQView more documents from norbu09. The git repositories are on github: http://github.com/norbu09 relevant repositories are: - RabbitIntro - Net_RabbitMQ_HTTP - net-amqp
+The question about a frontend to RabbitMQ was answered today with this project that looks really promising: http://willcodeforfoo.com/2009/07/13/announcing-alice/
+I hope you all enjoyed the talk and hope I could spark a bit of interest in the topic.</description>
+    </item>
+    
+    <item>
+      <title>puppet basics (startup automation 2)</title>
+      <link>http://lnz.me/2009/06/14/puppet-basics-startautomation/</link>
+      <pubDate>Sun, 14 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/06/14/puppet-basics-startautomation/</guid>
+      <description>Startup automation - Part 2 puppet basics In the last part of startup automation I talked you through the basics of configuring gitosis and the puppet config directory to make deployment of the config files really easy. Obviously we need some test clients and a working server now to play. I use parallels for local development and normally fire up one VM per project. I created an empty debian VM and just did a apt-get install puppet.</description>
+    </item>
+    
+    <item>
+      <title>puppet and gitosis (startup automation 1)</title>
+      <link>http://lnz.me/2009/06/10/gitosis-and-puppet-setup-startupautomation/</link>
+      <pubDate>Wed, 10 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/06/10/gitosis-and-puppet-setup-startupautomation/</guid>
+      <description>Startup automation - Part 1 Startup automation became a big buzz currently but I think it has always been key to those who were successful. The speed to market is important and this is not only true for small companies.
+Enough marketing blurb. Truth is we tech guys are lazy and that is a good habit. Laziness keeps us creative in terms of minimising tasks we have to do and that means in automating stuff.</description>
+    </item>
+    
+    <item>
+      <title>many of us know it ...</title>
+      <link>http://lnz.me/2009/02/09/many-of-us-know-it/</link>
+      <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/2009/02/09/many-of-us-know-it/</guid>
+      <description>i guess many of us geeks went through the one or other phase in their life when they felt themselves trapped in the system with no way out. &amp;ldquo;the system&amp;rdquo; meaning any kind of mental state that prevented a clear view on the situation.
+brenda just posted this URL and i can only encourage all to read it. keep it in mind and have a look at it when feeling unsure if that all out there that seems to lock you in is &amp;ldquo;real&amp;rdquo; or just you looking the wrong way.</description>
     </item>
     
   </channel>

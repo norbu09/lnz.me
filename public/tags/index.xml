@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on norbu09</title>
+    <link>http://lnz.me/tags/</link>
+    <description>Recent content in Tags on norbu09</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <lastBuildDate>Tue, 07 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lnz.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev</title>
+      <link>http://lnz.me/tags/dev/</link>
+      <pubDate>Tue, 07 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freebsd</title>
+      <link>http://lnz.me/tags/freebsd/</link>
+      <pubDate>Fri, 30 Sep 2016 15:27:00 +1300</pubDate>
+      
+      <guid>http://lnz.me/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Future</title>
+      <link>http://lnz.me/tags/future/</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/tags/future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iwantmyname</title>
+      <link>http://lnz.me/tags/iwantmyname/</link>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/tags/iwantmyname/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>http://lnz.me/tags/life/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post</title>
+      <link>http://lnz.me/tags/post/</link>
+      <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://lnz.me/tags/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup</title>
+      <link>http://lnz.me/tags/startup/</link>
+      <pubDate>Tue, 02 May 2017 10:06:48 +1200</pubDate>
+      
+      <guid>http://lnz.me/tags/startup/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

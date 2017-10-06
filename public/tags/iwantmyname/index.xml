@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iwantmyname on norbu09</title>
-    <link>http://lnz.me/tags/iwantmyname/index.xml</link>
+    <link>http://lnz.me/tags/iwantmyname/</link>
     <description>Recent content in Iwantmyname on norbu09</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
-    <atom:link href="http://lnz.me/tags/iwantmyname/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lnz.me/tags/iwantmyname/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Lego for grownups</title>
@@ -14,76 +17,7 @@
       <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/10/12/lego-for-grownups/</guid>
-      <description>&lt;p&gt;When I think about building software I try to see where we need to end
-up in order to help the customer right now and then work backwards from
-there. Because I am really bad at knowing what customers want I mock up
-something that is good enough to get feedback and then morph it into
-working code and then robust infrastructure. At iwantmyname I have
-pushed for this since we started and for the most part we succeeded till
-we tried to grow up and &amp;ldquo;clean up&amp;rdquo; and &amp;ldquo;do things properly&amp;rdquo;. The result
-was the complete loss of the playfulness of our stack and a return to
-&amp;ldquo;work&amp;rdquo; instead of experimentation. We are currently fixing this and it
-is mainly a mindset thing.&lt;/p&gt;
-
-&lt;p&gt;We had an internal security audit recently and one of the outcomes
-was that our architecture is slightly ahead of its time, we do
-micro-services for at least 6 years by now and learned a lot about them.
-In this post I&amp;rsquo;ll talk a bit about how to go from mock code to robust
-infrastructure.&lt;/p&gt;
-
-&lt;p&gt;When a customer or we have an idea about a feature or a request or we
-see a lot of support in a specific area we want to invest a bit of time
-to implement an initial assumption about how we could address this. If
-it is easy to implement this and if it is simple to deploy this change
-then everyone in the team will be happy to make these little changes and
-over time we create a relevant product. Creating an environment where
-these changes have a low barrier is key in my view. It fosters ownership
-of the product across all parts of the company and helps create relevant
-products.&lt;/p&gt;
-
-&lt;p&gt;If adding a feature involves writing a project request, a few meetings,
-deployment windows, various iterations of accept/review/sign off cycles,
-then any experiment becomes a costly thing and that has two big
-drawbacks. First, it is not fun to experiment and therefor less
-experiments will happen. This means less and less features or
-improvements will hit the site over time. The second issue is the time
-and money sunk in an early assumption, This first draft is most
-likely not what your customers actually wanted but with all that
-investment it will most probably be the way they have to use that
-feature. Any change would need to go through the same cycle of project
-management and other things will always be more urgent.&lt;/p&gt;
-
-&lt;p&gt;How is it possible to go from a simple idea and mockup to working
-code that is scalable without much pain and without compromising
-security or reliability for the rest of the system. For us the answer
-was in a service oriented architecture or micro services or whatever the
-current buzz word for it is. We write every functionality on the site as a
-RabbitMQ endpoint that has a little daemon listing on it that implements
-that feature. To get a new feature out the door, we write a crude first
-version of what we think the functionality should be, mock up a bit of UI
-that interacts with that daemon and see how our customers like it. Over
-time that first crude prototype will morph into a nicer bit of code that
-is maintainable but because all bits of code are loosely coupled and the
-interfaces are just JSON messages via AMQP the internals of any daemon
-are not that important. The code quality can evolve over time and any
-bit can be replaced with new code even in new languages by just
-maintaining the external JSON interface. Also, and that is important,
-buggy code is limited to that daemon, no impact on the rest of the
-system. Mocking up an idea in code has no operational impact on the rest
-of the system and that makes it save to play.&lt;/p&gt;
-
-&lt;p&gt;This way, moving from an idea to a scalable and reliable part of the
-system is an easy progression, time and money is spent on the parts that
-need to be reliable and are actually used, the bits that are nice to
-haves get re-writes less often. Code evolves as part of the system. The
-system evolves as user behaviour changes over time. The system becomes
-an adaptable organism, code is killed off like old cells, new code is
-introduced as new experiments are done. It is a living thing, not a
-painstakingly architected, implemented and finally handed over to ops
-kind a system. We still have an architecture that we adhere to but it is
-as reduced as JSON via AMQP and two sorts of data stores. The rest is
-morphing over time and will change as our customers change.&lt;/p&gt;
-</description>
+      <description>When I think about building software I try to see where we need to end up in order to help the customer right now and then work backwards from there. Because I am really bad at knowing what customers want I mock up something that is good enough to get feedback and then morph it into working code and then robust infrastructure. At iwantmyname I have pushed for this since we started and for the most part we succeeded till we tried to grow up and &amp;ldquo;clean up&amp;rdquo; and &amp;ldquo;do things properly&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -92,12 +26,8 @@ morphing over time and will change as our customers change.&lt;/p&gt;
       <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2015/04/09/does-open-source-contribute-to-a-more-open-society/</guid>
-      <description>&lt;p&gt;Linking to a post I wrote for the iwantmyname blog a few days ago in the
-leadup for &lt;a href=&#34;http://www.opensourceopensociety.com/&#34;&gt;OS//OS&lt;/a&gt; - a
-conference about open source and open society.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2015/03/does-open-source-contribute-to-a-more-open-society.html&#34;&gt;Read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Linking to a post I wrote for the iwantmyname blog a few days ago in the leadup for OS//OS - a conference about open source and open society.
+Read the post on the iwantmyname blog</description>
     </item>
     
     <item>
@@ -106,11 +36,8 @@ conference about open source and open society.&lt;/p&gt;
       <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2014/10/23/sub-domain-rot/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about sub domains and how not
-cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/10/sub-domain-rot.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A post I wrote for the iwantmyname blog about sub domains and how not cleaning them up every now and then can lead to unexpected behaviour.
+read the post on the iwantmyname blog</description>
     </item>
     
     <item>
@@ -119,10 +46,8 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
       <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2014/08/19/culture-at-iwmn-part-three/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we hire people&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-three.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A post I wrote for the iwantmyname blog about culture and how we hire people
+read the post on the iwantmyname blog</description>
     </item>
     
     <item>
@@ -131,10 +56,8 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
       <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2014/05/22/culture-at-iwmn-part-two/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about culture and our work place policy.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-two.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A post I wrote for the iwantmyname blog about culture and our work place policy.
+read the post on the iwantmyname blog</description>
     </item>
     
     <item>
@@ -143,10 +66,8 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
       <pubDate>Wed, 07 May 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2014/05/07/culture-at-iwmn-part-one/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about culture and how we decide on who gets how much.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/05/culture-at-iwmn-part-one.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A post I wrote for the iwantmyname blog about culture and how we decide on who gets how much.
+read the post on the iwantmyname blog</description>
     </item>
     
     <item>
@@ -155,10 +76,8 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
       <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2014/01/07/why-alias-type-records-break-the-internet/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about ALIAS DNS records and why they break the internet.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html&#34;&gt;read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A post I wrote for the iwantmyname blog about ALIAS DNS records and why they break the internet.
+read the post on the iwantmyname blog</description>
     </item>
     
     <item>
@@ -167,10 +86,8 @@ cleaning them up every now and then can lead to unexpected behaviour.&lt;/p&gt;
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>http://lnz.me/2012/03/01/ddns-dynamic-dns-service-on-your-own-domain/</guid>
-      <description>&lt;p&gt;A post I wrote for the iwantmyname blog about dynamic DNS updates at iwantmyname.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://iwantmyname.com/blog/2012/03/ddns-dynamic-dns-service-on-your-own-domain.html&#34;&gt;Read the post on the iwantmyname blog&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A post I wrote for the iwantmyname blog about dynamic DNS updates at iwantmyname.
+Read the post on the iwantmyname blog</description>
     </item>
     
   </channel>

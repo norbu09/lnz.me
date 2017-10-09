@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://lnz.me/"
+baseurl = "https://lnz.me/"
 languageCode = "en-nz"
 title = "norbu09"
 theme = "hugo-cactus"

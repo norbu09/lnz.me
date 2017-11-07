@@ -1,4 +1,5 @@
 #!/bin/sh
+# this file is actually not used anymore
 
 SITE=lnz.me
 

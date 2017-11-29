@@ -3,29 +3,37 @@ layout: page
 permalink: /about/
 title: About me
 tags: [Lenz Gschwendtner, norbu09, startup, blog]
-modified: 2015-02-02T13:13:14
+modified: 2017-30-11T11:22:14
 ---
 
-I am a _co-founder of iwantmyname_ and _founder of springtimesoft_, a _mentor_
-for early stage startups and a _regular at Startup Weekends_, a _startup
-punk_ that will challenge all your established assumptions about
-companies. I'm a _coder_, a _hacker_ and a _good friend_ to those who know me.
+I have been building fast growing startups for most of my adult life. I have
+invested a lot of time into mentoring entrepreneurs and love helping people to
+find their confidence to try something new, something that is way outside their
+comfort zone. I love the buzz when those things take off and see how people
+thrive in their new roles.
+
+I am actively working on ideas of my own and in teams with others. I am living a
+location independent life, mainly in New Zealand but also in Europe and other
+places around the world. I love minimalism and try to live with a net positive
+impact on my environment.
 
 ## Bio
 
-Lenz is founder of Springtimesoft Consulting, a Wellington New Zealand
-based consulting agency and co-founder of iwantmyname, a global player
-in the domain name industry. Prior to moving to New Zealand Lenz was
-part of fast growing startups in Germany and did his fair share in
-corporate IT management.
+Lenz has started his first company straight out of school, joined mid-size
+companies in Germany and Austria after that to learn more about building teams
+and robust infrastructure. In 2002 he joined his first startup and was hooked by
+the pace. After moving to New Zealand he started a consulting firm and a domain
+registrar, both are still going strong and _springtimesoft consulting_ is now
+operating in New Zealand and Australia and _iwantmyname_ is a global player in
+the domain industry.
 
-Lenz has been managing teams for most of his adult life and is known to
-run highly effective and motivated teams that deliver exceptional
-results without compromises in happiness. Lenz is a mentor for startups
-at any stage of development and helps drive many industry activities
-that help grow a better startup community in New Zealand and world wide.
-Pay him coffee/beer and he will happily give you feedback on your
-current project or open up his network to find the person you need.
+Lenz has been an organiser, mentor and facilitator of Startup Weekends
+since 2012 and spoke at many conferences about open source and other geeky
+topics. He has also been involved in a great number of hackathons, meetups and
+other community building activities. Lenz is a grassroots guy that has never
+waited for official permission to build a thriving community - a punk that will
+get his hands dirty to make sure people around him have the means to build their
+dreams.
 
 ## Images
 

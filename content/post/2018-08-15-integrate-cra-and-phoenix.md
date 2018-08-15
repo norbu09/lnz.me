@@ -21,15 +21,19 @@ nice way to get a working react app up and running quickly and maintainable.
 
 To get CRA run:
 
+  ```sh
   yarn create react-app
+  ```
 
 and add ~/.yarn/bin to your path. After that you can run `create-react-app [app
 name]` anywhere on your system
 
-In your phoenix project go tinto the directory that has your `assets` folder and remove it. Then run:
+In your phoenix project go into the directory that has your `assets` folder and remove it. Then run:
 
+  ```sh
   create-react-app project-name
   mv project-name assets
+  ```
 
 This gives you a working CRA inside the Phoenix `assets` directory, victory!
 I was happy till I stumbeled upon that little issue of marrying CRA to
@@ -40,18 +44,23 @@ But fortunately the solution is pretty simple: https://www.npmjs.com/package/cra
 
 To get `cra-build-watch` working change into your `assets` folder and run:
 
+  ```sh
   yarn add -D cra-build-watch
+  ```
 
 add the `watch` step tp your `package.json`
   
+  ```json
   {
     "scripts": {
       "watch": "cra-build-watch -b ../priv/static -p /[your-path-to-react-app]",
     }
   }
+  ```
 
-and configure your `config/dev.exs` to call the build-wathcer you just added like this:
+and configure your `config/dev.exs` to call the build-watcher you just added like this:
 
+  ```elixir
   watchers: [
     yarn: [
       "run",
@@ -59,11 +68,14 @@ and configure your `config/dev.exs` to call the build-wathcer you just added lik
       cd: Path.expand("../assets", __DIR__)
     ]
   ] 
+  ```
 
-Finally have something like this in your template rendeing your react app:
+Finally have something like this in your template rendering your react app:
 
+  ```html
     <div id="root"></div>
     <script type="text/javascript" src="<%= static_path(@conn, "/js/bundle.js") %>"></script>
+  ```
 
 Done. Next steps are making sure everything works nicely for production builds
 as well and replace the template logic with a dynamic one that picks up the

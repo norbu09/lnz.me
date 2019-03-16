@@ -3,12 +3,12 @@ categories:
 - articles
 comments: false
 date: 2018-12-19T00:00:00Z
-description: This post was originally published on the iwantmyname blog: https://iwantmyname.com/blog/10-years-of-changing-the-industry
+description: When we started iwantmyname 10 years ago we sat down and defined an impact statement first.
 share: true
 tags:
 - post
-url: /2018/12/19/10-years-of-changing-the-industry/
 title: 10 years of changing the industry
+url: /2018/12/19/10-years-of-changing-the-industry/
 ---
 
 This post was originally published on the iwantmyname blog:

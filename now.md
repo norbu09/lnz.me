@@ -2,7 +2,7 @@
 layout: page
 permalink: /now/
 title: "now - my current priorities"
-modified: 2015-10-22 09:40
+modified: 2019-07-06
 tags: []
 image:
   feature: 
@@ -14,38 +14,24 @@ share:
 This is a page that lists my current priorities and projects. The order
 is somewhat significant but not a strict rule. 
 
-*Last update: 2016-01-06T12:54:16*
+*Last update: 2019-07-06
 
 
-Areas of activity
+areas of activity
 -----------------
 
-1. [iwantmyname](https://iwantmyname.com) is a big focus for me at the
-   moment
-2. get some balance from working on a computer, currently:
-    - building a new camper
-    - building a wooden kayak
-3. learn and teach, currently:
-    - startup weekends and working with early stage teams
-    - meet interesting people and friends face to face
-    - learning [elixir](http://elixir-lang.org/)
-4. outdoorsy things, currently:
-    - hiking, exploring the southern alps
-    - kayaking 
-    - snowboarding season is over :(
-5. new stealth project will start to take over time
+my main focus is on cleaning up all the things i started in the past years. i
+am in a mode of removing me from everything i have done to free me up for the
+next journey.
 
-Physical locations
+the next journey is going to be an experiment in micro companies that i can run
+by myself from anywhere. the goal is to find a way to add value with the
+absoloute minimum amount of ressource impact.
+
+physical locations
 ------------------
 
-I am in Nelson every Thursday, based at the [Bridge Street
-Collective](http://www.bridgestreet.co.nz/). I normally have time for
-one or two coffee meetings there. Focus: 5, 3
-
-I am in Wellington at least every other week for a day or two. Many of
-these days are packed with meetings and spending time with my teams
-here. If I don't get in touch or push your coffee meeting out another
-month, this is why. Focus: 1, 3
-
-The rest of the time I hide in the southern alps and focus on 1, 2, 4 and
-5
+i am currently in the process of becoming truely location independent. the
+latest iteration in that experiment involves a sailboat and we are moored up in
+La Rochelle, France to get the boat ready for the next years of sailing and
+living on a boat.

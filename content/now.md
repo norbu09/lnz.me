@@ -2,7 +2,7 @@
 layout: page
 permalink: /now/
 title: "now - my current priorities"
-modified: 2019-07-06
+date: 2019-07-06T00:00:00Z
 tags: []
 image:
   feature: 

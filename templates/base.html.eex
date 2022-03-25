@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= @page.title %> - <%= @site.name %></title>
+    <link rel="stylesheet" href="<%= asset "css/site.css" %>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-sans">
+    <%= include "nav" %>
+    <%= @contents %>
+  </body>
+</html>

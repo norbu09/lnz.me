@@ -24,3 +24,6 @@ lnz_me-*.tar
 
 # The default directory which Serum builds the website into.
 /site/
+
+# node modules
+/assets/node_modules

@@ -1,11 +1,28 @@
-<h1><%= @page.title %></h1>
-<p>Posted on <%= @page.date %> by <%= @site.author %></p>
-<%= unless Enum.empty?(@page.tags) do %>
-  <p>Tags:</p>
-  <ul>
-    <%= for t <- @page.tags do %>
-      <li><a href="<%= t.list_url %>"><%= t.name %></a></li>
-    <% end %>
-  </ul>
-<% end %>
-<%= @contents %>
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+        <%= @page.title %>
+      </p>
+      <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+      <%= @page.date %>
+      <br /><%= @site.author %>
+      </p>
+      <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+      <%= unless Enum.empty?(@page.tags) do %>
+        <p>Tags:</p>
+        <ul>
+          <%= for t <- @page.tags do %>
+            <li><a href="<%= t.list_url %>"><%= t.name %></a></li>
+          <% end %>
+        </ul>
+      <% end %>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="max-w-7xl mx-auto px-2 sm:px-4 lg:divide-y lg:divide-gray-700 lg:px-8">
+  <article class="prose lg:prose-xl max-w-none">
+  <%= @contents %>
+</article>
+</div>

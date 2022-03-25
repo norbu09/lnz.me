@@ -1,10 +1,20 @@
-<h2><%= @page.title %></h2>
-<ul>
-  <%= for x <- @all_posts do %>
-    <li>
-      <p><a href="<%= x.url %>"><%= x.title %></a>
-      &mdash;
-      <span class="date"><%= x.date %></span></p>
+<div class="max-w-7xl mx-auto px-2 sm:px-4 lg:divide-y lg:divide-gray-700 lg:px-8">
+  <ul role="list" class="divide-y divide-gray-200">
+    <%= for x <- @all_posts do %>
+    <li class="relative bg-white py-5 px-4 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-red-600">
+      <div class="flex justify-between space-x-3">
+        <div class="min-w-0 flex-1">
+          <a href="<%= x.url %>" class="block focus:outline-none">
+            <span class="absolute inset-0" aria-hidden="true"></span>
+            <p class="text-l font-medium text-gray-900 truncate"><%= x.title %></p>
+          </a>
+        </div>
+        <time datetime="2021-01-27T16:35" class="flex-shrink-0 whitespace-nowrap text-m text-gray-500"><%= x.date %></time>
+      </div>
+      <div class="mt-3">
+        <p class="line-clamp-2 text-sm text-gray-600"><%= x.preview %></p>
+      </div>
     </li>
-  <% end %>
-</ul>
+    <% end %>
+  </ul>
+</div>

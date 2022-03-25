@@ -11,5 +11,6 @@
   <body class="font-sans">
     <%= include "nav" %>
     <%= @contents %>
+    <%= include "footer" %>
   </body>
 </html>

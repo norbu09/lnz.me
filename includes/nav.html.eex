@@ -58,7 +58,7 @@
 
       <a href="<%= base "posts" %>" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md py-2 px-3 text-base font-medium">blog</a>
 
-      <a href="<%= page "about" %> class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md py-2 px-3 text-base font-medium">about</a>
+      <a href="<%= page "about" %>" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md py-2 px-3 text-base font-medium">about</a>
 
       <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md py-2 px-3 text-base font-medium">RSS</a>
     </div>

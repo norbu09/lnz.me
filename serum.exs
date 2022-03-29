@@ -6,6 +6,7 @@
   author: "Lenz Gschwendtner",
   author_email: "e@lnz.me",
   plugins: [
+    Serum.Plugins.PreviewGenerator,
     {Serum.Plugins.LiveReloader, only: :dev}
   ]
 }

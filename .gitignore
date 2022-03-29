@@ -23,7 +23,7 @@ erl_crash.dump
 lnz_me-*.tar
 
 # The default directory which Serum builds the website into.
-/site/
+#/site/
 
 # node modules
 /assets/node_modules
